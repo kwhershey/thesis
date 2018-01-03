@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{appendix}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{images/}{../images/}}
+\usepackage{bibentry}
+\nobibliography*
+\usepackage{subfiles}
+
+\begin{document}
+
+\subfile{sections/title}
+\newpage
+
+\section*{Acknowledgements}
+\subfile{sections/acknowledgements}
+\newpage
+
+\section*{Dedication}
+\subfile{sections/dedication}
+\newpage
+
+\section*{Abstract}
+\subfile{sections/abstract}
+\newpage
+
+% Table of Contents
+\subfile{sections/toc}
+\newpage
+
+\section{Overview of Organic Semiconductors}
+\subfile{sections/orgSemiconductors}
+\newpage
+
+\section{Organic Light-Emtting Devices}
+\subfile{sections/oleds}
+\newpage
+
+\section{Transient and Steady-State Dynamics}
+\subfile{sections/unified}
+\newpage
+
+\section{Integrated Photoluminescence Lifetimes}
+\subfile{sections/integratedLifetime}
+\newpage
+
+\section{Applied Integrated Lifetimes}
+\subfile{sections/lifetimeApplications}
+\newpage
+
+\section{Novel Blue Emitter Developement}
+\subfile{sections/hoye}
+\newpage
+
+\section{Data Management for Devices}
+\subfile{sections/data}
+\newpage
+
+\section{Modeling Out-Coupling}
+\subfile{sections/outCoupling}
+\newpage
+
+\section{Future Research}
+\subfile{sections/future}
+\newpage
+
+
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{acm}
+\bibliography{thesis}
+%\printbibliography
+\newpage
+
+\appendix
+\appendixpage
+\addappheadtotoc
+\section{List of Publications}
+\input{sections/publications}
+\newpage
+
+\section{Out-Coupling Code}
+\newpage
+
+\section{Lifetime Box Code}
+\newpage
+
+\section{List of Figures}
+\listoffigures
+\newpage
+
+\section{List of Tables}
+\listoftables
+\newpage
+
+\end{document}
