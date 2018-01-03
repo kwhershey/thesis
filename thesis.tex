@@ -3,12 +3,18 @@
 \usepackage{appendix}
 \usepackage{graphicx}
 \usepackage[hidelinks]{hyperref}
+\usepackage{etoolbox}
+\bibliographystyle{acm}
 \graphicspath{{images/}{../images/}}
 \usepackage{bibentry}
 \nobibliography*
 \usepackage{subfiles}
 
 \begin{document}
+
+% Command only exists for main file compilation.
+% Provides logic for chapter compiling
+\newcommand{\mainfile}{} 
 
 \subfile{sections/title}
 \newpage
@@ -67,7 +73,6 @@
 
 
 \addcontentsline{toc}{section}{Bibliography}
-\bibliographystyle{acm}
 \bibliography{thesis}
 %\printbibliography
 \newpage

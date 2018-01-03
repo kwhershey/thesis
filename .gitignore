@@ -1,0 +1,10 @@
+*.aux
+*.out
+*.lof
+*.log
+*.lot
+*.run.xmp
+*.toc
+*.dvi
+*.blg
+*.bbl
