@@ -1,5 +1,6 @@
 \documentclass[../thesis.tex]{subfiles}
 \begin{document}
+\section{Transient and Steady-State Dynamics}
 
 This section is referencing my paper.\cite{Hershey2016,Hershey2017}
 \subsection{Motivation}
@@ -44,7 +45,7 @@ n_{pol}=eN_c\left(\frac{\epsilon V}{ed^2N_0kT_t}\right)^l
 
 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \includegraphics[scale=.25]{unified/PL_fitting}
 \caption{(a) Transient photoluminescence (PL) decays for several initial exciton densities with fits shown as solid lines using Eqn. \ref{eqn:exciton_formation}.  Fit parameters are discussed in SECTION.  Exciton densities are calculated using measured incident power and beam size in combination iwht Beer's Law.  (b) Steady-state PL quenching as a function of polaron density and the resulting fit from Eqn. \ref{eqn:ktpFit} shown as the solid line.}
 \label{fig:PL_fitting}
@@ -71,13 +72,13 @@ n_{pol}=eN_c\left(\frac{\epsilon V}{ed^2N_0kT_t}\right)^l
 \subsection{Application to Devices}
 \subsubsection{Overview of Approach}
 \subsubsection{Initializing Parameters with Quenching Only Steady-State Model}
-\begin{figure}[h]
+\begin{figure}[ht]
 \includegraphics[scale=.25]{unified/rollOffFit}
 \caption{Normalized experimental $\eta_{EQE}$ as a function of current density.  Solid line is a fit to the data using Eqn. \ref{eqn:exciton_rate} and \ref{eqn:polaron_rate} in the absence of polaron loss.  Pulsed $\eta_{EQE}$ measurements are conducted using low duty cycle pulses to steady-state luminance to reduce Joule heating in device.}
 \label{fig:rollOffFit}
 \end{figure}
 \subsubsection{Transient Modeling}
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=.25]{unified/transientFits}
 \caption{Transient electroluminescence (EL) for four different current densities (J) and device areas (A). (a) 0.25 $cm^2$ device at a current density during the pulse of J = 0.9 $A/cm^2$ (b) 0.25 cm2
@@ -88,14 +89,14 @@ device at J = 2.2 $A/cm^2$ (c) 0.0079 $cm^2$ device at J = 7.6 $A/cm^2$ (d) 0.00
 \subsubsection{Term Efficiency During Transient}
 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=.25]{unified/termEfficiency}
 \caption{Term efficiency for each dynamical process influencing the exciton population for (a) 0.25 $cm^2$ device operated at 0.9 $A/cm^2$ for 500 ns and (b) 0.785 $mm^2$ device operated at a current density of 38 $A/cm^2$ for 250 ns. Relative term amplitude is calculated as the magnitude of each term in Eqn. \ref{eqn:exciton_rate} divided by the sum of absolute values of each term.}
 \label{fig:termEfficiency}
 \end{figure}
 \subsubsection{Extracting Exciton Formation Efficiency}
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=.25]{unified/chargeBalance}
 \caption{Transit time extracted from $\eta_{EQE}$ measurements are shown as the red circles. Predictions using the drift model are calculated using Eqn. \ref{eqn:drift}. The drift model assumes a uniform electric field. Good agreement between the experimental transit time and the drift model is found for a field distributed over 20 nm. The charge balance factor is shown as a function of current density in blue squares.}
@@ -166,14 +167,14 @@ G_{pol}-\frac{J_l}{ew}=\frac{2J-J_l}{ew}
 
 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=.1]{unified/currentDiagram}
 \caption{Current density formalism within the circuit. and are the currents measured on either side of the device. and are the electron and hole currents within the device and is the unbalanced current, assumed to be only holes, that leaks out of the opposing contact.}
 \label{fig:currentDiagram}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=.1]{unified/EHratio}
 \caption{The quantity $\alpha(1-\alpha)$ is plotted as a function of the polaron composition, $\alpha$ and the electron to hole ratio.}
