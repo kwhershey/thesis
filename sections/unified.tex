@@ -6,12 +6,6 @@ This section is an extension of my previous work entitled ``\textit{Unified anal
 
 \section{Motivation}
 
-As discussed in Chapter \ref{sec:oleds}, modern OLEDs are typically based around Phosphorescent emitters in order to realize 100\% internal efficiencies.\cite{Baldo2000,Baldo1998a,Tsutsui1999,OBrien1999a}
-However, these phosphorescent emitters, while allowing emission out of the triplet excitonic state, also suffer from the drawback of a longer exciton lifetime, typically on the order of 10$^{-6}$-10$^{-3}$ s.\cite{Baldo1998a,Holmes2003}
-An increased lifetime leads to a larger steady-state triplet exciton density compared to a fluorescent device operating at the same luminance.  
-This becomes problematic at the high current densities associated with high brightness due to well documented quenching events.\cite{Reineke2007,Reineke2007a,Reineke2009,Mezyk2005,Kalinowski2002,Song2010,Erickson2014}
-These quenching events lead to a reduced quantum efficiency at high-current, and termed the ``Efficiency roll-off''.  
-
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{unified/bad_fit}
@@ -19,22 +13,30 @@ These quenching events lead to a reduced quantum efficiency at high-current, and
 \label{fig:bad_fit}
 \end{wrapfigure}
 
+As discussed in Chapter \ref{sec:oleds}, modern OLEDs are typically based around Phosphorescent emitters in order to realize 100\% internal efficiencies.\cite{Baldo2000,Baldo1998a,Tsutsui1999,OBrien1999a}
+However, these phosphorescent emitters, while allowing emission out of the triplet excitonic state, also suffer from the drawback of a longer exciton lifetime, typically on the order of 10$^{-6}$-10$^{-3}$ s.\cite{Baldo1998a,Holmes2003}
+An increased lifetime leads to a larger steady-state triplet exciton density compared to a fluorescent device operating at the same luminance.  
+This becomes problematic at the high current densities associated with high brightness due to well documented quenching events.\cite{Reineke2007,Reineke2007a,Reineke2009,Mezyk2005,Kalinowski2002,Song2010,Erickson2014}
+These quenching events lead to a reduced quantum efficiency at high-current, and termed the ``Efficiency roll-off''.  
+
+
 Efficiency roll-off is well attributed to quenching and is ubiquitous to phosphorescent OLED behavior.\cite{Reineke2007,Erickson2014,Murawski2013,Giebink2008c}
 While previous works have attributed the roll-off to quenching, they have failed to provide a complete picture of the exciton and charge dynamics within the device.
 All of these works have utilized a differential equations model for the exciton dynamics, solved in the steady state.
 This becomes apparent when investigating the transient electroluminescnce (EL), where a transient voltage pulse, on the order of 500 ns is applied to the device and the resulting luminance is recorded as a function of time.  
-Figure \ref{fig:bad_fit} is an attempt to fit the transient luminance decay using the model presented by Reineke \textit{et al.} which well fits the efficiency roll-off.  Indeed, this is a well known problem with existing models, and previous attempts to model the transient EL have utilized an empirical biexponential function to quantifiy the decay.\cite{Erickson2014,Giebink2008c,Baldo2000a,Zhang2012}
+Figure \ref{fig:bad_fit} is an attempt to fit the transient luminance decay using the model presented by Reineke \textit{et al.}\cite{Reineke2007} which well fits the efficiency roll-off.  
+Indeed, this is a well known problem with existing models, and previous attempts to model the transient EL have utilized an empirical biexponential function to quantifiy the decay.\cite{Erickson2014,Giebink2008c,Baldo2000a,Zhang2012}
 In addition to failing to replicate the luminance decay, no known previous efforts have been made in trying to replicate the experimental transient EL luminance rise.
 
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{unified/rz_dependence}
-\caption{(a) Efficiency roll-off predicted by Erickson \textit{et al.} 2014 as a function of recombination zone width. (b) Observed efficiency roll-off for gradient EML devices.}
+\caption{(a) Efficiency roll-off predicted by Erickson \textit{et al.} 2014 as a function of recombination zone width.\cite{Erickson2014} (b) Observed efficiency roll-off for gradient EML devices.}
 \label{fig:rz_dependence}
 \end{wrapfigure}
 
 In addition to the problems with the transient electroluminescence, the interpretation of the existing model without a full dynamics picture can lead to false predictions.  
-Figure \ref{fig:rz_dependence}a shows what a quenching model predicts for the roll-off as a function of increasing recombination zone width.  
+Figure \ref{fig:rz_dependence}a shows what a quenching model predicts for the roll-off as a function of increasing recombination zone width.\cite{Erickson2014}
 However, even in the most idealized case of a gradient emissive layer device, where no additional interfaces come into play, the predictive model fails to replicate the behavior, as shown in Figure \ref{fig:rz_dependence}b.
 While this device is of little interest for further investigation due to the extreme thickness, the point stands that this model has glaring assumptions for it's applications.
 
