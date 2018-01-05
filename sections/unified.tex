@@ -65,11 +65,12 @@ It is important to note that due to this assumption, rate constants are a proper
 With these assumptions, the dynamic processes determining exciton density ($n_{ex}$) can be summarized in the following one-dimensional rate equation:
 
 \begin{equation}
-\frac{dn_{ex}}{dt} = - \frac{n_{ex}}{\tau}-\frac{1}{2}k_{TT}n_{ex}^2-k_{TP}n_{pol}n_{ex}+G_{ex}
+%\frac{dn_{ex}}{dt} = - \frac{n_{ex}}{\tau}-\frac{1}{2}k_{TT}n_{ex}^2-k_{TP}n_{pol}n_{ex}+G_{ex}
+\frac{dn_{ex}}{dt} = - \frac{n_{ex}}{\tau}-\frac{1}{2}\ktt n_{ex}^2-\ktp n_{pol}n_{ex}+G_{ex}
 \label{eqn:exciton_rate}
 \end{equation}
 
-where $\tau$ is the natural exciton lifetime, determined by the radiative ($k_r$) and non-radiative ($k_{nr}$) decay rates by $\tau=1/(k_r+k_{nr})$, $k_{TT}$ is the rate constant for triplet-triplet annihilation, $k_{TP}$ is the rate constant for triplet-polaron quenching, and $G_{ex}$ is the exciton generation rate.  
+where $\tau$ is the natural exciton lifetime, determined by the radiative ($k_r$) and non-radiative ($k_{nr}$) decay rates by $\tau=1/(k_r+k_{nr})$, \ktt is the rate constant for triplet-triplet annihilation, \ktp is the rate constant for triplet-polaron quenching, and $G_{ex}$ is the exciton generation rate.  
 As this is a one-dimensional model, $G_{ex}$ is a spatially uniform generation rate, a simplifying assumption.
 Many studies have modeled the exciton recombination zone profile, relying on material energy levels, as well as mobilities.\cite{Rihani2006,Hassine2001,Hassine2002,Ruhstaller2003,Ruhstaller2001}
 While these models are more accurate and explicit, in the way that they capture the physics, they also increase the dimensionality of our model, as well as increasing the parameterization; requiring seperate electron and hole rate equations, mobilities and energy levels for every material.
@@ -78,11 +79,11 @@ Since the goal of this work is to provide a functional model to accurately predi
 Here, exciton formation is treated using a Langevin recombination formalism based on the polaron density.\cite{Ruhstaller2003,Pinner1999,Blom1996}
 
 \begin{equation}
-G_{ex}=\frac{k_F}{4}n_{pol}^2
+G_{ex}=\frac{\kf}{4}n_{pol}^2
 \label{eqn:exciton_formation}
 \end{equation}
 
-where $k_F$ is the rate constant for exciton formation.  The factor of four accounts for the diversity of the polaron population and assumes that electrons and holes are in equal proportion.  
+where \kf is the rate constant for exciton formation.  The factor of four accounts for the diversity of the polaron population and assumes that electrons and holes are in equal proportion.  
 The accuracy of this prefactor is reduced for imbalanced charge, and is investigated in Section \ref{sec:charge_imbalance}.
 For $n_e$:$n_h$ ratios 2:1 or better, less than 20\% error is found in this term.  
 
@@ -106,7 +107,7 @@ With these mechanisms, the full polaron dynamics can be expressed as:
 
 
 \begin{equation}
-\frac{dn_{pol}}{dt}=\frac{-k_F}{2}n_{pol}^2-\frac{n_{pol}}{\tau_l}+G_{pol}.
+\frac{dn_{pol}}{dt}=\frac{-\kf}{2}n_{pol}^2-\frac{n_{pol}}{\tau_l}+G_{pol}.
 \label{eqn:polaron_rate}
 \end{equation}
 
@@ -123,7 +124,7 @@ n_{pol}=eN_c\left(\frac{\epsilon V}{ed^2N_0kT_t}\right)^l
 \end{equation}
 
 \begin{equation}
-\frac{L(n_{pol}}{L_0}=\frac{1}{1+\tau k_{TP}n_{pol}}
+\frac{L(n_{pol}}{L_0}=\frac{1}{1+\tau \ktp n_{pol}}
 \label{eqn:ktpFit}
 \end{equation}
 
@@ -140,17 +141,19 @@ n_{pol}=eN_c\left(\frac{\epsilon V}{ed^2N_0kT_t}\right)^l
 \subsection{Efficiency Analysis}
 
 \begin{equation}
-\eta_{EQE}=\eta_{OC}\eta_{PL}\chi\eta_{EF}
+%\eta_{EQE}=\eta_{OC}\eta_{PL}\chi\eta_{EF}
+\eqe=\oc \pl \chi \ef
 \label{eqn:eqeSimple}
 \end{equation}
 
 \begin{equation}
-\eta_{EQE}=\frac{\eta_{OC}\eta_{ex}k_r}{G_{pol}/2}
+%\eta_{EQE}=\frac{\eta_{OC}\eta_{ex}k_r}{G_{pol}/2}
+\eqe=\frac{\oc n_{ex}k_r}{G_{pol}/2}
 \label{eqn:eqeReform}
 \end{equation}
 
 \begin{equation}
-\eta_{EF}=\frac{\frac{1}{2}k_Fn_{pol}}{G_{pol}}=\frac{\frac{1}{2}k_Fn_{pol}}{\frac{1}{2}k_Fn_{pol}+\frac{1}{\tau_l}}
+\ef=\frac{\frac{1}{2}\kf n_{pol}}{G_{pol}}=\frac{\frac{1}{2}\kf n_{pol}}{\frac{1}{2}\kf n_{pol}+\frac{1}{\tau_l}}
 \label{eqn:excitonFormation}
 \end{equation}
 
@@ -160,7 +163,7 @@ n_{pol}=eN_c\left(\frac{\epsilon V}{ed^2N_0kT_t}\right)^l
 \subsection{Initializing Parameters with Quenching Only Steady-State Model}
 \begin{wrapfigure}{R}{0.5\textwidth}
 \includegraphics[width=0.48\textwidth]{unified/rollOffFit}
-\caption{Normalized experimental $\eta_{EQE}$ as a function of current density.  Solid line is a fit to the data using Eqn. \ref{eqn:exciton_rate} and \ref{eqn:polaron_rate} in the absence of polaron loss.  Pulsed $\eta_{EQE}$ measurements are conducted using low duty cycle pulses to steady-state luminance to reduce Joule heating in device.}
+\caption{Normalized experimental \eqe as a function of current density.  Solid line is a fit to the data using Eqn. \ref{eqn:exciton_rate} and \ref{eqn:polaron_rate} in the absence of polaron loss.  Pulsed eqe measurements are conducted using low duty cycle pulses to steady-state luminance to reduce Joule heating in device.}
 \label{fig:rollOffFit}
 \end{wrapfigure}
 \subsection{Transient Modeling}
@@ -178,11 +181,11 @@ device at J = 2.2 $A/cm^2$ (c) 0.0079 $cm^2$ device at J = 7.6 $A/cm^2$ (d) 0.00
 & Transient EL & Efficiency Roll-off \\
 \hline
 $\tau$ (s) & $6.9\pm 0.1 \times 10^{-7}$ & $6.1 \times 10^{-7}$ \\
-$k_{TT}$ (cm$^3$/s) & $7.1\times 10^{-12}$ &$7.1\times 10^{-12}$ \\
-$k_{TP}$ (cm$^3$/s) & $3.3\times 10^{-13}$ &$3.3\times 10^{-13}$ \\
-$k_{F}$ (cm$^3$/s) & $7.7\pm3.5\times 10^{-12}$ &$1.6\times 10^{-11}$ \\
+\ktt (cm$^3$/s) & $7.1\times 10^{-12}$ &$7.1\times 10^{-12}$ \\
+\ktp (cm$^3$/s) & $3.3\times 10^{-13}$ &$3.3\times 10^{-13}$ \\
+\kf (cm$^3$/s) & $7.7\pm3.5\times 10^{-12}$ &$1.6\times 10^{-11}$ \\
 \end{tabular}
-\caption{Fit parameters extracted from transient and steady-state electroluminescence.  Transient EL fit parameters averaged over all measured current densities.  $\eta_{EQE}$ roll-off parameters averaged over several measured devices.  Triplet-triplet annihilation and triplet-polaron quenching rates are fixed to those obtained from fitting the normalized efficiency roll-off.}
+\caption{Fit parameters extracted from transient and steady-state electroluminescence.  Transient EL fit parameters averaged over all measured current densities.  \eqe roll-off parameters averaged over several measured devices.  Triplet-triplet annihilation and triplet-polaron quenching rates are fixed to those obtained from fitting the normalized efficiency roll-off.}
 \label{tab:fit_parameters}
 \end{table}
 % \includegraphics[width=0.48\textwidth]{unified/valueTable}
@@ -199,7 +202,7 @@ $k_{F}$ (cm$^3$/s) & $7.7\pm3.5\times 10^{-12}$ &$1.6\times 10^{-11}$ \\
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{unified/chargeBalance}
-\caption{Transit time extracted from $\eta_{EQE}$ measurements are shown as the red circles. Predictions using the drift model are calculated using Eqn. \ref{eqn:drift}. The drift model assumes a uniform electric field. Good agreement between the experimental transit time and the drift model is found for a field distributed over 20 nm. The charge balance factor is shown as a function of current density in blue squares.}
+\caption{Transit time extracted from \eqe measurements are shown as the red circles. Predictions using the drift model are calculated using Eqn. \ref{eqn:drift}. The drift model assumes a uniform electric field. Good agreement between the experimental transit time and the drift model is found for a field distributed over 20 nm. The charge balance factor is shown as a function of current density in blue squares.}
 \label{fig:chargeBalance}
 \end{wrapfigure}
 \subsection{Drift Model}
@@ -214,12 +217,12 @@ $k_{F}$ (cm$^3$/s) & $7.7\pm3.5\times 10^{-12}$ &$1.6\times 10^{-11}$ \\
 \subsection{Carrier Injection} \label{sec:carrier_injection}
 
 \begin{equation}
-\frac{dn_h}{dt}=-k_Fn_en_h-\frac{n_h}{\tau_{lh}}+\frac{J_h}{ew}
+\frac{dn_h}{dt}=-\kf n_en_h-\frac{n_h}{\tau_{lh}}+\frac{J_h}{ew}
 \label{eqn:hole_rate}
 \end{equation}
 
 \begin{equation}
-\frac{dn_e}{dt}=-k_Fn_en_h-\frac{n_e}{\tau_{le}}+\frac{J_e}{ew}
+\frac{dn_e}{dt}=-\kf n_en_h-\frac{n_e}{\tau_{le}}+\frac{J_e}{ew}
 \label{eqn:electron_rate}
 \end{equation}
 
@@ -261,7 +264,7 @@ G_{pol}-\frac{J_l}{ew}=\frac{2J-J_l}{ew}
 \end{equation}
 
 \begin{equation}
-\left[\frac{dn_{pol}}{dt}\right]_{formation}=-2k_Fn_{pol}^2\alpha(1-\alpha)
+\left[\frac{dn_{pol}}{dt}\right]_{formation}=-2\kf n_{pol}^2\alpha(1-\alpha)
 \label{eqn:exciton_formation_charge_ratio}
 \end{equation}
 

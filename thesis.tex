@@ -1,6 +1,7 @@
 \documentclass{report}
-\usepackage{fullpage}
+\usepackage[margin=1in,headheight=13.6pt]{geometry}
 \usepackage{appendix}
+\usepackage{amsmath}
 % Graphics Setup
 \usepackage{graphicx}
 \graphicspath{{images/}{../images/}}
@@ -31,6 +32,15 @@
 \fancyhf{}
 \fancyhead[R]{\leftmark}
 \renewcommand{\headrulewidth}{0pt}
+
+% Common Expressions
+\newcommand{\eqe}{\ensuremath{\eta_{_\text{\tiny EQE}}}}
+\newcommand{\pl}{\ensuremath{\eta_{_\text{\tiny PL}}}}
+\newcommand{\ef}{\ensuremath{\eta_{_\text{\tiny EF}}}}
+\newcommand{\oc}{\ensuremath{\eta_{_\text{\tiny OC}}}}
+\newcommand{\kf}{\ensuremath{k_{_\text{\tiny F}}}}
+\newcommand{\ktt}{\ensuremath{k_{_\text{\tiny TT}}}}
+\newcommand{\ktp}{\ensuremath{k_{_\text{\tiny TP}}}}
 
 \begin{document}
 
@@ -82,7 +92,7 @@
 
 
 \addcontentsline{toc}{chapter}{Bibliography}
-\bibliography{thesis}
+\bibliography{library}
 %\printbibliography
 
 % Appendix

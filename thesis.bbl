@@ -1,4 +1,57 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Adachi2001a}
+{\sc Adachi, C., Kwong, R., and Forrest, S.~R.}
+\newblock {Efficient electrophosphorescence using a doped ambipolar conductive
+  molecular organic thin film}.
+\newblock {\em Organic Electronics 2}, 1 (mar 2001), 37--43.
+
+\bibitem{Baldo2000a}
+{\sc Baldo, M., Adachi, C., and Forrest, S.~R.}
+\newblock {Transient analysis of organic electrophosphorescence. II. Transient
+  analysis of triplet-triplet annihilation}.
+\newblock {\em Physical Review B 62}, 16 (oct 2000), 10967--10977.
+
+\bibitem{Baldo1998a}
+{\sc Baldo, M., O'Brien, D., You, Y., Shoustikov, A., Sibley, S., Thompson,
+  M.~E., and Forrest, S.~R.}
+\newblock {Highly efficient phosphorescent emission from organic
+  electroluminescent devices}.
+\newblock {\em Nature 395}, September (1998), 151--154.
+
+\bibitem{Baldo2000}
+{\sc Baldo, M., Thompson, M.~E., and Forrest, S.}
+\newblock {High-efficiency fluorescent organic light-emitting devices using a
+  phosphorescent sensitizer}.
+\newblock {\em Nature 403}, 6771 (feb 2000), 750--3.
+
+\bibitem{Blom1996}
+{\sc Blom, P. W.~M., {De Jong}, M. J.~M., and Vleggaar, J. J.~M.}
+\newblock {Electron and hole transport in poly(p-phenylene vinylene) devices}.
+\newblock {\em Applied Physics Letters 68}, 23 (1996), 3308--3310.
+
+\bibitem{Erickson2014}
+{\sc Erickson, N.~C., and Holmes, R.~J.}
+\newblock {Engineering efficiency roll-off in organic light-emitting devices}.
+\newblock {\em Advanced Functional Materials 24\/} (2014), 6074--6080.
+
+\bibitem{Giebink2008c}
+{\sc Giebink, N.~C., and Forrest, S.~R.}
+\newblock {Quantum efficiency roll-off at high brightness in fluorescent and
+  phosphorescent organic light emitting diodes}.
+\newblock {\em Physical Review B 77}, 23 (jun 2008), 235215.
+
+\bibitem{Hassine2001}
+{\sc Hassine, L., Bouchriha, H., Roussel, J., and Fave, J.~L.}
+\newblock {Transient response of a bilayer organic electroluminescent diode:
+  Experimental and theoretical study of electroluminescence onset}.
+\newblock {\em Applied Physics Letters 78}, 8 (2001), 1053--1055.
+
+\bibitem{Hassine2002}
+{\sc Hassine, L., Bouchriha, H., Roussel, J., and Fave, J.~L.}
+\newblock {Transient response of a bilayer organic light emitting diode:
+  Building-up of external and recombination currents}.
+\newblock {\em Journal of Applied Physics 91}, 8 (2002), 5170--5175.
 
 \bibitem{Hershey2011}
 {\sc Hershey, K.~W., and Cottingham, J.~P.}
@@ -19,11 +72,137 @@
   lifetime testing of organic light-emitting devices}.
 \newblock {\em Applied Physics Letters 111}, 11 (2017), 113301.
 
+\bibitem{Holmes2003}
+{\sc Holmes, R.~J., Forrest, S.~R., Tung, Y.-J., Kwong, R.~C., Brown, J.~J.,
+  Garon, S., and Thompson, M.~E.}
+\newblock {Blue organic electrophosphorescence using exothermic host–guest
+  energy transfer}.
+\newblock {\em Applied Physics Letters 82}, 15 (2003), 2422.
+
+\bibitem{Kalinowski2002}
+{\sc Kalinowski, J., Stampor, W., Mȩ{\.{z}}yk, J., Cocchi, M., Virgili, D.,
+  Fattori, V., and {Di Marco}, P.}
+\newblock {Quenching effects in organic electrophosphorescence}.
+\newblock {\em Physical Review B 66}, 23 (dec 2002), 235321.
+
+\bibitem{Kawamura2006}
+{\sc Kawamura, Y., Brooks, J., Brown, J.~J., Sasabe, H., and Adachi, C.}
+\newblock {Intermolecular interaction and a concentration-Quenching mechanism
+  of phosphorescent Ir(III) complexes in a solid film}.
+\newblock {\em Physical Review Letters 96}, 1 (2006), 11--14.
+
+\bibitem{Kawamura2005c}
+{\sc Kawamura, Y., Goushi, K., Brooks, J., Brown, J.~J., Sasabe, H., and
+  Adachi, C.}
+\newblock {100{\%} phosphorescence quantum efficiency of Ir (III) complexes in
+  organic semiconductor films}.
+\newblock {\em Applied Physics Letters 86}, 7 (2005), 1--3.
+
+\bibitem{Mezyk2005}
+{\sc Mężyk, J., Kalinowski, J., Meinardi, F., and Tubino, R.}
+\newblock {Triplet exciton interactions in solid films of an
+  electrophosphorescent Pt (II) porphyrin}.
+\newblock {\em Applied Physics Letters 86}, 11 (2005), 111916.
+
+\bibitem{Murawski2013}
+{\sc Murawski, C., Leo, K., and Gather, M.~C.}
+\newblock {Efficiency roll-off in organic light-emitting diodes.}
+\newblock {\em Advanced materials (Deerfield Beach, Fla.) 25}, 47 (dec 2013),
+  6801--27.
+
+\bibitem{OBrien1999a}
+{\sc O'Brien, D.~F., Baldo, M., Thompson, M.~E., and Forrest, S.~R.}
+\newblock {Improved energy transfer in electrophosphorescent devices}.
+\newblock {\em Applied Physics Letters 74}, 3 (1999), 442.
+
+\bibitem{Pinner1999}
+{\sc Pinner, D.~J., Friend, R.~H., and Tessler, N.}
+\newblock {Transient electroluminescence of polymer light emitting diodes using
+  electrical pulses}.
+\newblock {\em Journal of Applied Physics 86}, 9 (1999), 5116--5130.
+
+\bibitem{Pope1999}
+{\sc Pope, M., and Swenberg, C.}
+\newblock {\em {Electronic Processes in Organic Crystals and Polymers}},
+  2nd~ed.
+\newblock Oxford University Press, 1999.
+
+\bibitem{Reineke2009}
+{\sc Reineke, S., Schwartz, G., Walzer, K., Falke, M., and Leo, K.}
+\newblock {Highly phosphorescent organic mixed films: The effect of aggregation
+  on triplet-triplet annihilation}.
+\newblock {\em Applied Physics Letters 94}, 16 (2009), 2007--2010.
+
+\bibitem{Reineke2007a}
+{\sc Reineke, S., Schwartz, G., Walzer, K., and Leo, K.}
+\newblock {Reduced efficiency roll-off in phosphorescent organic light emitting
+  diodes by suppression of triplet-triplet annihilation}.
+\newblock {\em Applied Physics Letters 91}, 12 (2007), 1--4.
+
+\bibitem{Reineke2007}
+{\sc Reineke, S., Walzer, K., and Leo, K.}
+\newblock {Triplet-exciton quenching in organic phosphorescent light-emitting
+  diodes with Ir-based emitters}.
+\newblock {\em Physical Review B 75}, 12 (mar 2007), 125328.
+
+\bibitem{Rihani2006}
+{\sc Rihani, A., Hassine, L., Fave, J.-L., and Bouchriha, H.}
+\newblock {Study of the transient EL slow rise in single layer OLEDs}.
+\newblock {\em Organic Electronics 7}, 1 (feb 2006), 1--7.
+
+\bibitem{Ruhstaller2003}
+{\sc Ruhstaller, B., Beierlein, T., Riel, H., Karg, S., Scott, J., and Riess,
+  W.}
+\newblock {Simulating electronic and optical processes in multilayer organic
+  light-emitting devices}.
+\newblock {\em IEEE Journal of Selected Topics in Quantum Electronics 9}, 3
+  (2003), 723--731.
+
+\bibitem{Ruhstaller2001}
+{\sc Ruhstaller, B., Carter, S.~a., Barth, S., Riel, H., Riess, W., and Scott,
+  J.~C.}
+\newblock {Transient and steady-state behavior of space charges in multilayer
+  organic light-emitting diodes}.
+\newblock {\em Journal of Applied Physics 89}, 8 (2001), 4575--4586.
+
+\bibitem{Song2010}
+{\sc Song, D., Zhao, S., Luo, Y., and Aziz, H.}
+\newblock {Causes of efficiency roll-off in phosphorescent organic light
+  emitting devices: Triplet-triplet annihilation versus triplet-polaron
+  quenching}.
+\newblock {\em Applied Physics Letters 97}, 24 (2010), 243304.
+
+\bibitem{Tsuboi2006}
+{\sc Tsuboi, T., Murayama, H., and Penzkofer, A.}
+\newblock {Photoluminescence characteristics of Ir(ppy)3 and PtOEP doped in TPD
+  host material}.
+\newblock {\em Thin Solid Films 499}, 1-2 (2006), 306--312.
+
+\bibitem{Tsutsui1999}
+{\sc Tsutsui, T., Yang, M.-j., Yahiro, M., Nakamura, K., Watanabe, T., Tsuji,
+  T., Fukuda, Y., Wakimoto, T., and Miyaguti, S.}
+\newblock {High Quantum Efficiency in Organic Light-Emitting Devices with
+  Iridium-Complex as a Triplet Emissive Center}.
+\newblock {\em Jpn. J. Appl. Phys. Part 2: 38}, 12 (1999), L1502--L1504.
+
+\bibitem{Turro1991a}
+{\sc Turro, N., Scaiano, J., and Ramamurthy, V.}
+\newblock {\em {Modern Molecular Photochemistry of Organic Molecules}}.
+\newblock University Science Books, 1991.
+
 \bibitem{Xu2016}
 {\sc Xu, F., Hershey, K.~W., Holmes, R.~J., and Hoye, T.~R.}
 \newblock {Blue-Emitting Arylalkynyl Naphthalene Derivatives via a
   Hexadehydro-Diels?Alder Cascade Reaction}.
 \newblock {\em Journal of the American Chemical Society 138}, 39 (oct 2016),
   12739--12742.
+
+\bibitem{Zhang2012}
+{\sc Zhang, B., Tan, G., Lam, C.~S., Yao, B., Ho, C.~L., Liu, L., Xie, Z.,
+  Wong, W.~Y., Ding, J., and Wang, L.}
+\newblock {High-efficiency single emissive layer white organic light-emitting
+  diodes based on solution-processed dendritic host and new orange-emitting
+  iridium complex}.
+\newblock {\em Advanced Materials 24}, 14 (2012), 1873--1877.
 
 \end{thebibliography}
