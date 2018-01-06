@@ -35,6 +35,13 @@
 \newblock {Engineering efficiency roll-off in organic light-emitting devices}.
 \newblock {\em Advanced Functional Materials 24\/} (2014), 6074--6080.
 
+\bibitem{Giebink2009a}
+{\sc Giebink, N.~C., D'Andrade, B.~W., Weaver, M.~S., Brown, J.~J., and
+  Forrest, S.~R.}
+\newblock {Direct evidence for degradation of polaron excited states in organic
+  light emitting diodes}.
+\newblock {\em Journal of Applied Physics 105}, 12 (2009), 124514.
+
 \bibitem{Giebink2008c}
 {\sc Giebink, N.~C., and Forrest, S.~R.}
 \newblock {Quantum efficiency roll-off at high brightness in fluorescent and
@@ -98,6 +105,11 @@
   organic semiconductor films}.
 \newblock {\em Applied Physics Letters 86}, 7 (2005), 1--3.
 
+\bibitem{Lampert2002a}
+{\sc Lampert, M.~A.}
+\newblock {Volume-controlled current injection in insulators}.
+\newblock {\em Reports on Progress in Physics 27}, 1 (2002), 329--367.
+
 \bibitem{Mezyk2005}
 {\sc Mężyk, J., Kalinowski, J., Meinardi, F., and Tubino, R.}
 \newblock {Triplet exciton interactions in solid films of an
@@ -150,6 +162,11 @@
 \newblock {Study of the transient EL slow rise in single layer OLEDs}.
 \newblock {\em Organic Electronics 7}, 1 (feb 2006), 1--7.
 
+\bibitem{Rothberg1996}
+{\sc Rothberg, L.~J., and Lovinger, A.~J.}
+\newblock {Status of and prospects for organic electroluminescence}.
+\newblock {\em Journal of Materials Research 11}, 12 (1996), 3174--3187.
+
 \bibitem{Ruhstaller2003}
 {\sc Ruhstaller, B., Beierlein, T., Riel, H., Karg, S., Scott, J., and Riess,
   W.}
@@ -165,12 +182,25 @@
   organic light-emitting diodes}.
 \newblock {\em Journal of Applied Physics 89}, 8 (2001), 4575--4586.
 
+\bibitem{Song2011}
+{\sc Song, D., Zhao, S., and Aziz, H.}
+\newblock {Modification of exciton lifetime by the metal cathode in
+  phosphorescent OLEDs, and implications on device efficiency and efficiency
+  roll-off behavior}.
+\newblock {\em Advanced Functional Materials 21\/} (2011), 2311--2317.
+
 \bibitem{Song2010}
 {\sc Song, D., Zhao, S., Luo, Y., and Aziz, H.}
 \newblock {Causes of efficiency roll-off in phosphorescent organic light
   emitting devices: Triplet-triplet annihilation versus triplet-polaron
   quenching}.
 \newblock {\em Applied Physics Letters 97}, 24 (2010), 243304.
+
+\bibitem{Staroske2007}
+{\sc Staroske, W., Pfeiffer, M., Leo, K., and Hoffmann, M.}
+\newblock {Single-Step Triplet-Triplet Annihilation: An Intrinsic Limit for the
+  High Brightness Efficiency of Phosphorescent Organic Light Emitting Diodes}.
+\newblock {\em Physical Review Letters 98}, 19 (2007), 197402.
 
 \bibitem{Tsuboi2006}
 {\sc Tsuboi, T., Murayama, H., and Penzkofer, A.}
@@ -189,6 +219,14 @@
 {\sc Turro, N., Scaiano, J., and Ramamurthy, V.}
 \newblock {\em {Modern Molecular Photochemistry of Organic Molecules}}.
 \newblock University Science Books, 1991.
+
+\bibitem{Wei2004}
+{\sc Wei, B., Furukawa, K., Amagai, J., Ichikawa, M., Koyama, T., and
+  Taniguchi, Y.}
+\newblock {A dynamic model for injection and transport of charge carriers in
+  pulsed organic light-emitting diodes}.
+\newblock {\em Semiconductor Science and Technology 19}, 5 (may 2004),
+  L56--L59.
 
 \bibitem{Xu2016}
 {\sc Xu, F., Hershey, K.~W., Holmes, R.~J., and Hoye, T.~R.}
