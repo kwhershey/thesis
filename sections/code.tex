@@ -1,0 +1,49 @@
+\documentclass[../thesis.tex]{subfiles}
+\begin{document}
+
+\chapter{Out-Coupling Code}\label{sec:outCoupling_code}
+\section{Transfer Matrix Model}
+The following is code to implement a transfer matrix model for calculating absorption and electric field profile within a thin film stack, as described by Pettersson.\cite{Pettersson1999}
+
+transfer.m
+\lstinputlisting[language=Octave]{sections/code/Optical-Model/transfer.m}
+
+\section{Out-Coupling (Power Dissipation)}
+The following model implements an out-coupling calculation by calculating the power dissipation as a function of the normalized in-plane wavevector, $u$.  
+This is an implementation of the method outlined by Furno \textit{et al.}.\cite{Furno2010,Furno2012}
+
+PowerDissipationModel.m
+\lstinputlisting[language=Octave]{sections/code/Optical-Model/PowerDissipationModel.m}
+
+\chapter{Lifetime Box Code}\label{sec:lifetime_code}
+
+The following code outlines our implementation of lifetime setup and can be found on the Holmes Group Github page at \url{https://github.umn.edu/HolmesGroup/lifetimeTesting}.
+To implement all boxes, code is organized into separate files.
+\textit{box.py} contains all general functions shared between all hardware implementations and is the main driver for lifetime.
+Different hardware configurations require different commands in order to control the hardware.
+These hardware specific implementation details are located in \textit{keithleyBox.py}, \textit{keithleyBox2.py}, and \textit{keysightBox.py}.
+To facilitate hardware rearrangement, configuration files, such as \textit{box1.json} coordinate hardware.
+Finally, each piece of hardware is uniquely named in Linux using udev rules, outlined in \textit{85-lifetime.rules}.
+
+box.py
+%\lstinputlisting[language=Python]{sections/code/lifetimeTesting/box.py}
+
+keithleyBox.py
+%\lstinputlisting[language=Python]{sections/code/lifetimeTesting/keithleyBox.py}
+
+keithleyBox2.py
+%\lstinputlisting[language=Python]{sections/code/lifetimeTesting/keithleyBox2.py}
+
+keysightBox.py
+%\lstinputlisting[language=Python]{sections/code/lifetimeTesting/keysightBox.py}
+
+box1.json
+%\lstinputlisting{sections/code/lifetimeTesting/box1.json}
+
+85-lifetime.rules
+%\lstinputlisting{sections/code/lifetimeTesting/85-lifetime.rules}
+
+
+
+\ifcsdef{mainfile}{}{\bibliography{../library}}
+\end{document}

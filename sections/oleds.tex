@@ -8,7 +8,7 @@ Within our lab, the standard fabrication process for OLEDs is thermal evaporatio
 
 \section{Characterization}
 \subsection{Luminance}
-\subsection{Efficiency Analysis}
+\subsection{Efficiency Analysis}\label{sec:efficiency_analysis}
 
 \section{Historical Developement}
 \subsection{The First OLEDs}
@@ -21,9 +21,56 @@ Within our lab, the standard fabrication process for OLEDs is thermal evaporatio
 \subsection{Dynamic Processes}
 \subsection{Efficiency Roll-Off}
 
-\section{Recombination Zone Characterization}
+\section{Recombination Zone Characterization}\label{sec:rz_measurement}
 
 \section{Single Carrier Devices}
+
+\section{Operational Lifetime}
+In typical lifetime characterization, devices are degraded while held at constant current density, recording the resulting luminance loss and voltage gain as a function of time.  
+The lifetime is then reported as the time to reach some arbitrary fraction of the initial luminance.
+
+\begin{equation}
+\frac{L(t)}{L_0}=\exp (t/\tau)^\beta
+\label{eqn:stretched_exponential}
+\end{equation}
+
+\subsection{Degradation Mechanisms}\label{sec:degradation_mechanisms}
+
+As degradation studies are an ongoing an extensive aread of research, this section does not represent an all inclusive picture of degradation mechanisms.  However, it does seek to outline the dominant mechanisms observed in typical devices.
+
+\subsubsection{Dark Spots and Delamination}
+\subsubsection{Exciton and Polaron}
+\subsubsection{Interfaces}
+\subsubsection{Oxygen}
+
+
+\subsection{Luminance Scaling}\label{sec:luminance_scaling}
+For commercially relevant devices, where the time to reach 50\% of the initial luminance, $t_{50}$ can be tens of thousands of hours, it is impractical to test devices under their intended operating conditions.
+Instead, lifetime testing can be done at an increased luminance from the true operating condition.\cite{Scholz2015}
+This can dramatically reduce the testing time of devices.
+The lifetime at other luminances can then be found using the scaling relation
+
+\begin{equation}
+L_0^n t_x=C
+\label{eqn:luminance_scaling}
+\end{equation}
+
+where $L_0$ is the initial luminance, $n$ is a scaling factor characteristic to the device, and $C$ is a constant.
+To utilize this relation, several lifetimes are obtained at luminances above the operating condition in order to experimentally obtain a value for $n$.
+Subsiquently, the lifetime of interest can then be extrapolated.
+
+While widely used and observed, caution should be observed in the application of this relation.  
+A variety of degradation mechanisms have been attributed to OLED behavior, as discussed in Section \ref{sec:degradation_mechanisms}.
+All of these mechanisms are subject to different temporal dependences and have a variety of degrees of understanding to their fuctional dependence on time and luminance.
+At different luminances, different mechanisms may be dominant.
+For example, single excitonic processes may be dominant at low luminance, but may be overtaken by a bimoleculat process at high luminance.
+The fact that OLEDs are frequently subject to several degrdation mechanisms throughout the decay only further complicates the issue.
+The very idea of scaling law for all devices and at all current densities is unsound, and should be treated as a loose prediction.
+Over and underestimates of lifetimes using this relation are observed when trying to predict actual lifetimes.\cite{Meerheim2006,Fry2005}
+
+
+\subsection{Analysis Techniques}\label{sec:degradation_analysis}
+
 
 
 

@@ -30,10 +30,41 @@
 \newblock {Electron and hole transport in poly(p-phenylene vinylene) devices}.
 \newblock {\em Applied Physics Letters 68}, 23 (1996), 3308--3310.
 
+\bibitem{Burrows1994}
+{\sc Burrows, P.~E., Bulovic, V., Forrest, S.~R., Sapochak, L.~S., McCarty,
+  D.~M., and Thompson, M.~E.}
+\newblock {Reliability and degradation of organic light emitting devices}.
+\newblock {\em Applied Physics Letters 65}, 23 (1994), 2922--2924.
+
+\bibitem{DeMoraes2011}
+{\sc de~Moraes, I.~R., Scholz, S., Lüssem, B., and Leo, K.}
+\newblock {Role of oxygen-bonds in the degradation process of phosphorescent
+  organic light emitting diodes}.
+\newblock {\em Applied Physics Letters 99}, 5 (2011), 053302.
+
 \bibitem{Erickson2014}
 {\sc Erickson, N.~C., and Holmes, R.~J.}
 \newblock {Engineering efficiency roll-off in organic light-emitting devices}.
 \newblock {\em Advanced Functional Materials 24\/} (2014), 6074--6080.
+
+\bibitem{Furno2012}
+{\sc Furno, M., Meerheim, R., Hofmann, S., L{\"{u}}ssem, B., and Leo, K.}
+\newblock {Efficiency and rate of spontaneous emission in organic
+  electroluminescent devices}.
+\newblock {\em Physical Review B 85}, 11 (mar 2012), 115205.
+
+\bibitem{Furno2010}
+{\sc Furno, M., Meerheim, R., Thomschke, M., Hofmann, S., L{\"{u}}ssem, B., and
+  Leo, K.}
+\newblock {Outcoupling efficiency in small molecule OLEDs from theory to
+  experiment}.
+\newblock {\em Proceedings of SPIE 7617}, 0 (feb 2010), 761716--761716--12.
+
+\bibitem{Fry2005}
+{\sc F́ry, C., Racine, B., Vaufrey, D., Doyeux, H., and Ciǹ, S.}
+\newblock {Physical mechanism responsible for the stretched exponential decay
+  behavior of aging organic light-emitting diodes}.
+\newblock {\em Applied Physics Letters 87}, 21 (nov 2005), 1--3.
 
 \bibitem{Giebink2009a}
 {\sc Giebink, N.~C., D'Andrade, B.~W., Weaver, M.~S., Brown, J.~J., and
@@ -105,16 +136,48 @@
   organic semiconductor films}.
 \newblock {\em Applied Physics Letters 86}, 7 (2005), 1--3.
 
+\bibitem{Kondakov2007d}
+{\sc Kondakov, D.~Y., Lenhart, W.~C., and Nichols, W.~F.}
+\newblock {Operational degradation of organic light-emitting diodes: Mechanism
+  and identification of chemical products}.
+\newblock {\em Journal of Applied Physics 101}, 2 (2007), 024512.
+
+\bibitem{Kondakov2003}
+{\sc Kondakov, D.~Y., Sandifer, J.~R., Tang, C.~W., and Young, R.~H.}
+\newblock {Nonradiative recombination centers and electrical aging of organic
+  light-emitting diodes: Direct connection between accumulation of trapped
+  charge and luminance loss}.
+\newblock {\em Journal of Applied Physics 93}, 2 (2003), 1108--1119.
+
 \bibitem{Lampert2002a}
 {\sc Lampert, M.~A.}
 \newblock {Volume-controlled current injection in insulators}.
 \newblock {\em Reports on Progress in Physics 27}, 1 (2002), 329--367.
+
+\bibitem{Liu2012d}
+{\sc Liu, F., Ruden, P.~P., Campbell, I.~H., and Smith, D.~L.}
+\newblock {Electrostatic capacitance in single and double layer organic
+  diodes}.
+\newblock {\em Applied Physics Letters 101}, 2 (2012), 023501.
+
+\bibitem{Meerheim2006}
+{\sc Meerheim, R., Walzer, K., Pfeiffer, M., and Leo, K.}
+\newblock {Ultrastable and efficient red organic light emitting diodes with
+  doped transport layers}.
+\newblock {\em Applied Physics Letters 89}, 6 (aug 2006), 061111.
 
 \bibitem{Mezyk2005}
 {\sc Mężyk, J., Kalinowski, J., Meinardi, F., and Tubino, R.}
 \newblock {Triplet exciton interactions in solid films of an
   electrophosphorescent Pt (II) porphyrin}.
 \newblock {\em Applied Physics Letters 86}, 11 (2005), 111916.
+
+\bibitem{Moraes2011}
+{\sc Moraes, I. R.~D., Scholz, S., L{\"{u}}ssem, B., and Leo, K.}
+\newblock {Analysis of chemical degradation mechanism within sky blue
+  phosphorescent organic light emitting diodes by laser-desorption/ionization
+  time-of-flight mass spectrometry}.
+\newblock {\em Organic Electronics 12}, 2 (feb 2011), 341--347.
 
 \bibitem{Murawski2013}
 {\sc Murawski, C., Leo, K., and Gather, M.~C.}
@@ -127,6 +190,18 @@
 \newblock {Improved energy transfer in electrophosphorescent devices}.
 \newblock {\em Applied Physics Letters 74}, 3 (1999), 442.
 
+\bibitem{Parshin2006}
+{\sc Parshin, M.~A., Ollevier, J., and {Van der Auweraer}, M.}
+\newblock {Charge carrier mobility in CBP films doped with Ir(ppy) 3}.
+\newblock P.~L. Heremans, M.~Muccini, and E.~A. Meulenkamp, Eds., vol.~6192,
+  p.~61922A.
+
+\bibitem{Pettersson1999}
+{\sc Pettersson, L. A.~A., Roman, L.~S., and Inganäs, O.}
+\newblock {Modeling photocurrent action spectra of photovoltaic devices based
+  on organic thin films}.
+\newblock {\em Journal of Applied Physics 86}, 1 (1999), 487.
+
 \bibitem{Pinner1999}
 {\sc Pinner, D.~J., Friend, R.~H., and Tessler, N.}
 \newblock {Transient electroluminescence of polymer light emitting diodes using
@@ -138,6 +213,13 @@
 \newblock {\em {Electronic Processes in Organic Crystals and Polymers}},
   2nd~ed.
 \newblock Oxford University Press, 1999.
+
+\bibitem{Popovic2001}
+{\sc Popovic, Z.~D., Aziz, H., Hu, N.~X., Ioannidis, A., and {Dos Anjos}, P.
+  N.~M.}
+\newblock {Simultaneous electroluminescence and photoluminescence aging studies
+  of tris(8-hydroxyquinoline) aluminum-based organic light-emitting devices}.
+\newblock {\em Journal of Applied Physics 89}, 2001 (2001), 4673--4675.
 
 \bibitem{Reineke2009}
 {\sc Reineke, S., Schwartz, G., Walzer, K., Falke, M., and Leo, K.}
@@ -182,6 +264,20 @@
   organic light-emitting diodes}.
 \newblock {\em Journal of Applied Physics 89}, 8 (2001), 4575--4586.
 
+\bibitem{Scholz2015}
+{\sc Scholz, S., Kondakov, D.~Y., L{\"{u}}ssem, B., and Leo, K.}
+\newblock {Degradation Mechanisms and Reactions in Organic Light-Emitting
+  Devices}.
+\newblock {\em Chemical Reviews 115}, 16 (aug 2015), 8449--8503.
+
+\bibitem{Seifert2013b}
+{\sc Seifert, R., {Rabelo De Moraes}, I., Scholz, S., Gather, M.~C.,
+  L{\"{u}}ssem, B., and Leo, K.}
+\newblock {Chemical degradation mechanisms of highly efficient blue
+  phosphorescent emitters used for organic light emitting diodes}.
+\newblock {\em Organic Electronics: physics, materials, applications 14}, 1
+  (jan 2013), 115--123.
+
 \bibitem{Song2011}
 {\sc Song, D., Zhao, S., and Aziz, H.}
 \newblock {Modification of exciton lifetime by the metal cathode in
@@ -220,6 +316,18 @@
 \newblock {\em {Modern Molecular Photochemistry of Organic Molecules}}.
 \newblock University Science Books, 1991.
 
+\bibitem{Wang2011a}
+{\sc Wang, Q., and Aziz, H.}
+\newblock {Poor photo-stability of the organic/LiF/Al contact in organic
+  optoelectronic devices}.
+\newblock {\em Organic Electronics 12}, 9 (2011), 1571--1575.
+
+\bibitem{Wang2010a}
+{\sc Wang, Q., Luo, Y., and Aziz, H.}
+\newblock {Photodegradation of the organic/metal cathode interface in organic
+  light-emitting devices}.
+\newblock {\em Applied Physics Letters 97}, 6 (2010), 1--4.
+
 \bibitem{Wei2004}
 {\sc Wei, B., Furukawa, K., Amagai, J., Ichikawa, M., Koyama, T., and
   Taniguchi, Y.}
@@ -227,6 +335,11 @@
   pulsed organic light-emitting diodes}.
 \newblock {\em Semiconductor Science and Technology 19}, 5 (may 2004),
   L56--L59.
+
+\bibitem{Winter2008a}
+{\sc Winter, S., Reineke, S., Walzer, K., and Leo, K.}
+\newblock {Photoluminescence degradation of blue OLED emitters}.
+\newblock {\em Proceedings of SPIE 6999}, 0 (2008), 69992N--69992N--8.
 
 \bibitem{Xu2016}
 {\sc Xu, F., Hershey, K.~W., Holmes, R.~J., and Hoye, T.~R.}
@@ -242,5 +355,13 @@
   diodes based on solution-processed dendritic host and new orange-emitting
   iridium complex}.
 \newblock {\em Advanced Materials 24}, 14 (2012), 1873--1877.
+
+\bibitem{Zhang2016}
+{\sc Zhang, Y., and Aziz, H.}
+\newblock {Influence of the Guest on Aggregation of the Host by Exciton-Polaron
+  Interactions and Its Effects on the Stability of Phosphorescent Organic
+  Light-Emitting Devices}.
+\newblock {\em ACS Applied Materials and Interfaces 8}, 22 (2016),
+  14088--14095.
 
 \end{thebibliography}
