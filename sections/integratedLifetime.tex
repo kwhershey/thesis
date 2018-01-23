@@ -2,7 +2,7 @@
 \begin{document}
 \chapter{Integrated Photoluminescence Lifetimes} \label{sec:integrated_lifetime}
 As OLEDs become fully a fully commercialized technology, several challenges still exist that need to be overcome to realize full potential.
-Chief among these is the operational lifetime, which has been a key focus of recent studies.\cite{Scholz2015,DeMoraes2011,Seifert2013b,Moraes2011,Burrows1994,Seifert2013b}
+Chief among these is the operational lifetime, which has been a key focus of recent studies.\supercite{Scholz2015,DeMoraes2011,Seifert2013b,Moraes2011,Burrows1994,Seifert2013b}
 Lifetime is typically characterized at constant current density, recording the luminace loss and voltage as a function of time.
 The lifetime is then reported as the time to reach some arbitrary fraction of the initial luminance.
 Unlike the steady-state efficiency, it is difficult to optimize a device lifetime by brute force.  
@@ -10,17 +10,19 @@ Due to the long lifetime of devices, even under accelerated aging, it takes a su
 This reality makes it essential to have a deeper insight into the processes that are limiting lifetime.
 
 While this simple lifetime characterization is effective for device to device comparision, further insight into the mechanism is found wanting.
-As discussed in Chapter \ref{sec:degradation_analysis}, a variety of chemical, structural, and spectroscopic techniques are often employed to gain further insight into the physical processes.\cite{Seifert2013b,Moraes2011,Scholz2015,Wang2011a,Zhang2016}
+Modeling techniques are used extensively for degradation characterization, using the mechanisms outlined in Chapter \ref{sec:degradation_mechanisms}.\supercite{Giebink2008a,Ingram2017,Coburn2017}
+While these techniques are able to reproduce the decay characteristics with a root in physical mechanisms, they suffer from over-parameterization and introduce parameters that cannot be experimentally confirmed.
+As discussed in Chapter \ref{sec:degradation_analysis}, a variety of chemical, structural, and spectroscopic techniques are often employed to gain further insight into the physical processes.\supercite{Seifert2013b,Moraes2011,Scholz2015,Wang2011a,Zhang2016}
 These techniques can be insightful, but are difficult to apply on a large scale due to the additional processing time.
 Post degradation analysis does not provide a temporal characterization of degradation without processing individual devices at several decay points, which can be extremely time consuming.
 Additionally, it may be helpful to catagorize luminance loss into different luminance loss pathways, which few of these techniques are able to do.
 It would be benificial to have a technique that is able to provide more information during the degradation, without increasing experimental time, as well as provide a way to decouple loss pathways.
 This is done by introducing an optical pump to independently measure \pl as a function of time.
-Similar techniques have been utilized before, but have lacked completeness in their care to treat assumptions, as well as their resolution.\cite{Popovic2001,Kondakov2007d,Winter2008a}
+Similar techniques have been utilized before, but have lacked completeness in their care to treat assumptions, as well as their resolution.\supercite{Popovic2001,Kondakov2007d,Winter2008a}
 
 
 This chapter demonstrates a method for decoupling the device photoluminescence loss from the exciton formation losses during operational lifetime testing.  
-This is a summary and extension of my work entitled \textit{Decoupling degradation in exciton formation and recombination during lifetime testing of organic light-emitting devices}.\cite{Hershey2017}
+This is a summary and extension of my work entitled \textit{Decoupling degradation in exciton formation and recombination during lifetime testing of organic light-emitting devices}.\supercite{Hershey2017}
 
 
 \section{Luminance as Efficiency Loss}
@@ -41,7 +43,7 @@ For decoupling luminance loss pathways, a catagorical expression for \eqe is des
 where $\eta_\tau$ is the fraction of excitons that relax via the natural exciton lifetime, $\tau$.  
 this term is current-density dependent and captures the quenching events discussed in Chapter \ref{sec:unified}.
 It is also important to note that during degradation, \ef captures not only the previously discussed polaron loss due to leakage events, but allso the formation of non-radiative recombination centers (NRRCs).
-NRRCs are states that form excitons off of the emissive molecule and allow charge recombination without forming light, which have been shown to be present in degrading devices.\cite{Kondakov2003,Kondakov2007d}
+NRRCs are states that form excitons off of the emissive molecule and allow charge recombination without forming light, which have been shown to be present in degrading devices.\supercite{Kondakov2003,Kondakov2007d}
 The interpretation of \ef as the exciton formation efficiency needs to be clarified to be the efficiency of exciton formation on the emissive molecule, but remains otherwise unchanged.
 
 During degradation, to categorize efficiency loss, each term in Equation \ref{eqn:eqe_quenching} could be considered to be time dependent.  
@@ -63,7 +65,7 @@ Thankfully, that is of yet unobserved in our research.
     %\subcaption{}
     %\label{fig:5b}
 \end{minipage}
-\caption{Cross polarized optical micrographs of (a) active device area (b) crystalized film from Fielitz \textit{et al.}.\cite{Fielitz2016}
+\caption{Cross polarized optical micrographs of (a) active device area (b) crystalized film from Fielitz \textit{et al.}.\supercite{Fielitz2016}
 (I) Orthorhombic phase, (II) Tricliminc Phase, (III) 200 $\mu$m scale bar}
 \label{fig:micrographs}
 \end{wrapfigure}
@@ -71,9 +73,9 @@ Thankfully, that is of yet unobserved in our research.
 The out-coupling efficiency, \oc, is a property dependent on the layer optical constants and thicknesses.
 Without significant changes in molecular composition and morphology, it is unlikely that \oc should change.
 The most likely was to create these changes would be through crystalization.  
-This can be investigated by looking at the devices under crossed polarized optical microscopy.\cite{Fielitz2016}
+This can be investigated by looking at the devices under crossed polarized optical microscopy.\supercite{Fielitz2016}
 Figure \ref{fig:micrographs} shows that in our devices, no crystalization is observed.
-The reference photo, taken from Fielitz \textit{et al.}\cite{Fielitz2016} demonstrates how apparent crystalization would be if present.
+The reference photo, taken from Fielitz \textit{et al.}\supercite{Fielitz2016} demonstrates how apparent crystalization would be if present.
 It is also important to note that \oc depends on the emitter distribution within the device, and thus the recombination zone.
 If there is a shift in RZ, out-coupling is likely to change.  
 It is difficult to assess recombination zone and unprecidented to measure as a function of degradation.
@@ -180,10 +182,10 @@ This leads to a systematic underestimate of the actual \pl degradation within th
 
 To quantify this error for a particular device, a degradation and defect generation model must be employed in order to quantify the degradation profile within the device.  
 Additionally, the absorption profile and recombination zone must be known (or estimated).
-The absorption profile can be calculated using a transfer matrix formalism.\cite{Pettersson1999}
+The absorption profile can be calculated using a transfer matrix formalism.\supercite{Pettersson1999}
 The code used to calculate this is provided in Appendix \ref{sec:outCoupling_code}.
 The recombination zone can be measured using sensitizer molecules using the method outlined in Chapter \ref{sec:rz_measurement}.
-An excellent example of executing this analysis demonstrated by Bangsund \textit{et al.}.\cite{Bangsund2017}
+An excellent example of executing this analysis demonstrated by Bangsund \textit{et al.}.\supercite{Bangsund2017}
 
 
 \subsection{Contact Degradation}
@@ -195,7 +197,7 @@ An excellent example of executing this analysis demonstrated by Bangsund \textit
 \label{fig:dark_spot}
 \end{wrapfigure}
 
-Exposure to UV light has been shown to enhance photodegradation of the organic/LiF/Al interace within devices.\cite{Wang2011a,Wang2010a}
+Exposure to UV light has been shown to enhance photodegradation of the organic/LiF/Al interace within devices.\supercite{Wang2011a,Wang2010a}
 This has been shown to be due to the dissociation and diffusion of positive ions from this interface, likely due to LiF.
 This becomes problematic in this measurement due to the \pl measurement, as illustrated in Figure \ref{fig:dark_spot}.
 Here, the optical pump as formed a dark spot on the active area of the device and accelerated degradation.

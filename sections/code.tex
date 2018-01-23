@@ -3,14 +3,14 @@
 
 \chapter{Out-Coupling Code}\label{sec:outCoupling_code}
 \section{Transfer Matrix Model}
-The following is code to implement a transfer matrix model for calculating absorption and electric field profile within a thin film stack, as described by Pettersson.\cite{Pettersson1999}
+The following is code to implement a transfer matrix model for calculating absorption and electric field profile within a thin film stack, as described by Pettersson.\supercite{Pettersson1999}
 
 transfer.m
 \lstinputlisting[language=Octave]{sections/code/Optical-Model/transfer.m}
 
 \section{Out-Coupling (Power Dissipation)}
 The following model implements an out-coupling calculation by calculating the power dissipation as a function of the normalized in-plane wavevector, $u$.  
-This is an implementation of the method outlined by Furno \textit{et al.}.\cite{Furno2010,Furno2012}
+This is an implementation of the method outlined by Furno \textit{et al.}.\supercite{Furno2010,Furno2012}
 
 PowerDissipationModel.m
 \lstinputlisting[language=Octave]{sections/code/Optical-Model/PowerDissipationModel.m}

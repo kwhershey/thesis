@@ -16,11 +16,20 @@
 % For bibliography logic
 \usepackage{etoolbox}
 \usepackage{subfiles}
+\usepackage[T1]{fontenc}
 
 % Bibliography Setup
-\bibliographystyle{acm}
+%\bibliographystyle{acm}
+%\usepackage[utf8]{inputenc}
+%\usepackage[superscript]{cite}
 \usepackage{bibentry}
-\nobibliography*
+\usepackage[sorting=none,
+    bibstyle=chem-acs,
+    citestyle=numeric-comp,
+    isbn=false,
+    url=false]{biblatex}
+\addbibresource{library.bib}
+%\nobibliography*
 
 % Line spacing
 \usepackage{setspace}
@@ -130,8 +139,8 @@
 
 
 \addcontentsline{toc}{chapter}{Bibliography}
-\bibliography{library}
-%\printbibliography
+%\bibliography{library}
+\printbibliography
 
 % Appendix
 \appendix
