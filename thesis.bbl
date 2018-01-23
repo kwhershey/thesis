@@ -47,6 +47,11 @@
 \newblock {Engineering efficiency roll-off in organic light-emitting devices}.
 \newblock {\em Advanced Functional Materials 24\/} (2014), 6074--6080.
 
+\bibitem{Fielitz2016}
+{\sc Fielitz, T.~R., and Holmes, R.~J.}
+\newblock {Crystal Morphology and Growth in Annealed Rubrene Thin Films}.
+\newblock {\em Crystal Growth and Design 16}, 8 (aug 2016), 4720--4726.
+
 \bibitem{Furno2012}
 {\sc Furno, M., Meerheim, R., Hofmann, S., L{\"{u}}ssem, B., and Leo, K.}
 \newblock {Efficiency and rate of spontaneous emission in organic
@@ -78,6 +83,12 @@
 \newblock {Quantum efficiency roll-off at high brightness in fluorescent and
   phosphorescent organic light emitting diodes}.
 \newblock {\em Physical Review B 77}, 23 (jun 2008), 235215.
+
+\bibitem{Goushi2004d}
+{\sc Goushi, K., Kwong, R., Brown, J.~J., Sasabe, H., and Adachi, C.}
+\newblock {Triplet exciton confinement and unconfinement by adjacent
+  hole-transport layers}.
+\newblock {\em Journal of Applied Physics 95}, 12 (2004), 7798--7802.
 
 \bibitem{Hassine2001}
 {\sc Hassine, L., Bouchriha, H., Roussel, J., and Fave, J.~L.}
@@ -160,6 +171,11 @@
   diodes}.
 \newblock {\em Applied Physics Letters 101}, 2 (2012), 023501.
 
+\bibitem{Mark1962}
+{\sc Mark, P., and Helfrich, W.}
+\newblock {Space-Charge-Limited Currents in Organic Crystals}.
+\newblock {\em Journal of Applied Physics 33}, 1 (1962), 205.
+
 \bibitem{Meerheim2006}
 {\sc Meerheim, R., Walzer, K., Pfeiffer, M., and Leo, K.}
 \newblock {Ultrastable and efficient red organic light emitting diodes with
@@ -189,6 +205,11 @@
 {\sc O'Brien, D.~F., Baldo, M., Thompson, M.~E., and Forrest, S.~R.}
 \newblock {Improved energy transfer in electrophosphorescent devices}.
 \newblock {\em Applied Physics Letters 74}, 3 (1999), 442.
+
+\bibitem{Padhye1956}
+{\sc Padhye, M.~R., McGlynn, S.~P., and Kasha, M.}
+\newblock {Lowest Triplet State of Anthracene}.
+\newblock {\em The Journal of Chemical Physics 24}, 3 (1956), 588--594.
 
 \bibitem{Parshin2006}
 {\sc Parshin, M.~A., Ollevier, J., and {Van der Auweraer}, M.}
@@ -220,6 +241,12 @@
 \newblock {Simultaneous electroluminescence and photoluminescence aging studies
   of tris(8-hydroxyquinoline) aluminum-based organic light-emitting devices}.
 \newblock {\em Journal of Applied Physics 89}, 2001 (2001), 4673--4675.
+
+\bibitem{Reineke2014}
+{\sc Reineke, S., and Baldo, M.}
+\newblock {Room temperature triplet state spectroscopy of organic
+  semiconductors}.
+\newblock {\em Scientific Reports 4\/} (2014), 3797.
 
 \bibitem{Reineke2009}
 {\sc Reineke, S., Schwartz, G., Walzer, K., Falke, M., and Leo, K.}
@@ -270,6 +297,13 @@
   Devices}.
 \newblock {\em Chemical Reviews 115}, 16 (aug 2015), 8449--8503.
 
+\bibitem{Schueppel2007}
+{\sc Schueppel, R., Uhrich, C., Pfeiffer, M., Leo, K., Brier, E., Reinold, E.,
+  and Baeuerle, P.}
+\newblock {Enhanced photogeneration of triplet excitons in an
+  oligothiophene-fullerene blend}.
+\newblock {\em ChemPhysChem 8}, 10 (2007), 1497--1503.
+
 \bibitem{Seifert2013b}
 {\sc Seifert, R., {Rabelo De Moraes}, I., Scholz, S., Gather, M.~C.,
   L{\"{u}}ssem, B., and Leo, K.}
@@ -297,6 +331,12 @@
 \newblock {Single-Step Triplet-Triplet Annihilation: An Intrinsic Limit for the
   High Brightness Efficiency of Phosphorescent Organic Light Emitting Diodes}.
 \newblock {\em Physical Review Letters 98}, 19 (2007), 197402.
+
+\bibitem{Tokito2003a}
+{\sc Tokito, S., Iijima, T., Suzuri, Y., Kita, H., Tsuzuki, T., and Sato, F.}
+\newblock {Confinement of triplet energy on phosphorescent molecules for
+  highly-efficient organic blue-light-emitting devices}.
+\newblock {\em Applied Physics Letters 83}, 3 (2003), 569--571.
 
 \bibitem{Tsuboi2006}
 {\sc Tsuboi, T., Murayama, H., and Penzkofer, A.}
@@ -363,5 +403,12 @@
   Light-Emitting Devices}.
 \newblock {\em ACS Applied Materials and Interfaces 8}, 22 (2016),
   14088--14095.
+
+\bibitem{Zhang2011a}
+{\sc Zhang, Y., and Forrest, S.~R.}
+\newblock {Existence of continuous-wave threshold for organic semiconductor
+  lasers}.
+\newblock {\em Physical Review B - Condensed Matter and Materials Physics 84},
+  24 (2011), 1--4.
 
 \end{thebibliography}
