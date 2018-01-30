@@ -113,6 +113,12 @@ The photoluminescence loss observed from this measurement can be related to the 
 \label{eqn:pl_decay}
 \end{equation}
 
+\begin{wrapfigure}{r}{.5\textwidth}
+\centering
+\includegraphics[width=0.48\textwidth]{integratedLifetime/lifetime_vs_drive}
+\caption{Lifetime obtained under a constant driving current is shown in red solid line.  Lifetime under the same conditions but with PL measurement breaks is shown in open squares.  Strong agreement is observed.}
+\label{fig:lifetime_vs_drive}
+\end{wrapfigure}
 
 where $L_{PL}$ is the experimentally measured luminance, $I$ is the pump intensity, and $\alpha$ is the film absorption.
 The pump intensity, $I$, can be measured and is observed to remain constant within error during the degradation.
@@ -120,12 +126,6 @@ The absorption, $\alpha$, has also been measured before and after degradation, a
 However, the sensitivity of the absorption measurement may not reflect the sensitivity of the \pl measurement.
 An alternative method to verifying the \pl measurement is presented in Section \ref{sec:lifetime_pl_transients}.
 
-\begin{wrapfigure}{r}{.5\textwidth}
-\centering
-\includegraphics[width=0.48\textwidth]{integratedLifetime/lifetime_vs_drive}
-\caption{Lifetime obtained under a constant driving current is shown in red solid line.  Lifetime under the same conditions but with PL measurement breaks is shown in open squares.  Strong agreement is observed.}
-\label{fig:lifetime_vs_drive}
-\end{wrapfigure}
 
 In traditional lifetime measurements, constant current density excitation is used.  
 In order to measure \pl as well, the current is paused every 10 minutes long enough to stabilize the laser and take a measurement, before the current is resumed.
@@ -209,7 +209,7 @@ We have also observed that for longer wavelengths, the damage power threshold in
 
 \subsection{Quenching Changes During Degradation}\label{sec:eta_tau}
 
-\begin{wrapfigure}{r}{.5\textwidth}
+\begin{wrapfigure}[13]{r}{.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{integratedLifetime/quenching_correction}
 \caption{Multiplicative correction factor for exciton formation efficiency due to changes in quenching during lifetime.  Shown as a function of polaron and exciton density as well as luminance, assuming a 10 nm emissive layer.}
@@ -305,16 +305,17 @@ The Keithley 26xx units are a two channel, low noise, high precision unit.
 The Keysight u2722a provides three channels with higher noise and lower precision at a lower price point per channel.
 Light sources for all boxes are conducted using Coherent OBIS lasers, with wavelengths of either 405 nm or 473 nm.
 Light measurements are conducted using the Keithley 26xx for all boxes, connected to a Hamamatsu S2281 photodiode.
-Figure \ref{fig:source_measure}a shows the electronic hardware setup for a box utilizing Keysights for source units and a Keithley for measurement.
-To reduce measurement units, the photodiodes in each compartment can be switched between using an Arduino relay system shown in Figure \ref{fig:source_measure}b.
-All of these pieces of hardware are compatible with the National Instrument VISA command library for control.
-
+Figure \ref{fig:source_measure}a shows the electronic hardware
 \begin{wrapfigure}{r}{.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{integratedLifetime/hardware}
 \caption{Device contacting, measurement, and optical hardware.  Version 3 of the hardware is shown.  Controlling hardware is shown in Fig. \ref{fig:source_measure}}
 \label{fig:hardware}
 \end{wrapfigure}
+ setup for a box utilizing Keysights for source units and a Keithley for measurement.
+To reduce measurement units, the photodiodes in each compartment can be switched between using an Arduino relay system shown in Figure \ref{fig:source_measure}b.
+All of these pieces of hardware are compatible with the National Instrument VISA command library for control.
+
 
 Each device is held by a custom 3D printed vertical mount.  
 The photodiode is wired into this mount with enough space for the laser to avoid the diode.
@@ -360,5 +361,5 @@ Applying this method to lifetime decoupling in device systems is the subject of 
 
 
 
-\ifcsdef{mainfile}{}{\bibliography{../library}}
+\ifcsdef{mainfile}{}{\printbibliography}
 \end{document}

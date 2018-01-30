@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="energy diagram.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6068"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6066"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5918"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5916"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5852"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5850"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5804"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5802"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5527"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4550">
+      <stop
+         style="stop-color:#191919;stop-opacity:1;"
+         offset="0"
+         id="stop4546" />
+      <stop
+         style="stop-color:#191919;stop-opacity:0;"
+         offset="1"
+         id="stop4548" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4530">
+      <stop
+         style="stop-color:#009cf0;stop-opacity:1;"
+         offset="0"
+         id="stop4526" />
+      <stop
+         style="stop-color:#009cf0;stop-opacity:0;"
+         offset="1"
+         id="stop4528" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4530"
+       id="linearGradient4532"
+       x1="44.884674"
+       y1="165.1808"
+       x2="44.79018"
+       y2="159.70015"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4550"
+       id="linearGradient4552"
+       x1="135.50565"
+       y1="108.44135"
+       x2="135.37201"
+       y2="116.05853"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6618"
+       id="radialGradient6620"
+       cx="56.66114"
+       cy="52.181114"
+       fx="56.66114"
+       fy="52.181114"
+       r="30.602362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.06847695,0.1260846,-0.10936581,0.05939661,130.50574,95.960604)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6618">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop6614" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop6616" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6664"
+       id="radialGradient6666"
+       cx="55.845982"
+       cy="74.655502"
+       fx="55.845982"
+       fy="74.655502"
+       r="7.6501627"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.33350147,0.5928915,-0.43578748,0.24513125,63.74409,113.4716)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6664">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop6660" />
+      <stop
+         style="stop-color:#999999;stop-opacity:1"
+         offset="1"
+         id="stop6662" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6618"
+       id="radialGradient6620-1"
+       cx="56.66114"
+       cy="52.181114"
+       fx="56.66114"
+       fy="52.181114"
+       r="30.602362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.06847695,0.1260846,-0.10936581,0.05939661,108.27247,90.361478)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6618"
+       id="radialGradient6620-12"
+       cx="56.66114"
+       cy="52.181114"
+       fx="56.66114"
+       fy="52.181114"
+       r="30.602362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.06847695,0.1260846,-0.10936581,0.05939661,92.349631,85.323701)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6664"
+       id="radialGradient6666-0"
+       cx="55.845982"
+       cy="74.655502"
+       fx="55.845982"
+       fy="74.655502"
+       r="7.6501627"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.33350147,0.5928915,-0.43578748,0.24513125,86.134005,118.75281)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6664"
+       id="radialGradient6666-4"
+       cx="55.845982"
+       cy="74.655502"
+       fx="55.845982"
+       fy="74.655502"
+       r="7.6501627"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.33350147,0.5928915,-0.43578748,0.24513125,102.98207,115.196)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0427508"
+     inkscape:cx="710.7914"
+     inkscape:cy="644.132"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#e05a2c;fill-opacity:0.58793969;stroke:#dd4814;stroke-width:0.43404242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4512"
+       width="21.473663"
+       height="67.657738"
+       x="102.96871"
+       y="106.59449"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 128.89785,106.3976 c -5.07472,-6.597127 -17.25404,-5.32845 -17.25404,-5.32845"
+       id="path5504"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#640088;fill-opacity:0.58793969;stroke:#800080;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815"
+       width="21.544643"
+       height="66.523811"
+       x="57.462112"
+       y="101.96429"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#ecd454;fill-opacity:0.58793969;stroke:#9c6000;stroke-width:0.3808066;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4508"
+       width="21.582111"
+       height="67.46875"
+       x="80.178932"
+       y="103.57068"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g4562"
+       transform="matrix(1.327046,0,0,1,-14.880228,-2.1166667)"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="157.52678"
+         x="37.230652"
+         height="7.7485118"
+         width="16.536459"
+         id="rect4524"
+         style="opacity:1;fill:url(#linearGradient4532);fill-opacity:1;stroke:none;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4534"
+         d="M 37.23065,165.27528 H 53.767111"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4558"
+       transform="matrix(1.3032821,0,0,1,-41.380141,3.7041668)"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="108.44135"
+         x="128.02209"
+         height="8.8198938"
+         width="16.83798"
+         id="rect4536"
+         style="opacity:1;fill:url(#linearGradient4552);fill-opacity:1;stroke:none;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4554"
+         d="m 128.02209,108.44135 h 16.83798"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <ellipse
+       style="opacity:1;fill:url(#radialGradient6620);fill-opacity:1;stroke:none;stroke-width:0.03298035;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6612"
+       cx="129.89299"
+       cy="108.08344"
+       rx="3.8085911"
+       ry="3.8085923"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5804)"
+       d="M 106.44222,101.19601 C 104.28546,95.486981 95.785312,95.994454 95.785312,95.994454"
+       id="path5800"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <ellipse
+       style="opacity:1;fill:url(#radialGradient6620-12);fill-opacity:1;stroke:none;stroke-width:0.03298035;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6612-1"
+       cx="91.736885"
+       cy="97.446503"
+       rx="3.8085911"
+       ry="3.8085923"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#008100;stroke-width:0.47008002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.82048013, 0.47008002;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 79.988529,101.60987 H 101.95145"
+       id="path5395"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#008100;stroke-width:0.47008002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.82048016, 0.47008003;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 79.988529,164.78391 H 101.95145"
+       id="path5395-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient6666-4);fill-opacity:1;stroke-width:0.50000006"
+       id="path6612-6-9"
+       cx="90.820999"
+       cy="168.92198"
+       r="3.8085914"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="125.97989"
+       y="182.94571"
+       id="text5478"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5476"
+         x="125.97989"
+         y="182.94571"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Dopant</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="77.372887"
+       y="184.71533"
+       id="text5482"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5480"
+         x="77.372887"
+         y="184.71533"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">HOMO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="78.431221"
+       y="92.787155"
+       id="text5482-4"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5480-3"
+         x="78.431221"
+         y="92.787155"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">LUMO</tspan></text>
+    <path
+       style="fill:none;stroke:#008100;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.39999999, 0.4;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 116.21106,180.78894 4.82703,-0.0661 4.43433,-0.0608"
+       id="path5502"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <ellipse
+       style="opacity:1;fill:url(#radialGradient6620-1);fill-opacity:1;stroke:none;stroke-width:0.03298035;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6612-3"
+       cx="107.65972"
+       cy="102.48427"
+       rx="3.8085911"
+       ry="3.8085923"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5852)"
+       d="m 52.808788,168.52947 c 6.97774,6.97774 17.254042,5.70906 17.254042,5.70906"
+       id="path5848"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient6666);fill-opacity:1;stroke-width:0.50000006"
+       id="path6612-6"
+       cx="51.583015"
+       cy="167.1976"
+       r="3.8085914"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5918)"
+       d="m 75.72902,174.40046 c 3.363266,0.85373 11.199202,-3.78415 11.199202,-3.78415"
+       id="path5914"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient6666-0);fill-opacity:1;stroke-width:0.50000006"
+       id="path6612-6-5"
+       cx="73.972923"
+       cy="172.47882"
+       r="3.8085914"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="59.664413"
+       y="138.30405"
+       id="text6036"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan6034"
+         x="59.664413"
+         y="138.30405"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">HTL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="81.01297"
+       y="140.31882"
+       id="text6036-0"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan6034-0"
+         x="81.01297"
+         y="140.31882"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Host</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="105.63988"
+       y="143.50121"
+       id="text6036-3"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan6034-1"
+         x="105.63988"
+         y="143.50121"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">ETL</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6068)"
+       d="M 29.687102,98.071033 V 166.07226"
+       id="path6064"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-151.30664"
+       y="26.098692"
+       id="text6114"
+       transform="rotate(-90)"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan6112"
+         x="-151.30664"
+         y="26.098692"
+         style="stroke-width:0.26458332">Energy</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="132.71831"
+       y="127.79115"
+       id="text6036-3-9"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan6034-1-6"
+         x="132.71831"
+         y="127.79115"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Al</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="37.819763"
+       y="155.95584"
+       id="text6036-3-99"
+       inkscape:export-filename="C:\Users\kwher_000\ownCloud\thesis\images\oleds\energy_diagram.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan6034-1-1"
+         x="37.819763"
+         y="155.95584"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">ITO</tspan></text>
+  </g>
+</svg>

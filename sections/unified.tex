@@ -1,5 +1,4 @@
 \documentclass[../thesis.tex]{subfiles}
-%\addbibresource{../library.bib}
 \begin{document}
 \chapter{Transient and Steady-State Dynamics}\label{sec:unified}
 
@@ -116,6 +115,13 @@ With these mechanisms, the full polaron dynamics can be expressed as:
 
 \subsection{Transient Electroluminescence} \label{sec:transient_el}
 
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\includegraphics[width=0.48\textwidth]{unified/transport}
+\caption{Extracted polaron injection time is shown as a function of voltage along with a fit from the model.}
+\label{fig:transport}
+\end{wrapfigure}
+
 In this work, given a full model for polaron dynamics, the model is easiest to solve starting from the application of the current pulse, rather than at peak luminace.
 Under pulsed electrical excitation, Equations \ref{eqn:exciton_rate} and \ref{eqn:polaron_rate} can be solved at the beginning of the pulse with the initial conditions $n_{ex}=n_{pol}=0$.  
 Upon the application of a voltage pulse, there is a time delay before polarons reach the emissive layer, as evidenced by the delay in luminance turn on.  
@@ -132,12 +138,6 @@ t_{inj}=\tau\log\left(1-\frac{V_{th}}{V_0}\right)
 d=\int_0^{t_{trans}}\mu_0 E_0 \exp \left( \sqrt{\gamma E_0\left[1-\left(1-\frac{V_{th}}{V_0}\right)e^{-t/\tau}\right]}\right)\left[1-\left(1-\frac{V_{th}}{V_0}\right)e^{-t/\tau}\right] dt
 \end{equation}
 
-\begin{wrapfigure}{R}{0.5\textwidth}
-\centering
-\includegraphics[width=0.48\textwidth]{unified/transport}
-\caption{Extracted polaron injection time is shown as a function of voltage along with a fit from the model.}
-\label{fig:transport}
-\end{wrapfigure}
 
 where $\tau$ is the RC time constant of the device, $V_{th}$ is the voltage injection threshold, $t_{inj}$ is the injection time, $t_{trans}$ is the transport time, $d$ is the tranport layer thickness, $\mu_0$ is the base mobility, $\gamma$ is the field dependent mobility term, $E_0$ is the field and $V_0$ is the voltage.
 A prediction of the delay time as well as experimental values are shown in Figure \ref{fig:transport}.
@@ -474,7 +474,7 @@ The injected polaron density is then:
 \label{eqn:injected_polarons_no_leakage}
 \end{equation}
 
-\begin{wrapfigure}[15]{R}{0.5\textwidth}
+\begin{wrapfigure}[20]{R}{0.5\textwidth}
 %\centering
 \includegraphics[width=.48\textwidth]{unified/currentDiagram}
 \caption{Current density formalism within the circuit. $J_1$ and $J_2$ are the currents measured on either side of the device. $J_e$ and $J_h$ are the electron and hole currents within the device and $J_l$ is the unbalanced current, assumed to be only holes, that leaks out of the opposing contact.}
@@ -517,7 +517,7 @@ The approximation in Equation \ref{eqn:current_continuity_leakage} is strong ass
 
 \subsection{Charge Imbalance} \label{sec:charge_imbalance}
 
-\begin{wrapfigure}{R}{0.5\textwidth}
+\begin{wrapfigure}[14]{R}{0.5\textwidth}
 \centering
 \includegraphics[width=.48\textwidth]{unified/EHratio}
 \caption{The quantity $\alpha(1-\alpha)$ is plotted as a function of the polaron composition, $\alpha$ and the electron to hole ratio.}
@@ -561,7 +561,6 @@ The behavior of the investigated devices suggests that charge leakage through th
 
 This model has successfully been able to model all of the device physics present in the electroluminescence behavior.  However, one of the initial goals of this project was to be able to quantify the bimolecular rate constants more effectively within a device.  In this regard, the model is not useful as \ktt and \ktp are codependent and their relative values are still unknown.  
 
-%\ifcsdef{mainfile}{}{\bibliography{../library}}
 \ifcsdef{mainfile}{}{\printbibliography}
 \end{document}
 

@@ -45,23 +45,24 @@ When voltage is removed from the device, the currents will diverge and the polar
 This is demonstrated in Figure \ref{fig:differential_currents}, with the currents on either side of the device and the differential current shown in \ref{fig:differential_currents}a and \ref{fig:differential_currents}b, respectively.
 Notice the positive differential when current is applied and polarons enter the device, and negative when they are removed.
 
-\begin{wrapfigure}{r}{.5\textwidth}
-    \begin{minipage}{\linewidth}
+%\begin{wrapfigure}{r}{.5\textwidth}
+\begin{figure}[hb]
+    %\begin{minipage}{\linewidth}
     \centering%\captionsetup[subfigure]{justification=centering}
-    \begin{subfigure}{.24\textwidth}
-    \includegraphics[width=0.48\textwidth]{singleCarrier/SC_architectures}
+    \begin{subfigure}{.3\textwidth}
+    \includegraphics[width=\textwidth]{singleCarrier/SC_architectures}
     \caption{}
     \label{fig:SC_architectures}\par\vfill
     \end{subfigure}
-
-    \begin{subfigure}{.24\textwidth}
-    \includegraphics[width=0.48\textwidth]{singleCarrier/SC_ivs}
+    \begin{subfigure}{.3\textwidth}
+    \includegraphics[width=\textwidth]{singleCarrier/SC_ivs}
     \caption{}
     \label{fig:SC_ivs}
     \end{subfigure}
-\end{minipage}
+%\end{minipage}
 \caption{a. Hole only device architectures. b. Current Voltage characteristics for the devices shown in a.  Steady-state sweeps as well as current measured from the differential technique are shown.}
-\end{wrapfigure}
+%\end{wrapfigure}
+\end{figure}
 
 While this technique is able to accurately tell the injected polaron population, the distribution of that population is still unknown.
 This technique does provide the advantage that with the total polaron population known, the current or voltage dependence of the population can be compared to different models to further validate the operational regime.
@@ -109,5 +110,5 @@ Though so far unused in a relevant application, this technique allows more sophi
 
 
 
-\ifcsdef{mainfile}{}{\bibliography{../library}}
+\ifcsdef{mainfile}{}{\printbibliography}
 \end{document}

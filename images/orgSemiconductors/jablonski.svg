@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg7956"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="jablonski.svg"
+   inkscape:export-filename="C:\Users\Kyle\Desktop\jablonski.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs7950">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path7059"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#0000ff;stroke-opacity:1;fill:#0000ff;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6618"
+       id="radialGradient6620"
+       cx="56.66114"
+       cy="52.181114"
+       fx="56.66114"
+       fy="52.181114"
+       r="30.602362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.07208101,0.12829658,-0.11512192,0.06043864,69.867808,94.368587)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6618">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop6614" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop6616" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6664"
+       id="radialGradient6666"
+       cx="55.845982"
+       cy="74.655502"
+       fx="55.845982"
+       fy="74.655502"
+       r="7.6501627"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.33350147,0.59289151,-0.43578747,0.24513125,81.383881,108.77051)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6664">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop6660" />
+      <stop
+         style="stop-color:#999999;stop-opacity:1"
+         offset="1"
+         id="stop6662" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6664"
+       id="radialGradient6666-7"
+       cx="55.845982"
+       cy="74.655502"
+       fx="55.845982"
+       fy="74.655502"
+       r="7.6501627"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.33350147,0.5928915,-0.43578748,0.24513125,111.98624,110.57459)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6618"
+       id="radialGradient6620-9"
+       cx="56.66114"
+       cy="52.181114"
+       fx="56.66114"
+       fy="52.181114"
+       r="30.602362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.07208101,0.12829658,-0.11512192,0.06043864,100.47017,112.5769)" />
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7059-3"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-3-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7059-3-1"
+         style="fill:#800080;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="355.50502"
+     inkscape:cy="645.69201"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="949"
+     inkscape:window-height="1042"
+     inkscape:window-x="4"
+     inkscape:window-y="4"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7953">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.09702589px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-3-6)"
+       d="m 70.705838,105.76416 1.663781,1.49241 1.66378,1.4924 c 1.679329,1.50636 2.25661,-1.51522 3.423075,-0.4689 1.363443,1.26206 -3.022336,4.01381 -1.678876,5.21889 1.642009,1.47288 3.513697,-3.57305 5.006433,-2.23407 1.828602,1.64025 -3.320898,3.74599 -1.678877,5.21889 1.567381,1.40594 3.662971,-3.43917 5.006438,-2.23408 1.492734,1.33899 -3.283565,3.77949 -1.678871,5.2189 1.642009,1.47287 3.551006,-3.53959 5.006426,-2.23408 1.455416,1.3055 -3.246245,3.81296 -1.678875,5.21889 1.306146,1.17161 2.052951,-1.34395 3.247138,-0.27275 l 1.663781,1.49241"
+       id="path8795-8-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscssssssssc"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:0.58793969;stroke:#000000;stroke-width:0.26254302;stroke-miterlimit:4;stroke-dasharray:0.78762902, 0.262543;stroke-dashoffset:0;stroke-opacity:1"
+       id="path8750-3"
+       cx="99.713043"
+       cy="144.52275"
+       rx="6.082293"
+       ry="23.922531"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:0.58793969;stroke:#000000;stroke-width:0.34428757;stroke-miterlimit:4;stroke-dasharray:1.0328627, 0.34428756;stroke-dashoffset:0;stroke-opacity:1"
+       id="path8750"
+       cx="69.222809"
+       cy="134.70058"
+       rx="7.7786727"
+       ry="32.167015"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 28.959968,165.23612 H 144.15313"
+       id="path7958"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 28.959966,162.98785 H 144.15313"
+       id="path7958-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 28.959964,160.73958 H 144.15313"
+       id="path7958-0-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.7398451;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 40.357699,108.44135 H 74.167294"
+       id="path8533"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.91332376;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 90.671187,126.34841 H 124.48079"
+       id="path8533-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3653295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 90.671191,123.67307 H 124.48079"
+       id="path8533-3-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3653295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 90.671193,120.99771 H 124.48078"
+       id="path8533-3-3-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.29593804;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 40.357698,106.24692 H 74.167295"
+       id="path8533-3-3-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.29593804;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 40.3577,104.05249 H 74.167293"
+       id="path8533-3-3-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="opacity:1;fill:url(#radialGradient6620);fill-opacity:1;stroke:none;stroke-width:0.03413265;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6612"
+       cx="69.222809"
+       cy="106.70409"
+       rx="4.0090437"
+       ry="3.8754089"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient6666);fill-opacity:1;stroke-width:0.50000006"
+       id="path6612-6"
+       cx="69.222809"
+       cy="162.49661"
+       r="3.8085914"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="opacity:1;fill:url(#radialGradient6620-9);fill-opacity:1;stroke:none;stroke-width:0.03413265;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6612-0"
+       cx="99.825165"
+       cy="124.91231"
+       rx="4.0090437"
+       ry="3.8754089"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient6666-7);fill-opacity:1;stroke-width:0.50000006"
+       id="path6612-6-1"
+       cx="99.825165"
+       cy="164.30069"
+       r="3.8085914"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="23.920622"
+       y="163.63251"
+       id="text8684"><tspan
+         sodipodi:role="line"
+         id="tspan8682"
+         x="23.920622"
+         y="173.28801"
+         style="stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="16.704346"
+       y="155.21352"
+       id="text8690"><tspan
+         sodipodi:role="line"
+         id="tspan8688"
+         x="16.704346"
+         y="164.86902"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="16.570711"
+       y="166.7061"
+       id="text8707"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan8705"
+         x="16.570711"
+         y="166.7061"
+         style="stroke-width:0.26458332">S<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan8709">0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="28.55423"
+       y="109.64441"
+       id="text8707-4"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan8705-9"
+         x="28.55423"
+         y="109.64441"
+         style="stroke-width:0.26458332">S<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan8732">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="78.53363"
+       y="126.61603"
+       id="text8707-8"><tspan
+         sodipodi:role="line"
+         id="tspan8705-4"
+         x="0"
+         y="0"
+         style="stroke-width:0.26458332"><tspan
+           style="font-size:6.87916613px;baseline-shift:sub;stroke-width:0.26458332"
+           id="tspan8709-0" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="79.779953"
+       y="127.95203"
+       id="text8746"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan8744"
+         x="79.779953"
+         y="127.95203"
+         style="stroke-width:0.26458332">T<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan8748">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="-149.25986"
+       y="71.047859"
+       id="text8769"
+       transform="rotate(-90)"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan8767"
+         x="-149.25986"
+         y="71.047859"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332;fill:#008000;">Singlet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="-156.60852"
+       y="101.46541"
+       id="text8769-6"
+       transform="rotate(-90)"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan8767-4"
+         x="-156.60852"
+         y="101.46541"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332;fill:#008000;">Triplet</tspan></text>
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.15264711px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 45.350346,108.27934 v 4.34789 4.34789 c 0,4.38851 3.352346,1.29961 3.352346,4.34788 -0.03699,3.61376 -6.369448,0.83707 -6.369448,4.34788 0,4.291 6.369448,0.44698 6.369448,4.34789 0,4.77861 -6.369448,0.0568 -6.369448,4.34788 0,4.09596 6.369448,0.83707 6.369448,4.34789 0,3.90091 -6.369448,0.15442 -6.369448,4.34789 0,4.291 6.369448,0.54449 6.369448,4.34788 0,3.80338 -6.369448,0.25194 -6.369448,4.34788 0,3.4133 3.017102,1.22717 3.017102,4.34789 v 4.34789"
+       id="path8795"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscssssssssc"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="-159.34003"
+       y="41.364815"
+       id="text8769-2"
+       transform="rotate(-90)"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan8767-6"
+         x="-159.34003"
+         y="41.364815"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332;fill:#0000ff;">Fluorescence</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="-160.28255"
+       y="130.38171"
+       id="text8769-2-6"
+       transform="rotate(-90)"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan8767-6-9"
+         x="-160.28255"
+         y="130.38171"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332;fill:#0000ff;">Phosphorescence</tspan></text>
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.12417077px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-3)"
+       d="m 120.23632,126.20763 v 2.86035 2.86035 c 0,2.88708 3.37186,0.85498 3.37186,2.86035 -0.0372,2.37738 -6.40652,0.55068 -6.40652,2.86034 0,2.82292 6.40652,0.29406 6.40652,2.86035 0,3.14371 -6.40652,0.0374 -6.40652,2.86034 0,2.69462 6.40652,0.55069 6.40652,2.86036 0,2.56629 -6.40652,0.10158 -6.40652,2.86035 0,2.82292 6.40652,0.3582 6.40652,2.86034 0,2.50213 -6.40652,0.16574 -6.40652,2.86034 0,2.24551 3.03466,0.80732 3.03466,2.86035 v 2.86035"
+       id="path8795-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscssssssssc"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="82.586281"
+       y="112.45039"
+       id="text11439"
+       inkscape:export-filename="/home/kyle/Documents/thesis/images/orgSemiconductors/jablonski.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan11437"
+         x="82.586281"
+         y="112.45039"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332;fill:#800080;">ISC</tspan></text>
+  </g>
+</svg>

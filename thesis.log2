@@ -1,0 +1,353 @@
+INFO - This is Biber 2.10
+INFO - Logfile is 'thesis.blg'
+INFO - Reading 'thesis.bcf'
+INFO - Found 126 citekeys in bib section 0
+INFO - Processing section 0
+INFO - Looking for bibtex format file 'library.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'library.bib'
+WARN - month field 'feb' in entry 'Baldo2000' is not an integer - this will probably not sort properly.
+WARN - month field 'feb' in entry 'Furno2010' is not an integer - this will probably not sort properly.
+WARN - month field 'mar' in entry 'Furno2012' is not an integer - this will probably not sort properly.
+WARN - month field 'jul' in entry 'Forrest2003' is not an integer - this will probably not sort properly.
+WARN - ISBN '0323145701, 9780323145701' in entry 'Venkataraman1971' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '00218979' in entry 'Tang1989a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'mar' in entry 'Reineke2007' is not an integer - this will probably not sort properly.
+WARN - ISBN '09359648$\backslash$r15214095' in entry 'Su2008a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1616301X$\backslash$n16163028' in entry 'Scholz2008' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1476-4687 (Electronic)$\backslash$r0028-0836 (Linking)' in entry 'Uoyama2012' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '00218979' in entry 'Adachi2001b' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1616-3028' in entry 'Zhang2012b' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN 'doi:10.1038/nphoton.2014.12' in entry 'Zhang2014a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1521-4095' in entry 'Li2013' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1616-3028' in entry 'Jankus2014' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0010-8545' in entry 'Lavie-Cambot2008' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1521-4095 (Electronic)$\backslash$r0935-9648 (Linking)' in entry 'Endo2009' is invalid - run biber with '--validate_datamodel' for details.
+WARN - Range field 'pages' in entry 'Zhang2012c' is malformed, falling back to literal
+WARN - ISBN '1616-3028' in entry 'Song2011' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'dec' in entry 'Murawski2013' is not an integer - this will probably not sort properly.
+WARN - month field 'jun' in entry 'Giebink2008c' is not an integer - this will probably not sort properly.
+WARN - month field 'mar' in entry 'Xiang2016' is not an integer - this will probably not sort properly.
+WARN - ISBN '0003-6951' in entry 'Reineke2009' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'oct' in entry 'Baldo2000a' is not an integer - this will probably not sort properly.
+WARN - month field 'nov' in entry 'Kohler2009' is not an integer - this will probably not sort properly.
+WARN - month field 'nov' in entry 'Erickson2013a' is not an integer - this will probably not sort properly.
+WARN - ISBN '0021-8979, 1089-7550' in entry 'Giebink2008a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'apr' in entry 'Coburn2017' is not an integer - this will probably not sort properly.
+WARN - month field 'jul' in entry 'Baldo2002' is not an integer - this will probably not sort properly.
+WARN - month field 'feb' in entry 'Takenobu2008' is not an integer - this will probably not sort properly.
+WARN - month field 'oct' in entry 'Samuel2009' is not an integer - this will probably not sort properly.
+WARN - month field 'sep' in entry 'Kasemann2011' is not an integer - this will probably not sort properly.
+WARN - ISBN '1616-3028' in entry 'Murawski2014' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Chopra2010' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Reineke2007a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Lee2009b' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'jun' in entry 'Coburn2016a' is not an integer - this will probably not sort properly.
+WARN - month field 'aug' in entry 'Scholz2015' is not an integer - this will probably not sort properly.
+WARN - ISBN '0003-6951, 1077-3118' in entry 'Fry2005a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'nov' in entry 'Fry2005a' is not an integer - this will probably not sort properly.
+WARN - month field 'aug' in entry 'Meerheim2006' is not an integer - this will probably not sort properly.
+WARN - ISBN '0003-6951, 1077-3118' in entry 'Fry2005' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'nov' in entry 'Fry2005' is not an integer - this will probably not sort properly.
+WARN - ISBN '0021-4922' in entry 'Tsutsui1999' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'dec' in entry 'Kalinowski2002' is not an integer - this will probably not sort properly.
+WARN - ISBN '1521-4095' in entry 'Zhang2012' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'mar' in entry 'Adachi2001a' is not an integer - this will probably not sort properly.
+WARN - ISBN '00036951' in entry 'Kawamura2005c' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'feb' in entry 'Rihani2006' is not an integer - this will probably not sort properly.
+WARN - ISBN '0021-8979' in entry 'Ruhstaller2001' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '00036951' in entry 'Blom1996' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'may' in entry 'Wei2004' is not an integer - this will probably not sort properly.
+WARN - ISBN '0003-6951' in entry 'Liu2012d' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0884-2914' in entry 'Rothberg1996' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'apr' in entry 'Parshin2006' is not an integer - this will probably not sort properly.
+WARN - ISBN '1566-1199' in entry 'Seifert2013b' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'jan' in entry 'Seifert2013b' is not an integer - this will probably not sort properly.
+WARN - month field 'feb' in entry 'Moraes2011' is not an integer - this will probably not sort properly.
+WARN - ISBN '1566-1199' in entry 'Wang2011a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-8979' in entry 'Kondakov2007d' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-8979' in entry 'Kondakov2003' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'aug' in entry 'Fielitz2016' is not an integer - this will probably not sort properly.
+WARN - ISBN '0003-6951' in entry 'Wang2010a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'jan' in entry 'Tang2018' is not an integer - this will probably not sort properly.
+WARN - month field 'apr' in entry 'Hershey2011' is not an integer - this will probably not sort properly.
+WARN - month field 'oct' in entry 'Xu2016' is not an integer - this will probably not sort properly.
+WARN - ISBN '0003-6951' in entry 'Tokito2003a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1098-0121$\backslash$r1550-235X' in entry 'Zhang2011a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1439-7641' in entry 'Schueppel2007' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-9606' in entry 'Padhye1956' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '2045-2322' in entry 'Reineke2014' is invalid - run biber with '--validate_datamodel' for details.
+WARN - BibTeX subsystem: /tmp/GdZu70MYP1/library.bib_29979.utf8, line 6, warning: 173 characters of junk seen at toplevel
+WARN - I didn't find a database entry for 'Williams1970' (section 0)
+WARN - I didn't find a database entry for 'Helfrich1965' (section 0)
+WARN - I didn't find a database entry for 'Bangsund2018' (section 0)
+WARN - I didn't find a database entry for 'Bangsund2017' (section 0)
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+INFO - No sort tailoring available for locale 'en-US'
+INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+INFO - Converting UTF-8 to TeX macros on output to .bbl
+INFO - Output to thesis.bbl
+INFO - WARNINGS: 76
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./thesis.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(/usr/share/texmf-dist/tex/latex/appendix/appendix.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/share/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty))
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu)))
+(/usr/share/texmf-dist/tex/latex/natbib/bibentry.sty)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/share/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))))
+(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/share/texmf-dist/tex/latex/caption/subcaption.sty)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (./thesis.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty)) (./thesis.out)
+ (./thesis.out) (./thesis.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Zhang2012c':
+(biblatex)                - Range field 'pages' in entry 'Zhang2012c' is malfor
+med, falling back to literal.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Bangsund2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Bangsund2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Helfrich1965
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Williams1970
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+) (./sections/title.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+ (./sections/acknowledgements.texpdfTeX warning (ext4): destination with the sa
+me identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \end
+         {document} [1]) (./sections/dedication.tex [2])
+(./sections/abstract.tex [3]) (./sections/toc.tex (./thesis.toc [4] [5]))
+(./sections/orgSemiconductors.tex [6]
+Chapter 1.
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 19
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 20
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 21
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 23
+.
+
+) (./sections/oleds.tex [7 <./images/orgSemiconductors/jablonski.png>]
+Chapter 2.
+[8 <./images/oleds/layer_diagram.png>]
+Overfull \hbox (6.8143pt too wide) in paragraph at lines 60--69
+[]\T1/cmr/m/n/10 The ef-fi-ciency with which in-jected charges form ex-ci-tons 
+is the ex-ci-ton for-ma-tion ef-fi-ciency, $\OML/cmm/m/it/10 ^^Q[]$\T1/cmr/m/n/
+10 (traditionally
+[9 <./images/oleds/energy_diagram.png>] [10 <./images/oleds/energy_diagram_EQE.
+png>] [11 <./images/oleds/chamber.jpg> <./images/oleds/dep_boat.png> <./images/
+oleds/al_boat.png (PNG copy)>] [12 <./images/oleds/masks.png>] [13 <./images/ol
+eds/ivl.PNG>] [14 <./images/oleds/responsivity.PNG>]
+Underfull \hbox (badness 1728) in paragraph at lines 218--223
+[]\T1/cmr/m/n/10 Early in-ter-est in or-ganic ma-te-ri-als was gen-er-
+
+Underfull \hbox (badness 1325) in paragraph at lines 218--223
+\T1/cmr/m/n/10 ated based on use for or-ganic laser dyes and
+
+Underfull \hbox (badness 1194) in paragraph at lines 218--223
+\T1/cmr/m/n/10 vices tried con-tact-ing or-ganic crys-tals, but re-
+[15 <./images/oleds/tang.PNG> <./images/oleds/irppy3.png (PNG copy)>] [16 <./im
+ages/oleds/tadf.png>] [17 <./images/oleds/roll_off.png>]
+Underfull \hbox (badness 1454) in paragraph at lines 304--307
+\T1/cmr/m/n/10 (RZ).$[]$ There-fore, it is
+[18 <./images/oleds/rz_arch.png>] [19 <./images/oleds/rz_comparison.png>]
+[20]) (./sections/unified.tex [21]
+Chapter 3.
+[22 <./images/unified/bad_fit.png (PNG copy)>] [23 <./images/unified/rz_depende
+nce.png (PNG copy)>] [24] [25] [26 <./images/unified/transport.png>] [27]
+Overfull \hbox (14.68579pt too wide) in paragraph at lines 196--208
+\T1/cmr/m/n/10 (100 nm). Tran-sient PL de-cays were mea-sured us-ing 60-nm-thic
+k films of CBP doped with 10% Ir(ppy)$[]$deposited
+[28]
+Underfull \hbox (badness 2119) in paragraph at lines 220--235
+\T1/cmr/m/n/10 triplet an-ni-hi-la-tion and triplet-polaron quench-
+[29 <./images/unified/PL_fitting.png>] [30] [31] [32 <./images/unified/rollOffF
+it.png>] [33 <./images/unified/transientFits.png>] [34 <./images/unified/termEf
+ficiency.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]\T1/cmr/bx/n/9 Figure 3.8: |\T1/cmr/m/n/9 Tran-sit time ex-tracted from
+[35 <./images/unified/chargeBalance.png>] [36] [37 <./images/unified/currentDia
+gram.png>] [38 <./images/unified/EHratio.png>])
+(./sections/integratedLifetime.tex [39]
+Chapter 4.
+[40] [41] [42 <./images/integratedLifetime/microscope.png> <./images/integrated
+Lifetime/crystals.PNG>] [43 <./images/integratedLifetime/schematic.png> <./imag
+es/integratedLifetime/lifetime_vs_drive.png>] [44 <./images/integratedLifetime/
+optical_k.png (PNG copy)>] [45 <./images/integratedLifetime/rz_field_overlap.pn
+g> <./images/integratedLifetime/dark_spot.JPG>] [46 <./images/integratedLifetim
+e/quenching_correction.png>] [47 <./images/integratedLifetime/transient_lifetim
+es.png>] [48 <./images/integratedLifetime/source_measure.png> <./images/integra
+tedLifetime/arduino.jpg> <./images/integratedLifetime/hardware.png>] [49 <./ima
+ges/integratedLifetime/software_controller.png> <./images/integratedLifetime/li
+fetime_db_import.png>]) (./sections/lifetimeApplications.tex [50]
+Chapter 5.
+) (./sections/hoye.tex [51 <./images/lifetimeApplications/architecture.png>]
+[52 <./images/lifetimeApplications/elpl.png> <./images/lifetimeApplications/eqe
+.png>] [53 <./images/lifetimeApplications/tx_components.png>]
+Chapter 6.
+) (./sections/data.tex [54]
+Chapter 7.
+) (./sections/outCoupling.tex [55]
+Chapter 8.
+) (./sections/future.tex [56]
+Chapter 9.
+) [57] [58] [59] (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd) [60] [61]
+[62] [63] [64] [65]
+Appendix A.
+(./sections/publications.tex (/usr/share/texmf-dist/tex/latex/base/omscmr.fd))
+(./sections/triplets.tex [66]
+Appendix B.
+[67 <./images/triplets/fluorescence.png> <./images/triplets/phosphorescence.png
+>]) (./sections/singleCarrier.tex [68]
+Appendix C.
+[69 <./images/singleCarrier/polaron_circuit.png>] [70 <./images/singleCarrier/d
+ifferential_currents.png> <./images/singleCarrier/SC_architectures.png> <./imag
+es/singleCarrier/SC_ivs.png>]) (./sections/code.tex [71 <./images/singleCarrier
+/SC_polaron_pop_vs_current.png>]
+Appendix D.
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty)
+(./sections/code/Optical-Model/transfer.m [72] [73] [74] [75] [76])
+(./sections/code/Optical-Model/PowerDissipationModel.m [77] [78] [79] [80]
+[81] [82] [83] [84]) [85]
+Appendix E.
+) [86] (./thesis.lof [87] [88] [89]) [90] (./thesis.lot) [91] (./thesis.aux) )
+(see the transcript file for additional information){/usr/share/texmf-dist/font
+s/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/cm-super/sfbx0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-s
+uper/sfbx0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.p
+fb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/
+texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/font
+s/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/
+cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm05
+00.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/
+fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
+rm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></us
+r/share/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf-d
+ist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1
+/public/cm-super/sftt1000.pfb>
+Output written on thesis.pdf (92 pages, 10420053 bytes).
+Transcript written on thesis.log.
