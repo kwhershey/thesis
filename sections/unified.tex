@@ -23,9 +23,9 @@ These quenching events lead to a reduced quantum efficiency at high-current, and
 Efficiency roll-off is well attributed to quenching and is ubiquitous to phosphorescent OLED behavior.\supercite{Reineke2007,Erickson2014,Murawski2013,Giebink2008c}
 While previous works have attributed the roll-off to quenching, they have failed to provide a complete picture of the exciton and charge dynamics within the device.
 All of these works have utilized a differential equations model for the exciton dynamics, solved in the steady state.
-This becomes apparent when investigating the transient electroluminescnce (EL), where a transient voltage pulse, on the order of 500 ns is applied to the device and the resulting luminance is recorded as a function of time.  
+This becomes apparent when investigating the transient electroluminescence (EL), where a transient voltage pulse, on the order of 500 ns is applied to the device and the resulting luminance is recorded as a function of time.  
 Figure \ref{fig:bad_fit} is an attempt to fit the transient luminance decay using the model presented by Reineke \textit{et al.}\supercite{Reineke2007} which well fits the efficiency roll-off.  
-Indeed, this is a well known problem with existing models, and previous attempts to model the transient EL have utilized an empirical biexponential function to quantifiy the decay.\supercite{Erickson2014,Giebink2008c,Baldo2000a,Zhang2012}
+Indeed, this is a well known problem with existing models, and previous attempts to model the transient EL have utilized an empirical biexponential function to quantify the decay.\supercite{Erickson2014,Giebink2008c,Baldo2000a,Zhang2012}
 In addition to failing to replicate the luminance decay, no known previous efforts have been made in trying to replicate the experimental transient EL luminance rise.
 
 \begin{wrapfigure}{R}{0.5\textwidth}
@@ -49,8 +49,8 @@ In order to leverage previous work, the archetypical green-emitter tris[2-phenyl
 %---------------------------------------------------------------------------------------------
 \section{Theory}
 \subsection{Exciton Dynamics}
-The dominannt processes that influence the exciton population, first formalized by Reineke \textit{et al.}\supercite{Reineke2007}, have been identified as natural exciton decay, via radiative and non-radiative processes, triplet-triplet annihilation, triplet-polaron quenching, and exciton generation.\supercite{Erickson2014,Song2010}
-In triplet-triplet annihilation, two triplets are able to interact, and one exciton transfers its energy to the other, resulting in one molecule relaxing to the ground state and the other forming a hot exsupercited state.
+The dominant processes that influence the exciton population, first formalized by Reineke \textit{et al.}\supercite{Reineke2007}, have been identified as natural exciton decay, via radiative and non-radiative processes, triplet-triplet annihilation, triplet-polaron quenching, and exciton generation.\supercite{Erickson2014,Song2010}
+In triplet-triplet annihilation, two triplets are able to interact, and one exciton transfers its energy to the other, resulting in one molecule relaxing to the ground state and the other forming a hot excited state.
 This hot state releases this additional energy to heat and typically relaxes back to the $T_1$ state.  
 Triplet-polaron quenching is the interaction of a polaron with a nearby triplet exciton.
 Here, one of the charges of the exciton non-radiatively recombines with the polaron of the opposite charge, leaving a remaining loose charge.
@@ -61,13 +61,12 @@ This is near the maximum field used for this study, and would be important to co
 In agreement with previous models, singlet-triplet exciton intersystem crossing and host-guest exciton energy transfer are assumed to be fast compared to exciton decay.\supercite{Reineke2007,Baldo2000a,Turro1991a}
 Since these mechanisms are much faster, they will not be rate-limiting processes and can thus be omitted from the differential equations model without sacrificing accuracy.
 Within an operational device, electron and hole populations are indistinguishable.
-Therefore, the electron ($n_e$) and hole ($n_h$) densities are treated as a single geralized polaron population, $n_{pol}=n_e+n_h$.
+Therefore, the electron ($n_e$) and hole ($n_h$) densities are treated as a single generalized polaron population, $n_{pol}=n_e+n_h$.
 For simplicity, the model developed here treats the exciton and polaron populations as spatially uniform and confined to the exciton recombination zone.  An spatial inhomogeneity in exciton and polaron density as well as their overlap is absorbed into the bimolecular rate constants.
 It is important to note that due to this assumption, rate constants are a property of the device stack, and not just a material property.
 With these assumptions, the dynamic processes determining exciton density ($n_{ex}$) can be summarized in the following one-dimensional rate equation:
 
 \begin{equation}
-%\frac{dn_{ex}}{dt} = - \frac{n_{ex}}{\tau}-\frac{1}{2}k_{TT}n_{ex}^2-k_{TP}n_{pol}n_{ex}+G_{ex}
 \frac{dn_{ex}}{dt} = - \frac{n_{ex}}{\tau}-\frac{1}{2}\ktt n_{ex}^2-\ktp n_{pol}n_{ex}+G_{ex}
 \label{eqn:exciton_rate}
 \end{equation}
@@ -75,7 +74,7 @@ With these assumptions, the dynamic processes determining exciton density ($n_{e
 where $\tau$ is the natural exciton lifetime, determined by the radiative ($k_r$) and non-radiative ($k_{nr}$) decay rates by $\tau=1/(k_r+k_{nr})$, \ktt is the rate constant for triplet-triplet annihilation, \ktp is the rate constant for triplet-polaron quenching, and $G_{ex}$ is the exciton generation rate.  
 As this is a one-dimensional model, $G_{ex}$ is a spatially uniform generation rate, a simplifying assumption.
 Many studies have modeled the exciton recombination zone profile, relying on material energy levels, as well as mobilities.\supercite{Rihani2006,Hassine2001,Hassine2002,Ruhstaller2003,Ruhstaller2001}
-While these models are more accurate and explicit, in the way that they capture the physics, they also increase the dimensionality of our model, as well as increasing the parameterization; requiring seperate electron and hole rate equations, mobilities and energy levels for every material.
+While these models are more accurate and explicit, in the way that they capture the physics, they also increase the dimensionality of our model, as well as increasing the parameterization; requiring separate electron and hole rate equations, mobilities and energy levels for every material.
 Even with this increased accuracy of the physical processes, identifying if the predicted exciton recombination zone is accurate requires significant additional measurements.
 Since the goal of this work is to provide a functional model to accurately predict the transient and steady-state device behavior, spatially uniform dynamics are assumed.
 Here, exciton formation is treated using a Langevin recombination formalism based on the polaron density.\supercite{Ruhstaller2003,Pinner1999,Blom1996}
@@ -86,7 +85,7 @@ G_{ex}=\frac{\kf}{4}n_{pol}^2
 \end{equation}
 
 where \kf is the rate constant for exciton formation.  The factor of four accounts for the diversity of the polaron population and assumes that electrons and holes are in equal proportion.  
-The accuracy of this prefactor is reduced for imbalanced charge, and is investigated in Section \ref{sec:charge_imbalance}.
+The accuracy of this pre-factor is reduced for imbalanced charge, and is investigated in Section \ref{sec:charge_imbalance}.
 For $n_e$:$n_h$ ratios 2:1 or better, less than 20\% error is found in this term.  
 
 \section{Polaron Dynamics}
@@ -94,14 +93,14 @@ For $n_e$:$n_h$ ratios 2:1 or better, less than 20\% error is found in this term
 Previous models for efficiency roll-off have ignored polaron dynamics and assumed that all polarons readily form excitons.  The steady-state polaron density is then modeled using a space charge limited model.\supercite{Pope1999}
 To attribute physics to this process, a simple picture of polaron dynamics is assumed, consisting of charge injection and transport, exciton formation, and polaron loss.  
 In order to preserve our one-dimensionality, polarons must be uniformly distributed.  
-Without competing losses in the tranport layers, all injected polarons must eventually reach the emissive layer.  
+Without competing losses in the transport layers, all injected polarons must eventually reach the emissive layer.  
 We further assume that polarons easily enter that emissive layer and that the majority of polaron build up occurs within the emissive layer, rather than the transport layers.
 Therefore, the charges injected from the current density, $J$, are uniformly generated in the emissive layer by $G_{pol}=2J/ew$.  Here, $e$ is the electron charge, and the factor of two arises from an assumption of equal charge injection.  In a well balanced device, the measured current forms holes on one side of the device and electrons on the other, and are both injected into the device.  
 This is discussed extensively in Section \ref{sec:carrier_injection}
 Polaron losses to exciton formation mirror the exciton formation rate presented in Equation \ref{eqn:exciton_formation}, though at twice the rate due to two polarons forming one exciton.
 
 The introduction of polaron loss from the emissive layer through the device without forming excitons is essential to address the limitations of previous models.  
-Without this term, peak internal quantum efficiency of all devices is assumed to be 100\% and and the roll-up of efficiency at low current can not be explained.  
+Without this term, peak internal quantum efficiency of all devices is assumed to be 100\% and the roll-up of efficiency at low current can not be explained.  
 In order to capture polaron loss, a first order approximation is made for loss in that only the majority charge carrier can be lost and leaks through the device with a characteristic time, $\tau_l$.
 With these mechanisms, the full polaron dynamics can be expressed as:
 
@@ -122,7 +121,7 @@ With these mechanisms, the full polaron dynamics can be expressed as:
 \label{fig:transport}
 \end{wrapfigure}
 
-In this work, given a full model for polaron dynamics, the model is easiest to solve starting from the application of the current pulse, rather than at peak luminace.
+In this work, given a full model for polaron dynamics, the model is easiest to solve starting from the application of the current pulse, rather than at peak luminance.
 Under pulsed electrical excitation, Equations \ref{eqn:exciton_rate} and \ref{eqn:polaron_rate} can be solved at the beginning of the pulse with the initial conditions $n_{ex}=n_{pol}=0$.  
 Upon the application of a voltage pulse, there is a time delay before polarons reach the emissive layer, as evidenced by the delay in luminance turn on.  
 This has been previously attributed to charge injection and transport in the emissive layer.\supercite{Wei2004}
@@ -139,10 +138,10 @@ d=\int_0^{t_{trans}}\mu_0 E_0 \exp \left( \sqrt{\gamma E_0\left[1-\left(1-\frac{
 \end{equation}
 
 
-where $\tau$ is the RC time constant of the device, $V_{th}$ is the voltage injection threshold, $t_{inj}$ is the injection time, $t_{trans}$ is the transport time, $d$ is the tranport layer thickness, $\mu_0$ is the base mobility, $\gamma$ is the field dependent mobility term, $E_0$ is the field and $V_0$ is the voltage.
+where $\tau$ is the RC time constant of the device, $V_{th}$ is the voltage injection threshold, $t_{inj}$ is the injection time, $t_{trans}$ is the transport time, $d$ is the transport layer thickness, $\mu_0$ is the base mobility, $\gamma$ is the field dependent mobility term, $E_0$ is the field and $V_0$ is the voltage.
 A prediction of the delay time as well as experimental values are shown in Figure \ref{fig:transport}.
 Interestingly, the functional dependence of the model accurately reproduces the extracted data.
-The mismatch in absolute value is due to the use of the geometric capacitance in the model, and requires a scaling factor of 2.5 of the geometric capacitance for the calculated and fit delay times to agree.  This factor is similar to that predicted by Liu \textit{et al.} for similar structures.\supercite{Liu2012d}
+The mismatch in absolute value is due to the use of the geometric capacitance in the model, and requires a scaling factor of 2.5 of the geometric capacitance for the calculated and fit delay times to agree.  This factor is similar to that predicted by \textcite{Liu2012d} for similar structures.
 This suggests that the effective charge distribution in our devices is about twice as wide as the emissive layer.
 
 
@@ -179,10 +178,10 @@ The internal quantum efficiency of a device is simply the ratio of the radiative
 \label{eqn:eqeReform}
 \end{equation}
 
-Note that in this equation, exciton quenching is accounted for in the $n_{ex}$ term because in the steady-state, $n_{ex}$ is reduced according to this quenching, which is competative with $k_r$.
+Note that in this equation, exciton quenching is accounted for in the $n_{ex}$ term because in the steady-state, $n_{ex}$ is reduced according to this quenching, which is competitive with $k_r$.
 Dynamically, the charge balance factor is the fraction of injected polarons contributing in exciton formation.  
 This can be viewed as the efficiency of Equation \ref{eqn:polaron_rate} to form excitons.
-Given this interpretation, we will recast the charge balance factor $\gamma$, as an explisupercitely defined exciton formation efficiency \ef as
+Given this interpretation, we will recast the charge balance factor $\gamma$, as an explicitly defined exciton formation efficiency \ef as
 
 \begin{equation}
 \ef=\gamma = \frac{\frac{1}{2}\kf n_{pol}}{G_{pol}}=\frac{\frac{1}{2}\kf n_{pol}}{\frac{1}{2}\kf n_{pol}+\frac{1}{\tau_l}}
@@ -195,16 +194,16 @@ Equations \ref{eqn:eqeReform} and \ref{eqn:exciton_formation} allow us to rigoro
 
 Devices used for measurements of transient and steady-state EL had the following structure: ITO (150 nm)/poly(3,4-ethylenedioxythiophene)-poly(styr- enesulfonate) (PEDOT-PSS) (40 nm)/tris(4-carbazoyl-9- ylphenyl)amine (TCTA) (30 nm)/10\% tris[2-phenylpyridi- nato-C2,N]Iridium(III) (\irppy) doped in 4,40-Bis(N- carbazolyl)–1,10-biphenyl (CBP) (10 nm)/bathophenanthro- line (Bphen) (30 nm)/LiF (1 nm)/Al (100 nm). 
 Transient PL decays were measured using 60-nm-thick films of CBP doped with 10\% \irppy deposited on quartz slides. 
-The hole-only device structure used for steady-state PL quenching measure- ments had the following structure: ITO (150 nm)/PEDOT-PSS (40 nm)/10\% \irppy in CBP (60 nm)/Au (50 nm). The gold cathode was used to prevent electron injection. 
+The hole-only device structure used for steady-state PL quenching measurements had the following structure: ITO (150 nm)/PEDOT-PSS (40 nm)/10\% \irppy in CBP (60 nm)/Au (50 nm). The gold cathode was used to prevent electron injection. 
 Transient EL measurements were conducted using a voltage pulse generator (HP 8114a) with pulse amplitudes ranging from 5–40V and pulse widths ranging from 250 ns–500 ns with a period 500 ls. 
 Luminescence was recorded using a set of collection lenses focused onto a fast photodiode (Thorlabs DET36A). 
 Pulsed \eqe measurements were conducted using the HP 8114a pulse generator until the device reached steady state current and luminance, which were recorded.  
 Overlapping points with the steady state \eqe measurement were used to calibrate the luminance-current ratio to the \eqe.
 The photodiode signal was recorded using an oscilloscope (Tektronix TDS5104b). 
 Transient PL measurements were collected using a
-pulsed nitrogen laser (Optical Building Blocks) with a pulse length of approximately 1 ns and emission wavelength of $\lambda$= 337 nm at a repetition rate of 6 Hz. Laser light was focused on the sample using a series of lenses, with collec- tion carried out using the same techniques already described for transient EL. 
+pulsed nitrogen laser (Optical Building Blocks) with a pulse length of approximately 1 ns and emission wavelength of $\lambda$= 337 nm at a repetition rate of 6 Hz. Laser light was focused on the sample using a series of lenses, with collection carried out using the same techniques already described for transient EL. 
 Incident laser power was measured using a Coherent EnergyMax 10MB-HE detector. 
-Film thicknesses and optical constants used for modeling the out-coupling efficiency in Eq. (9) were obtained using a J. A. Woollam variable angle spectroscopic elllips- ometer (VASE) using a Cauchy dispersion model.
+Film thicknesses and optical constants used for modeling the out-coupling efficiency in Equation \ref{eqn:eqeReform} were obtained using a J. A. Woollam variable angle spectroscopic ellipsometer (VASE) using a Cauchy dispersion model.
 
 
 
@@ -213,30 +212,30 @@ Film thicknesses and optical constants used for modeling the out-coupling effici
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{unified/PL_fitting}
-\caption{(a) Transient photoluminescence (PL) decays for several initial exciton densities with fits shown as solid lines using Eqn. \ref{eqn:exciton_formation}.  Fit parameters are discussed in SECTION.  Exciton densities are calculated using measured incident power and beam size in combination iwht Beer's Law.  (b) Steady-state PL quenching as a function of polaron density and the resulting fit from Eqn. \ref{eqn:ktpFit} shown as the solid line.}
+\caption{(a) Transient photoluminescence (PL) decays for several initial exciton densities with fits shown as solid lines using Equation \ref{eqn:exciton_formation}.  Fit parameters are discussed in SECTION.  Exciton densities are calculated using measured incident power and beam size in combination with Beer's Law.  (b) Steady-state PL quenching as a function of polaron density and the resulting fit from Equation \ref{eqn:ktpFit} shown as the solid line.}
 \label{fig:PL_fitting}
 \end{wrapfigure}
 
 Photoluminescence measurements have been previously used to extract the rate constants for triplet-triplet annihilation and triplet-polaron quenching.\supercite{Erickson2014,Reineke2007}
 This is important because it allows an independent confirmation of the extracted rate constants extracted during the electroluminescence fitting.
 The transient photoluminescence exposes the natural exciton lifetime, $\tau$ and at high incident flux, the triplet-triplet annihilation rate constant, \ktt.
-This measurement involves an incident laser pulse, in this case, from a 337 nm nitrogen laser, which is able to exsupercite a large exciton population.
+This measurement involves an incident laser pulse, in this case, from a 337 nm nitrogen laser, which is able to excite a large exciton population.
 The pulse width of the nitrogen laser is ~1ns and is much faster than $\tau$ or \ktt, allowing us to use Equation \ref{eqn:exciton_rate} with the initial boundary condition $n_{ex}=A(E_{\text{pulse}}/hfV)$ where $A$ is the absorbed fraction of photons, $E_{\text{pulse}}$ is the pulse energy, $hf$ is the photon energy and $V$ is the film volume.
-Since this is optical only excitation, the other boundary condition is $n_{pol}=0$ and we can ignote Equation \ref{eqn:polaron_rate}.\supercite{Reineke2007,Erickson2014,Baldo2000a}
+Since this is optical only excitation, the other boundary condition is $n_{pol}=0$ and we can ignore Equation \ref{eqn:polaron_rate}.\supercite{Reineke2007,Erickson2014,Baldo2000a}
 For CBP films doped with \irppy, good agreement with the model is observed across a range on initial exciton densities, as shown in Figure \ref{fig:PL_fitting}(a).
 The exciton lifetime, $\tau$ was found to be mostly independent of exciton density and was globally fit to 1.5$\pm$0.2 $\mu s$.  
 The triplet-triplet annihilation rate constant appears to be a function of intensity and ranges from $\ktt=2.4\times10^{-13}$ cm$^3$/s at $n_{ex_0}=4.1\times10^{18}$ cm$^{-3}$ to $\ktt=6.9\times10^{-14}$ cm$^3$/s at $n_{ex_0}=1.1\times10^{20}$ cm$^{-3}$.
 These extracted values and trend with intensity are in good agreement with previous reports.\supercite{Reineke2007,Erickson2014,Staroske2007}
 It is important to note, that the exciton environment is very important for these values.  
-Previous studies have shown that the presence of a metal cathode on top of thhe film can significantly reduce the exciton lifetime by allowing additional non-radiative recombination via surface plasmon coupling.\supercite{Song2011}
+Previous studies have shown that the presence of a metal cathode on top of the film can significantly reduce the exciton lifetime by allowing additional non-radiative recombination via surface plasmon coupling.\supercite{Song2011}
 This becomes important in the comparison of these parameters with those obtained under electroluminescence within a device.
 A more representative experiment would have involved a full device stack with cathode, rather than just a film.  
-Alas, I did not have that forsight for this experiment.
+Alas, I did not have that foresight for this experiment.
 
 
 
 Triplet-polaron quenching rate constant measurement is done in single carrier devices as a function of polaron density.  
-It is largely uninvestigated as to the differences between electrons and holes, but in previous works, hole only currents are used, a precident which will be followed in this work.\supercite{Erickson2014,Reineke2007}
+It is largely uninvestigated as to the differences between electrons and holes, but in previous works, hole only currents are used, a precedent which will be followed in this work.\supercite{Erickson2014,Reineke2007}
 A steady-state exciton population is generated optically, in this case, a 405 nm laser.  
 In a single carrier device, a space charge limited current model featuring an exponential trap distribution is often used.\supercite{Lampert2002a,Giebink2009a,Pope1999}
 This model is employed largely because it fits the obtained current-voltage behavior most closely.  
@@ -249,7 +248,7 @@ V=\left[ \frac{J}{e\mu N_C}d^{2l+}\left( \frac{eN_0k_BT_t}{\epsilon} \right)^l \
 \label{eqn:ktpVoltage}
 \end{equation}
 
-where $N_C$ is the density of states at the transport level, $\epsilon$ is the permittivity, $\mu$ is the mobility, $L$ is the device thickness and $l=T_t/T$ with $T_t$ being an experimentally determined characteristic temperature of the trap distribution.  The Polarond density is then given by
+where $N_C$ is the density of states at the transport level, $\epsilon$ is the permittivity, $\mu$ is the mobility, $L$ is the device thickness and $l=T_t/T$ with $T_t$ being an experimentally determined characteristic temperature of the trap distribution.  The Polarons density is then given by
 
 \begin{equation}
 n_{pol}=eN_c\left(\frac{\epsilon V}{ed^2N_0kT_t}\right)^l.
@@ -267,7 +266,7 @@ After fitting the current density-voltage characteristics of the device are fit 
 In this case, we use $\tau$ as extracted from the transient PL measurements.
 The fit obtained for a CBP \irppy hole only device is shown in Figure \ref{fig:PL_fitting}b.
 This devices utilizes a gold cathode to prevent electron injection and shows minimal exciton formation, as expected.
-The organic stack is the same as the emissive layer of the inviestigated device.  
+The organic stack is the same as the emissive layer of the investigated device.  
 In fitting the current density-voltage characteristics using Equation \ref{eqn:ktpVoltage}, a value of $l=(2.4\pm0.2)$ was found.  
 The extracted triplet-polaron quenching rate constant from fitting Equation \ref{eqn:ktpFit} was $\ktp=(2.8\pm0.2)\times 10^{-13}$ cm$^3$/s and is agreement with previous measurements.\supercite{Erickson2014,Reineke2007}
 
@@ -275,14 +274,14 @@ The extracted triplet-polaron quenching rate constant from fitting Equation \ref
 \section{Application to Devices}
 
 In order to fit both the steady-state and transient regimes, decisions need to be made as to a methodology for extracting parameters.  
-The obvious choice may seem to be to try to produce a global fit by fitting both regimes simultaniously.  
+The obvious choice may seem to be to try to produce a global fit by fitting both regimes simultaneously.  
 The major draw back of this approach is the value of $\tau_l$.  
 Since this is a function of the applied field, this is not single valued and relies on knowing the field dependence.
 Additionally, the steady-state provides little insight into the actual quantities of $\tau$, \ktt, \ktp, and \kf, and only the ratio of radiative and non-radiative processes is needed for a quality fit of the efficiency roll-off.
 Additionally, within this model, only $n_{ex}$ is experimentally available to fit, and the fit parameters are not independent.
 The most obvious example of this is the values of \ktt and \ktp, which have similar impact on the exciton population and similar formulation.  
 This makes it near impossible to distinguish a dominant mechanism between these two, and results for exact values of quenching constants need to be considered with caution.
-This methodology only gives a net effect of the two quenching mechanisms in total, rather than a true seperate measurement of both quantities as is obtained in the PL quenching measurements, discussed in Section \ref{sec:pl_measurements}.
+This methodology only gives a net effect of the two quenching mechanisms in total, rather than a true separate measurement of both quantities as is obtained in the PL quenching measurements, discussed in Section \ref{sec:pl_measurements}.
 
 With these limitations addressed, the method used for this discussion to fit all of the device physics has been carefully considered to achieve the highest parameter sensitivity.
 The bimolecular quenching constants are most sensitive to the efficiency roll-off since small changes in the quenching constants make a large impact on the roll-off behavior.
@@ -304,7 +303,7 @@ This fit for $k_F$ can then be used to calculate \ef and can be compared to a dr
 
 \begin{wrapfigure}{R}{0.5\textwidth}
 \includegraphics[width=0.48\textwidth]{unified/rollOffFit}
-\caption{Normalized experimental \eqe as a function of current density.  Solid line is a fit to the data using Eqn. \ref{eqn:exciton_rate} and \ref{eqn:polaron_rate} in the absence of polaron loss.  Pulsed eqe measurements are conducted using low duty cycle pulses to steady-state luminance to reduce Joule heating in device.}
+\caption{Normalized experimental \eqe as a function of current density.  Solid line is a fit to the data using Equation \ref{eqn:exciton_rate} and \ref{eqn:polaron_rate} in the absence of polaron loss.  Pulsed EQE measurements are conducted using low duty cycle pulses to steady-state luminance to reduce Joule heating in device.}
 \label{fig:rollOffFit}
 \end{wrapfigure}
 
@@ -339,14 +338,14 @@ Pulse widths ranging between 250–500 ns with a period of 500 ls were used with
 Fast Fourier Transform (FFT) filtering is used to remove experimental noise from the measured signal to increase fit accuracy. 
 The bimolecular quenching rate constants are fixed to the values determined from the fitting of the steady-state efficiency roll-off (Table \ref{tab:fit_parameters}).
 The exciton lifetime and exciton formation rate constant are allowed to vary to fit the transient EL and are summarized in Table \ref{tab:fit_parameters}.
-The value of $\tau$ is shorter than that obtained under transient PL, likely due to the cathode present for EL trnsient studies.\supercite{Song2011}
+The value of $\tau$ is shorter than that obtained under transient PL, likely due to the cathode present for EL transient studies.\supercite{Song2011}
 Fits using this model are shown in Figure \ref{fig:transientFits} and show excellent agreement above the detection limit.  The initial turn on is well replicated by the luminance delay model discussed in Section \ref{sec:transient_el}
 
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.8\textwidth]{unified/transientFits}
-\caption{Transient electroluminescence (EL) for four different current densities (J) and device areas (A). (a) 0.25 $cm^2$ device at a current density during the pulse of J = 0.9 $A/cm^2$ (b) 0.25 cm2
+\caption{Transient electroluminescence (EL) for four different current densities (J) and device areas (A). (a) 0.25 $cm^2$ device at a current density during the pulse of J = 0.9 $A/cm^2$ (b) 0.25 cm$^2$
 device at J = 2.2 $A/cm^2$ (c) 0.0079 $cm^2$ device at J = 7.6 $A/cm^2$ (d) 0.0079 $cm^2$ device at J = 38 $A/cm^2$}
 \label{fig:transientFits}
 \end{figure}
@@ -369,7 +368,7 @@ Here, we are able to see that bimolecular quenching events dominate when the exc
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{unified/termEfficiency}
-\caption{Term efficiency for each dynamical process influencing the exciton population for (a) 0.25 $cm^2$ device operated at 0.9 $A/cm^2$ for 500 ns and (b) 0.785 $mm^2$ device operated at a current density of 38 $A/cm^2$ for 250 ns. Relative term amplitude is calculated as the magnitude of each term in Eqn. \ref{eqn:exciton_rate} divided by the sum of absolute values of each term.}
+\caption{Term efficiency for each dynamical process influencing the exciton population for (a) 0.25 $cm^2$ device operated at 0.9 $A/cm^2$ for 500 ns and (b) 0.785 $mm^2$ device operated at a current density of 38 $A/cm^2$ for 250 ns. Relative term amplitude is calculated as the magnitude of each term in Equation \ref{eqn:exciton_rate} divided by the sum of absolute values of each term.}
 \label{fig:termEfficiency}
 \end{wrapfigure}
 
@@ -395,17 +394,17 @@ In order to justify these values, a simple drift model explanation can be used, 
 \label{eqn:drift}
 \end{equation}
 
-Where $\mu$ is the mobility, obtained from Parshin \textit{et al.},\supercite{Parshin2006} $w$ is the device width, and $E$ is the electric field.  
+Where $\mu$ is the mobility, obtained from \textcite{Parshin2006}, $w$ is the device width, and $E$ is the electric field.  
 This simple explanation for $\tau_l$ holds very well at low current density, corresponding to the efficiency roll-up, as well as the peak efficiency.  
 Deviation from this model occurs as current density increases past $10^{-1}$ A/cm$^2$.  
-However, in this regime, exciton and charge densities are becoming increasingly high, and the predicted values become increasingly non-phyiscal.
+However, in this regime, exciton and charge densities are becoming increasingly high, and the predicted values become increasingly non-physical.
 It is expected that in this regime, this simple model described in Equation \ref{eqn:drift}, would break down.
 
 
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{unified/chargeBalance}
-\caption{Transit time extracted from \eqe measurements are shown as the red circles. Predictions using the drift model are calculated using Eqn. \ref{eqn:drift}. The drift model assumes a uniform electric field. Good agreement between the experimental transit time and the drift model is found for a field distributed over 20 nm. The charge balance factor is shown as a function of current density in blue squares.}
+\caption{Transit time extracted from \eqe measurements are shown as the red circles. Predictions using the drift model are calculated using Equation \ref{eqn:drift}. The drift model assumes a uniform electric field. Good agreement between the experimental transit time and the drift model is found for a field distributed over 20 nm. The charge balance factor is shown as a function of current density in blue squares.}
 \label{fig:chargeBalance}
 \end{wrapfigure}
 \subsection{Drift Model}
@@ -413,7 +412,7 @@ It is expected that in this regime, this simple model described in Equation \ref
 
 With the transit time known, Equation \ref{eqn:exciton_formation_polarons} can be used to find \ef, shown in Figure \ref{fig:chargeBalance}.
 Charge balance remains relatively constant throughout the onset of roll-off and only falls when the efficiency approaches one quarter of its initial value. 
-Using a different modeling approach, Giebink and Forrest\supercite{Giebink2008c} find that for a similar system, a larger portion of the roll-off is due to a loss of charge balance, likely due to a thicker emissive layer and differing transport layers than those used in this study. 
+Using a different modeling approach, \textcite{Giebink2008c} find that for a similar system, a larger portion of the roll-off is due to a loss of charge balance, likely due to a thicker emissive layer and differing transport layers than those used in this study. 
 With the dependence of the charge balance factor on current density established, the validity of the assumption of uniform charge balance during the fit of the normalized efficiency roll-off in Section \ref{sec:eqe_fitting} can now be assessed. 
 The charge balance, seen in Figure \ref{fig:chargeBalance}, remains almost constant for the majority of the roll-off but deviates at high current density, suggesting that the high current density regime should not be fit with the quenching only model. 
 However, the fit shown in Figure \ref{fig:rollOffFit} is not limited by this restriction as there is excellent agreement between the model and experiment in the regime of near constant charge balance, with the only discrepancy in the fit coming at high current density where the model assumptions break down. 
@@ -445,7 +444,7 @@ where and are the electron and hole population densities, $n_e$ and $n_h$ are th
 transit times, respectively, $J_h$ and $J_e$ and are the single carrier injected currents. While more
 accurate, Equation \ref{eqn:hole_rate} and \ref{eqn:electron_rate} pose several problems for replicating device behavior due to the inability to distinguish between carriers during device operation. 
 This is further complicated by the inability to separately measure the single carrier injected currents and leak rates due to transit times. 
-To better understand the approximations used in Eqn. (3), a detailed analysis of current injection is presented, followed by error analysis of the exciton formation term based on the composition of the polaron population.
+To better understand the approximations used in Equation \ref{eqn:polaron_rate}, a detailed analysis of current injection is presented, followed by error analysis of the exciton formation term based on the composition of the polaron population.
 
 \subsection{Carrier Injection} \label{sec:carrier_injection}
 
@@ -557,7 +556,7 @@ A universal dynamics model has been successfully implemented that allows the fit
 This model relies upon the previously studied parameters $\tau$, \ktt, and \ktp as well as introducing polaron dynamics in the form of an exciton formation rate, $k_F$ and polaron leakage time $\tau_l$. 
 This model has been used to deconstruct all features of the transient EL over three decades of decay. The fit parameters $\tau$, \ktt, and \ktp have all been verified independently using PL studies in agreement with the proposed model. 
 The steady-state efficiency has been fully characterized using quenching and charge leakage through the device. 
-The behavior of the investigated devices suggests that charge leakage through the emissive layer dominates the roll-up in efficiency, while bimolecular quenching is respon- sible for the majority of the roll-off in efficiency.
+The behavior of the investigated devices suggests that charge leakage through the emissive layer dominates the roll-up in efficiency, while bimolecular quenching is responsible for the majority of the roll-off in efficiency.
 
 This model has successfully been able to model all of the device physics present in the electroluminescence behavior.  However, one of the initial goals of this project was to be able to quantify the bimolecular rate constants more effectively within a device.  In this regard, the model is not useful as \ktt and \ktp are codependent and their relative values are still unknown.  
 

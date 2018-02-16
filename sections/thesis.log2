@@ -1,0 +1,17 @@
+INFO - This is Biber 2.10
+INFO - Logfile is 'thesis.blg'
+ERROR - Cannot find control file 'thesis.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+INFO - ERRORS: 1
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+! I can't find file `thesis.tex'.
+<*> thesis.tex
+              
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! Emergency stop.
+<*> thesis.tex
+              
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on texput.log.
