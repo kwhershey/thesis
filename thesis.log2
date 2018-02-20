@@ -1,16 +1,23 @@
 INFO - This is Biber 2.10
 INFO - Logfile is 'thesis.blg'
 INFO - Reading 'thesis.bcf'
-INFO - Found 126 citekeys in bib section 0
+INFO - Found 180 citekeys in bib section 0
 INFO - Processing section 0
 INFO - Looking for bibtex format file 'library.bib' for section 0
 INFO - LaTeX decoding ...
 INFO - Found BibTeX data source 'library.bib'
+WARN - ISBN '1359-6454' in entry 'Zhang2016a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'aug' in entry 'Fielitz2016' is not an integer - this will probably not sort properly.
+WARN - month field 'aug' in entry 'Scholz2015' is not an integer - this will probably not sort properly.
 WARN - month field 'feb' in entry 'Baldo2000' is not an integer - this will probably not sort properly.
 WARN - month field 'feb' in entry 'Furno2010' is not an integer - this will probably not sort properly.
 WARN - month field 'mar' in entry 'Furno2012' is not an integer - this will probably not sort properly.
 WARN - month field 'jul' in entry 'Forrest2003' is not an integer - this will probably not sort properly.
+WARN - month field 'jan' in entry 'Smith1931' is not an integer - this will probably not sort properly.
+WARN - month field 'mar' in entry 'Wright1929' is not an integer - this will probably not sort properly.
+WARN - month field 'jan' in entry 'Guild1932' is not an integer - this will probably not sort properly.
 WARN - ISBN '0323145701, 9780323145701' in entry 'Venkataraman1971' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'feb' in entry 'Helfrich1965' is not an integer - this will probably not sort properly.
 WARN - ISBN '00218979' in entry 'Tang1989a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'mar' in entry 'Reineke2007' is not an integer - this will probably not sort properly.
 WARN - ISBN '09359648$\backslash$r15214095' in entry 'Su2008a' is invalid - run biber with '--validate_datamodel' for details.
@@ -43,12 +50,32 @@ WARN - ISBN '0003-6951' in entry 'Chopra2010' is invalid - run biber with '--val
 WARN - ISBN '0003-6951' in entry 'Reineke2007a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0003-6951' in entry 'Lee2009b' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'jun' in entry 'Coburn2016a' is not an integer - this will probably not sort properly.
-WARN - month field 'aug' in entry 'Scholz2015' is not an integer - this will probably not sort properly.
 WARN - ISBN '0003-6951, 1077-3118' in entry 'Fry2005a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'nov' in entry 'Fry2005a' is not an integer - this will probably not sort properly.
+WARN - ISBN '0021-8979' in entry 'Kolosov2001' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'nov' in entry 'Aziz2004' is not an integer - this will probably not sort properly.
+WARN - ISBN '1077-260X' in entry 'Popovic2002' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Melpignano2005' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-8979' in entry 'Shin2006' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-8979' in entry 'Scott1996' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0935-9648' in entry 'So2010' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Chin2005' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Chwang2002' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1944-8252 (Electronic)$\backslash$r1944-8244 (Linking)' in entry 'Wang2013' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0036-8075' in entry 'Aziz1999' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'mar' in entry 'Aziz1999' is not an integer - this will probably not sort properly.
+WARN - ISBN '0021-8979' in entry 'Kondakov2003' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Matsumura2003' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '00218979' in entry 'Kondakov2008' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-8979' in entry 'Kondakov2007d' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'aug' in entry 'Meerheim2006' is not an integer - this will probably not sort properly.
 WARN - ISBN '0003-6951, 1077-3118' in entry 'Fry2005' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'nov' in entry 'Fry2005' is not an integer - this will probably not sort properly.
+WARN - ISBN '1566-1199' in entry 'Seifert2013b' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'jan' in entry 'Seifert2013b' is not an integer - this will probably not sort properly.
+WARN - month field 'feb' in entry 'Moraes2011' is not an integer - this will probably not sort properly.
+WARN - ISBN '1616-3028' in entry 'Wang2014' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Wang2010a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0021-4922' in entry 'Tsutsui1999' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'dec' in entry 'Kalinowski2002' is not an integer - this will probably not sort properly.
 WARN - ISBN '1521-4095' in entry 'Zhang2012' is invalid - run biber with '--validate_datamodel' for details.
@@ -61,35 +88,29 @@ WARN - month field 'may' in entry 'Wei2004' is not an integer - this will probab
 WARN - ISBN '0003-6951' in entry 'Liu2012d' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0884-2914' in entry 'Rothberg1996' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'apr' in entry 'Parshin2006' is not an integer - this will probably not sort properly.
-WARN - ISBN '1566-1199' in entry 'Seifert2013b' is invalid - run biber with '--validate_datamodel' for details.
-WARN - month field 'jan' in entry 'Seifert2013b' is not an integer - this will probably not sort properly.
-WARN - month field 'feb' in entry 'Moraes2011' is not an integer - this will probably not sort properly.
 WARN - ISBN '1566-1199' in entry 'Wang2011a' is invalid - run biber with '--validate_datamodel' for details.
-WARN - ISBN '0021-8979' in entry 'Kondakov2007d' is invalid - run biber with '--validate_datamodel' for details.
-WARN - ISBN '0021-8979' in entry 'Kondakov2003' is invalid - run biber with '--validate_datamodel' for details.
-WARN - month field 'aug' in entry 'Fielitz2016' is not an integer - this will probably not sort properly.
-WARN - ISBN '0003-6951' in entry 'Wang2010a' is invalid - run biber with '--validate_datamodel' for details.
-WARN - month field 'jan' in entry 'Tang2018' is not an integer - this will probably not sort properly.
-WARN - month field 'apr' in entry 'Hershey2011' is not an integer - this will probably not sort properly.
+WARN - month field 'mar' in entry 'Watanabe2007' is not an integer - this will probably not sort properly.
+WARN - month field 'sep' in entry 'Adamovich2003' is not an integer - this will probably not sort properly.
 WARN - month field 'oct' in entry 'Xu2016' is not an integer - this will probably not sort properly.
+WARN - month field 'oct' in entry 'Lee2015' is not an integer - this will probably not sort properly.
+WARN - ISBN '1566-1199' in entry 'Wang2012' is invalid - run biber with '--validate_datamodel' for details.
+WARN - Possible typo (case mismatch) between citation and datasource keys: 'wang2012' and 'Wang2012' in file 'library.bib'
+WARN - month field 'jan' in entry 'Tang2018' is not an integer - this will probably not sort properly.
 WARN - ISBN '0003-6951' in entry 'Tokito2003a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1098-0121$\backslash$r1550-235X' in entry 'Zhang2011a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1439-7641' in entry 'Schueppel2007' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0021-9606' in entry 'Padhye1956' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '2045-2322' in entry 'Reineke2014' is invalid - run biber with '--validate_datamodel' for details.
-WARN - BibTeX subsystem: /tmp/GdZu70MYP1/library.bib_29979.utf8, line 6, warning: 173 characters of junk seen at toplevel
-WARN - I didn't find a database entry for 'Williams1970' (section 0)
-WARN - I didn't find a database entry for 'Helfrich1965' (section 0)
-WARN - I didn't find a database entry for 'Bangsund2018' (section 0)
-WARN - I didn't find a database entry for 'Bangsund2017' (section 0)
-INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+WARN - BibTeX subsystem: /tmp/XEbkZfk9wJ/library.bib_6932.utf8, line 6, warning: 173 characters of junk seen at toplevel
+WARN - I didn't find a database entry for 'wang2012' (section 0)
 INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
 INFO - No sort tailoring available for locale 'en-US'
 INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
 INFO - Converting UTF-8 to TeX macros on output to .bbl
 INFO - Output to thesis.bbl
-INFO - WARNINGS: 76
+INFO - WARNINGS: 97
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
@@ -161,11 +182,83 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 (/usr/share/texmf-dist/tex/latex/caption/caption3.sty))
 (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty)
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texmf-dist/tex/generic/chemfig/chemfig.sty
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex)
+
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex)
+ (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty))
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex))) (/usr/share/texmf-dist/tex/generic/chemfig/chemfig.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+))) (/usr/share/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty)
 (/usr/share/texmf-dist/tex/latex/listings/listings.sty
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty)
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg))
-(/usr/share/texmf-dist/tex/latex/graphics/color.sty
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg))
 (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (./thesis.aux)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -186,34 +279,15 @@ med, falling back to literal.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Bangsund2017
+(biblatex)                wang2012
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Bangsund2018
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Helfrich1965
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Williams1970
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-) (./sections/title.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
- (./sections/acknowledgements.texpdfTeX warning (ext4): destination with the sa
-me identifier (name{page.1}) has been already used, duplicate ignored
+) (/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty)
+ABD: EveryShipout initializing macros (./sections/title.tex [1{/var/lib/texmf/f
+onts/map/pdftex/updmap/pdftex.map}]) (./sections/acknowledgements.texpdfTeX war
+ning (ext4): destination with the same identifier (name{page.1}) has been alrea
+dy used, duplicate ignored
 <to be read again> 
                    \relax 
 l.14 \end
@@ -240,87 +314,748 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 23
 ) (./sections/oleds.tex [7 <./images/orgSemiconductors/jablonski.png>]
 Chapter 2.
 [8 <./images/oleds/layer_diagram.png>]
-Overfull \hbox (6.8143pt too wide) in paragraph at lines 60--69
+Overfull \hbox (6.8143pt too wide) in paragraph at lines 63--72
 []\T1/cmr/m/n/10 The ef-fi-ciency with which in-jected charges form ex-ci-tons 
 is the ex-ci-ton for-ma-tion ef-fi-ciency, $\OML/cmm/m/it/10 ^^Q[]$\T1/cmr/m/n/
 10 (traditionally
 [9 <./images/oleds/energy_diagram.png>] [10 <./images/oleds/energy_diagram_EQE.
 png>] [11 <./images/oleds/chamber.jpg> <./images/oleds/dep_boat.png> <./images/
 oleds/al_boat.png (PNG copy)>] [12 <./images/oleds/masks.png>] [13 <./images/ol
-eds/ivl.PNG>] [14 <./images/oleds/responsivity.PNG>]
-Underfull \hbox (badness 1728) in paragraph at lines 218--223
-[]\T1/cmr/m/n/10 Early in-ter-est in or-ganic ma-te-ri-als was gen-er-
-
-Underfull \hbox (badness 1325) in paragraph at lines 218--223
-\T1/cmr/m/n/10 ated based on use for or-ganic laser dyes and
-
-Underfull \hbox (badness 1194) in paragraph at lines 218--223
-\T1/cmr/m/n/10 vices tried con-tact-ing or-ganic crys-tals, but re-
-[15 <./images/oleds/tang.PNG> <./images/oleds/irppy3.png (PNG copy)>] [16 <./im
-ages/oleds/tadf.png>] [17 <./images/oleds/roll_off.png>]
-Underfull \hbox (badness 1454) in paragraph at lines 304--307
-\T1/cmr/m/n/10 (RZ).$[]$ There-fore, it is
-[18 <./images/oleds/rz_arch.png>] [19 <./images/oleds/rz_comparison.png>]
-[20]) (./sections/unified.tex [21]
+eds/ivl.PNG>] [14 <./images/oleds/responsivity.PNG>] [15 <./images/oleds/color_
+addition.png (PNG copy)> <./images/oleds/chromaticity.png>] [16 <./images/oleds
+/cie_phones.png>]
+Underfull \hbox (badness 1888) in paragraph at lines 288--293
+\T1/cmr/m/n/10 tempts at pro-duc-ing elec-tro-lu-mi-nes-cent de-vices
+[17 <./images/oleds/tang.PNG>] [18 <./images/oleds/tadf.png>] [19 <./images/ole
+ds/roll_off.png>] [20 <./images/oleds/rz_arch.png>] [21 <./images/oleds/rz_comp
+arison.png>] [22 <./images/oleds/hole_only.png> <./images/oleds/electron_only.p
+ng>]
+Overfull \hbox (1.83827pt too wide) in paragraph at lines 513--518
+\T1/cmr/m/n/10 One of the most widely ob-served and char-ac-ter-ized degra-da-t
+ion phe-nom-ena is the for-ma-tion of dark spots.$[]$
+[23]
+Overfull \hbox (19.84776pt too wide) in paragraph at lines 527--534
+\T1/cmr/m/n/10 Most degra-da-tion mech-a-nisms within a de-vice are fa-cil-i-ta
+ted by the ex-ci-ton and po-laron pop-u-la-tion.$[]$
+[24 <./images/oleds/dark_spot.PNG> <./images/oleds/bubbles.PNG>] [25] [26 <./im
+ages/oleds/mass_spec.png>] [27] [28 <./images/oleds/cbp_degradation.png>])
+(./sections/unified.tex [29 <./images/oleds/coburn.png>]
 Chapter 3.
-[22 <./images/unified/bad_fit.png (PNG copy)>] [23 <./images/unified/rz_depende
-nce.png (PNG copy)>] [24] [25] [26 <./images/unified/transport.png>] [27]
-Overfull \hbox (14.68579pt too wide) in paragraph at lines 196--208
+[30 <./images/unified/bad_fit.png (PNG copy)>] [31 <./images/unified/rz_depende
+nce.png (PNG copy)>] [32] [33] [34 <./images/unified/transport.png>] [35]
+Overfull \hbox (14.68579pt too wide) in paragraph at lines 195--207
 \T1/cmr/m/n/10 (100 nm). Tran-sient PL de-cays were mea-sured us-ing 60-nm-thic
 k films of CBP doped with 10% Ir(ppy)$[]$deposited
-[28]
-Underfull \hbox (badness 2119) in paragraph at lines 220--235
+[36]
+Underfull \hbox (badness 2119) in paragraph at lines 219--234
 \T1/cmr/m/n/10 triplet an-ni-hi-la-tion and triplet-polaron quench-
-[29 <./images/unified/PL_fitting.png>] [30] [31] [32 <./images/unified/rollOffF
-it.png>] [33 <./images/unified/transientFits.png>] [34 <./images/unified/termEf
+[37 <./images/unified/PL_fitting.png>] [38] [39] [40 <./images/unified/rollOffF
+it.png>] [41 <./images/unified/transientFits.png>] [42 <./images/unified/termEf
 ficiency.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []\T1/cmr/bx/n/9 Figure 3.8: |\T1/cmr/m/n/9 Tran-sit time ex-tracted from
-[35 <./images/unified/chargeBalance.png>] [36] [37 <./images/unified/currentDia
-gram.png>] [38 <./images/unified/EHratio.png>])
-(./sections/integratedLifetime.tex [39]
+[43 <./images/unified/chargeBalance.png>] [44] [45 <./images/unified/currentDia
+gram.png>] [46 <./images/unified/EHratio.png>])
+(./sections/integratedLifetime.tex [47]
 Chapter 4.
-[40] [41] [42 <./images/integratedLifetime/microscope.png> <./images/integrated
-Lifetime/crystals.PNG>] [43 <./images/integratedLifetime/schematic.png> <./imag
-es/integratedLifetime/lifetime_vs_drive.png>] [44 <./images/integratedLifetime/
-optical_k.png (PNG copy)>] [45 <./images/integratedLifetime/rz_field_overlap.pn
-g> <./images/integratedLifetime/dark_spot.JPG>] [46 <./images/integratedLifetim
-e/quenching_correction.png>] [47 <./images/integratedLifetime/transient_lifetim
-es.png>] [48 <./images/integratedLifetime/source_measure.png> <./images/integra
-tedLifetime/arduino.jpg> <./images/integratedLifetime/hardware.png>] [49 <./ima
-ges/integratedLifetime/software_controller.png> <./images/integratedLifetime/li
-fetime_db_import.png>]) (./sections/lifetimeApplications.tex [50]
+[48] [49] [50 <./images/integratedLifetime/microscope.png> <./images/integrated
+Lifetime/crystals.PNG>] [51 <./images/integratedLifetime/schematic.png> <./imag
+es/integratedLifetime/lifetime_vs_drive.png>] [52 <./images/integratedLifetime/
+optical_k.png (PNG copy)>] [53 <./images/integratedLifetime/rz_field_overlap.pn
+g> <./images/integratedLifetime/dark_spot.JPG>] [54 <./images/integratedLifetim
+e/quenching_correction.png>] [55 <./images/integratedLifetime/transient_lifetim
+es.png>] [56 <./images/integratedLifetime/gang.png>] [57 <./images/integratedLi
+fetime/gen1.png>] [58 <./images/integratedLifetime/box_workflow.png>] [59 <./im
+ages/integratedLifetime/source_measure.png> <./images/integratedLifetime/arduin
+o.jpg> <./images/integratedLifetime/hardware.png>] [60 <./images/integratedLife
+time/software_controller.png>]) (./sections/lifetimeApplications.tex [61 <./ima
+ges/integratedLifetime/lifetime_db_import.png>]
 Chapter 5.
-) (./sections/hoye.tex [51 <./images/lifetimeApplications/architecture.png>]
-[52 <./images/lifetimeApplications/elpl.png> <./images/lifetimeApplications/eqe
-.png>] [53 <./images/lifetimeApplications/tx_components.png>]
+[62 <./images/lifetimeApplications/architecture.png> <./images/lifetimeApplicat
+ions/eqe.png>] [63 <./images/lifetimeApplications/elpl.png>] [64 <./images/life
+timeApplications/tx_components.png>] [65 <./images/lifetimeApplications/cbp_rz.
+png>] [66 <./images/lifetimeApplications/meml_eqe.png>]
+Underfull \hbox (badness 5345) in paragraph at lines 162--166
+\T1/cmr/m/n/10 Devices con-sisted of a 60-nm-thick hole in-
+
+Underfull \hbox (badness 7704) in paragraph at lines 162--166
+\T1/cmr/m/n/10 jec-tion layer (HIL) of poly(thiophene-3-[2[(2-
+
+Overfull \hbox (28.92162pt too wide) in paragraph at lines 162--166
+\T1/cmr/m/n/10 methoxyethoxy)ethoxy]-2,5-diyl)(AQ1200, Sigma Aldrich),
+[67 <./images/lifetimeApplications/meml_rz.png>]
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+187.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 19
+4.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+203.
+
+[68] [69 <./images/lifetimeApplications/meml_lifetime.png> <./images/lifetimeAp
+plications/meml_scaled_lifetime.png>] [70 <./images/lifetimeApplications/meml_l
+uminance.png>] [71]) (./sections/hoye.tex [72] [73]
 Chapter 6.
-) (./sections/data.tex [54]
+) (./sections/data.tex [74]
 Chapter 7.
-) (./sections/outCoupling.tex [55]
+) (./sections/outCoupling.tex [75]
 Chapter 8.
-) (./sections/future.tex [56]
+) (./sections/future.tex [76]
 Chapter 9.
-) [57] [58] [59] (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd) [60] [61]
-[62] [63] [64] [65]
+) [77] (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd) [78] [79] [80] [81]
+[82] [83] [84] [85] [86] [87] [88]
 Appendix A.
 (./sections/publications.tex (/usr/share/texmf-dist/tex/latex/base/omscmr.fd))
-(./sections/triplets.tex [66]
+(./sections/triplets.tex [89]
 Appendix B.
-[67 <./images/triplets/fluorescence.png> <./images/triplets/phosphorescence.png
->]) (./sections/singleCarrier.tex [68]
+[90 <./images/triplets/fluorescence.png> <./images/triplets/phosphorescence.png
+>]) (./sections/singleCarrier.tex [91]
 Appendix C.
-[69 <./images/singleCarrier/polaron_circuit.png>] [70 <./images/singleCarrier/d
+[92 <./images/singleCarrier/polaron_circuit.png>] [93 <./images/singleCarrier/d
 ifferential_currents.png> <./images/singleCarrier/SC_architectures.png> <./imag
-es/singleCarrier/SC_ivs.png>]) (./sections/code.tex [71 <./images/singleCarrier
+es/singleCarrier/SC_ivs.png>]) (./sections/code.tex [94 <./images/singleCarrier
 /SC_polaron_pop_vs_current.png>]
 Appendix D.
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty)
-(./sections/code/Optical-Model/transfer.m [72] [73] [74] [75] [76])
-(./sections/code/Optical-Model/PowerDissipationModel.m [77] [78] [79] [80]
-[81] [82] [83] [84]) [85]
+(./sections/code/Optical-Model/transfer.m [95] [96] [97] [98] [99])
+(./sections/code/Optical-Model/PowerDissipationModel.m [100] [101] [102]
+[103] [104] [105] [106] [107]) [108]
 Appendix E.
-) [86] (./thesis.lof [87] [88] [89]) [90] (./thesis.lot) [91] (./thesis.aux) )
+) (./molecules/structures.tex [109]
+Appendix F.
+[110 <./molecules/tapc.png (PNG copy)> <./molecules/mcbp.png (PNG copy)> <./mol
+ecules/cdbp.png (PNG copy)> <./molecules/ir(ppy)3.png (PNG copy)> <./molecules/
+firpic.png (PNG copy)> <./molecules/3tpymb.png (PNG copy)>])
+(./sections/materials.tex [111 <./molecules/bphen.png (PNG copy)> <./molecules/
+mcp.png (PNG copy)> <./molecules/pqir.png (PNG copy)> <./molecules/tcta.png (PN
+G copy)> <./molecules/tpbi.png (PNG copy)> <./molecules/npd.png (PNG copy)> <./
+molecules/cbp.png (PNG copy)> <./molecules/bcbp.png (PNG copy)> <./molecules/ug
+h2.png (PNG copy)> <./molecules/alq3.png>]
+Appendix G.
+[112]
+Overfull \hbox (3.50978pt too wide) in paragraph at lines 8--8
+[]|\T1/cmr/bx/n/9 M.W.| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\T1/cmr/m/n/9 b'Tris(2,4,6-triMethyl-
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/cmr/m/n/9 3-(pyridin-3-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 10--10
+[]|\T1/cmr/m/n/9 599.61| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\T1/cmr/m/n/9 b'(4s,6s)-2,4,5,6-
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\T1/cmr/m/n/9 tetra(9H-carbazol-9-
+
+Overfull \hbox (16.0706pt too wide) in paragraph at lines 13--13
+[]|\T1/cmr/m/n/9 788.89348| 
+
+Overfull \hbox (6.82286pt too wide) in paragraph at lines 16--16
+[]|\T1/cmr/m/n/9 107.868| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 23--23
+[]|\T1/cmr/m/n/9 26.981| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/cmr/m/n/9 b'Tris(8-
+
+Overfull \hbox (21.92831pt too wide) in paragraph at lines 26--26
+\T1/cmr/m/n/9 hydroxyquinoline)aluminum'| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/cmr/m/n/9 Tris(8-
+
+Overfull \hbox (28.08998pt too wide) in paragraph at lines 26--26
+\T1/cmr/m/n/9 hydroxyquinolinato)aluminum| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 26--26
+[]|\T1/cmr/m/n/9 459.43| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\T1/cmr/m/n/9 Aluminum 8-
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/cmr/m/n/9 8-Hydroxyquinoline
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 32--32
+[]|\T1/cmr/m/n/9 178.23| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 41--41
+[]|\T1/cmr/m/n/9 1064.0| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 41--41
+[]|\T1/cmr/m/n/9 196.97| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\T1/cmr/m/n/9 b'bis-4,6-(3,5-di-3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+\T1/cmr/m/n/9 pyridylphenyl)-2-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 45--45
+[]|\T1/cmr/m/n/9 554.64| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\T1/cmr/m/n/9 b"2,2'-Bis(4-(carbazol-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 48--48
+[]|\T1/cmr/m/n/9 636.78| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 51--51
+[]|\T1/cmr/m/n/9 360.45| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T1/cmr/m/n/9 b'5,5u-[Di(1,1u-
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+\T1/cmr/m/n/9 biphenyl)-4-yl]-2,2u-
+
+Overfull \hbox (6.82286pt too wide) in paragraph at lines 55--55
+[]|\T1/cmr/m/n/9 470.658| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/cmr/m/n/9 b'3,5,3A,5A-
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+\T1/cmr/m/n/9 tetra(m-pyrid-3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+\T1/cmr/m/n/9 yl)phenyl[1,1A]-
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/cmr/m/n/9 3,5,3',5'-
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+\T1/cmr/m/n/9 tetra(m-pyrid-3-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 58--58
+[]|\T1/cmr/m/n/9 766.93| 
+
+Overfull \hbox (1.25214pt too wide) in paragraph at lines 61--61
+[]|\T1/cmr/m/n/9 b'Bathophenanthroline'| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[]|\T1/cmr/m/n/9 4,7-Diphenyl-1,10-
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\T1/cmr/m/n/9 b' 2,7-Bis(2,20-
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\T1/cmr/m/n/9 bipyridine-5-
+
+Overfull \hbox (6.82286pt too wide) in paragraph at lines 64--64
+[]|\T1/cmr/m/n/9 536.624| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 70--70
+[]|\T1/cmr/m/n/9 720.64| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 74--74
+[]|\T1/cmr/m/n/9 840.75| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]|\T1/cmr/m/n/9 b'4,4-Bis(N-
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+\T1/cmr/m/n/9 carbazolyl)-1,1-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 78--78
+[]|\T1/cmr/m/n/9 484.59| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/cmr/m/n/9 b"4,4'-Bis(9-
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\T1/cmr/m/n/9 carbazolyl)-2,2'-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 82--82
+[]|\T1/cmr/m/n/9 512.64| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|\T1/cmr/m/n/9 b'Aluminum ph-thalo-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 85--85
+[]|\T1/cmr/m/n/9 574.96| 
+
+Underfull \hbox (badness 5388) in paragraph at lines 88--88
+[]|\T1/cmr/m/n/9 b'Copper(II) ph-thalo-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 88--88
+[]|\T1/cmr/m/n/9 576.07| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\T1/cmr/m/n/9 b'9-(4-tert-
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\T1/cmr/m/n/9 butylphenyl)-3,6-
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\T1/cmr/m/n/9 bis(triphenylsilyl)-9H-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 92--92
+[]|\T1/cmr/m/n/9 816.19| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\T1/cmr/m/n/9 b'9-[4-(4,6-diphenyl-
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+\T1/cmr/m/n/9 1,3,5-triazin-2-
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+\T1/cmr/m/n/9 yl)phenyl]-9H-
+[113]
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\T1/cmr/m/n/9 b'2-[7-(4-
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\T1/cmr/m/n/9 2,1,3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\T1/cmr/m/n/9 benzothiadiazol-4-
+
+Overfull \hbox (24.01811pt too wide) in paragraph at lines 118--118
+\T1/cmr/m/n/9 yl]methylenepropanedinitrile'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 118--118
+[]|\T1/cmr/m/n/9 455.53| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T1/cmr/m/n/9 b'2-[(7-4-[N,N-Bis(4-
+
+Overfull \hbox (21.1438pt too wide) in paragraph at lines 124--124
+\T1/cmr/m/n/9 methylphenyl)amino]phenyl-
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/9 2,1,3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/9 benzothiadiazol-4-
+
+Overfull \hbox (27.61444pt too wide) in paragraph at lines 124--124
+\T1/cmr/m/n/9 yl)methylene]propanedinitrile'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 124--124
+[]|\T1/cmr/m/n/9 483.59| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\T1/cmr/m/n/9 b'2-[7-(5-N,N-
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/9 Ditolylaminothiophen-
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/9 2-yl)-2,1,3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/9 benzothiadiazol-4-
+
+Overfull \hbox (13.20479pt too wide) in paragraph at lines 127--127
+\T1/cmr/m/n/9 yl]methylenemalononitrile'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 127--127
+[]|\T1/cmr/m/n/9 489.61| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]|\T1/cmr/m/n/9 b'Bis[2-(4,6-
+
+Overfull \hbox (11.93074pt too wide) in paragraph at lines 130--130
+\T1/cmr/m/n/9 difluorophenyl)pyridinato-
+
+Overfull \hbox (25.77245pt too wide) in paragraph at lines 130--130
+\T1/cmr/m/n/9 C2,N](picolinato)iridium(III)'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 130--130
+[]|\T1/cmr/m/n/9 694.66| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\T1/cmr/m/n/9 b'29H,31H-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 136--136
+[]|\T1/cmr/m/n/9 514.54| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\T1/cmr/m/n/9 b'1,4,5,8,9,11-
+
+Overfull \hbox (57.69247pt too wide) in paragraph at lines 139--139
+\T1/cmr/m/n/9 Hexaazatriphenylenehexacarbonitrile'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 139--139
+[]|\T1/cmr/m/n/9 384.27| 
+[114]
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+[]|\T1/cmr/m/n/9 b'Bis(2-
+
+Overfull \hbox (5.98433pt too wide) in paragraph at lines 173--173
+\T1/cmr/m/n/9 phenylquinoline)(2,2,6,6-
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+\T1/cmr/m/n/9 tetramethylheptane-
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+\T1/cmr/m/n/9 3,5-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 173--173
+[]|\T1/cmr/m/n/9 783.98| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\T1/cmr/m/n/9 b'Tris[2-phenyl-4-
+
+Overfull \hbox (26.2946pt too wide) in paragraph at lines 176--176
+\T1/cmr/m/n/9 methylquinoline)]iridium(III)'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 176--176
+[]|\T1/cmr/m/n/9 847.04| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+[]|\T1/cmr/m/n/9 b'Tris[2-
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\T1/cmr/m/n/9 phenylpyridinato-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 179--179
+[]|\T1/cmr/m/n/9 654.78| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 179--180
+[]|\T1/cmr/m/n/9 1000.0| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|\T1/cmr/m/n/9 b'8-Quinolinolato
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 191--191
+[]|\T1/cmr/m/n/9 151.09| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+[]|\T1/cmr/m/n/9 b'2-Methyl-9,10-
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\T1/cmr/m/n/9 bis(naphthalen-2-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 194--194
+[]|\T1/cmr/m/n/9 444.57| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]|\T1/cmr/m/n/9 b"3,3'-Bis(N-
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+\T1/cmr/m/n/9 carbazolyl)-1,1'-
+
+Overfull \hbox (16.0706pt too wide) in paragraph at lines 200--200
+[]|\T1/cmr/m/n/9 484.58916| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]|\T1/cmr/m/n/9 b'1,3-Bis(N-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 203--203
+[]|\T1/cmr/m/n/9 408.49| 
+
+Underfull \hbox (badness 1142) in paragraph at lines 207--207
+[]|\T1/cmr/m/n/9 b'Magnesium ph-thalo-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 207--207
+[]|\T1/cmr/m/n/9 536.83| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 210--210
+[]|\T1/cmr/m/n/9 143.94| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\T1/cmr/m/n/9 b'N,N-Di(1-naphthyl)-
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+\T1/cmr/m/n/9 N,N-diphenyl-(1,1-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 213--213
+[]|\T1/cmr/m/n/9 588.74| 
+[115] [116]
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+[]|\T1/cmr/m/n/9 b'1,4,5,8-
+
+Overfull \hbox (17.58765pt too wide) in paragraph at lines 218--218
+\T1/cmr/m/n/9 Naphthalenetetracarboxylic
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 218--218
+[]|\T1/cmr/m/n/9 268.18| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\T1/cmr/m/n/9 b'2-[7-(4-ethyl-4H-
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmr/m/n/9 thieno[3,2-b]indol-2-
+
+Overfull \hbox (16.51297pt too wide) in paragraph at lines 221--221
+\T1/cmr/m/n/9 yl)benzo[c][1,2,5]thiadiazol-
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmr/m/n/9 4-yl]-
+
+Overfull \hbox (3.1864pt too wide) in paragraph at lines 221--221
+\T1/cmr/m/n/9 methylenemalononitrile'| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+[]|\T1/cmr/m/n/9 b'2-[7-(8-ethyl-
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+\T1/cmr/m/n/9 8Hthieno[2,3-b]indol-2-
+
+Overfull \hbox (16.51297pt too wide) in paragraph at lines 224--224
+\T1/cmr/m/n/9 yl)benzo[c][1,2,5]thiadiazol-
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+\T1/cmr/m/n/9 4-yl]-
+
+Overfull \hbox (3.1864pt too wide) in paragraph at lines 224--224
+\T1/cmr/m/n/9 methylenemalononitrile'| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]|\T1/cmr/m/n/9 b'Poly(3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+\T1/cmr/m/n/9 hexylthiophene-2,5-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 230--230
+[]|\T1/cmr/m/n/9 719.72| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[]|\T1/cmr/m/n/9 b'Poly(3,4-
+
+Overfull \hbox (7.53603pt too wide) in paragraph at lines 233--233
+\T1/cmr/m/n/9 ethylenedioxythiophene)-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 236--236
+[]|\T1/cmr/m/n/9 278.35| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 241--241
+[]|\T1/cmr/m/n/9 530.22| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+[]|\T1/cmr/m/n/9 b'2,4,6-Tris[3-
+
+Overfull \hbox (23.7605pt too wide) in paragraph at lines 244--244
+\T1/cmr/m/n/9 (diphenylphosphinyl)phenyl]-
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\T1/cmr/m/n/9 b'2,8-
+
+Overfull \hbox (96.15114pt too wide) in paragraph at lines 248--248
+\T1/cmr/m/n/9 Bis(diphenylphosphoryl)dibenzo[b,d]thiophene'| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+[]|\T1/cmr/m/n/9 b'(2,4-
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+\T1/cmr/m/n/9 Pentanedionato)bis[2-
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+\T1/cmr/m/n/9 (2-
+
+Overfull \hbox (28.34618pt too wide) in paragraph at lines 251--251
+\T1/cmr/m/n/9 quinolinyl)phenyl]iridium(III)'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 251--251
+[]|\T1/cmr/m/n/9 699.82| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+[]|\T1/cmr/m/n/9 b'3,4,9,10-
+
+Overfull \hbox (1.30067pt too wide) in paragraph at lines 257--257
+\T1/cmr/m/n/9 Perylenetetracarboxylic
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 257--257
+[]|\T1/cmr/m/n/9 536.54| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+[]|\T1/cmr/m/n/9 b'Perylene-3,4,9,10-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 260--260
+[]|\T1/cmr/m/n/9 392.32| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+[]|\T1/cmr/m/n/9 b'N,N-Dioctyl-3,4,9,10-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 263--263
+[]|\T1/cmr/m/n/9 614.77| 
+
+Underfull \hbox (badness 4416) in paragraph at lines 266--266
+[]|\T1/cmr/m/n/9 b'Platinum oc-taethyl-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 266--266
+[]|\T1/cmr/m/n/9 727.84| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+[]|\T1/cmr/m/n/9 b'Platinum(II)
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+\T1/cmr/m/n/9 tetraphenyl-te-tra-
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+[]|\T1/cmr/m/n/9 [6,13,20,27-
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+\T1/cmr/m/n/9 Tetraphenyl-29H,31H-
+
+Overfull \hbox (4.74152pt too wide) in paragraph at lines 269--269
+\T1/cmr/m/n/9 tetrabenzoporphinato(2-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 269--269
+[]|\T1/cmr/m/n/9 1008.0| 
+[117] [118]
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+[]|\T1/cmr/m/n/9 Pt(II) meso-
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+\T1/cmr/m/n/9 Tetraphenyl Tetra-
+
+Underfull \hbox (badness 4048) in paragraph at lines 271--271
+[]|\T1/cmr/m/n/9 platinum tetraphenyl-
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[]|\T1/cmr/m/n/9 b'5,6,11,12-
+
+Overfull \hbox (7.81021pt too wide) in paragraph at lines 278--278
+\T1/cmr/m/n/9 Tetraphenylnaphthacene'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 278--278
+[]|\T1/cmr/m/n/9 532.67| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+[]|\T1/cmr/m/n/9 b'Tin(IV) 2,3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+\T1/cmr/m/n/9 naphthalocyanine
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 291--291
+[]|\T1/cmr/m/n/9 902.37| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]|\T1/cmr/m/n/9 b'Boron sub-2,3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+\T1/cmr/m/n/9 naphthalocyanine
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 294--294
+[]|\T1/cmr/m/n/9 580.83| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\T1/cmr/m/n/9 b'Boron sub-ph-thalo-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 298--298
+[]|\T1/cmr/m/n/9 430.66| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]|\T1/cmr/m/n/9 b'2,4,6-tris(biphenyl-3-
+
+Overfull \hbox (6.82286pt too wide) in paragraph at lines 302--302
+[]|\T1/cmr/m/n/9 537.652| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\T1/cmr/m/n/9 b'4,4-
+
+Overfull \hbox (5.00885pt too wide) in paragraph at lines 305--305
+\T1/cmr/m/n/9 Cyclohexylidenebis[N,N-
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+\T1/cmr/m/n/9 bis(4-
+
+Overfull \hbox (21.40764pt too wide) in paragraph at lines 305--305
+\T1/cmr/m/n/9 methylphenyl)benzenamine]'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 305--305
+[]|\T1/cmr/m/n/9 626.87| 
+[119] [120]
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]|\T1/cmr/m/n/9 b'3-(Biphenyl-4-yl)-5-
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\T1/cmr/m/n/9 (4-tert-butylphenyl)-
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\T1/cmr/m/n/9 4-phenyl-4H-1,2,4-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 308--308
+[]|\T1/cmr/m/n/9 429.56| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\T1/cmr/m/n/9 b'Tris(4-carbazoyl-9-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 311--311
+[]|\T1/cmr/m/n/9 740.89| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 314--314
+[]|\T1/cmr/m/n/9 228.29| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+[]|\T1/cmr/m/n/9 b'1,3,5-Tri(m-pyrid-3-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 317--317
+[]|\T1/cmr/m/n/9 537.65| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]|\T1/cmr/m/n/9 b'2,2,2"-(1,3,5-
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\T1/cmr/m/n/9 Benzinetriyl)-
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\T1/cmr/m/n/9 tris(1-phenyl-1-H-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 321--321
+[]|\T1/cmr/m/n/9 654.76| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]|\T1/cmr/m/n/9 b'N,N-Bis(3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+\T1/cmr/m/n/9 methylphenyl)-N,N-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 324--324
+[]|\T1/cmr/m/n/9 516.67| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+[]|\T1/cmr/m/n/9 b'9,9,9-triphenyl-
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\T1/cmr/m/n/9 9H,9H,9H-3,3:6,3-
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+[]|\T1/cmr/m/n/9 9,9'-Diphenyl-6-(9-
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\T1/cmr/m/n/9 phenyl-9H-carbazol-
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\T1/cmr/m/n/9 3-yl)-9H,9'H-3,3'-
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 327--327
+[]|\T1/cmr/m/n/9 725.88| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+[]|\T1/cmr/m/n/9 b'p-
+
+Overfull \hbox (64.1791pt too wide) in paragraph at lines 330--330
+\T1/cmr/m/n/9 Bis(triphenylsilyl)benzene;Benzene,1,4-
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+\T1/cmr/m/n/9 bis(triphenylsilyl)-;1,4-
+
+Overfull \hbox (37.8425pt too wide) in paragraph at lines 330--330
+\T1/cmr/m/n/9 Phenylenebis[triphenylsilane;1,4-
+
+Overfull \hbox (27.5672pt too wide) in paragraph at lines 330--330
+\T1/cmr/m/n/9 Phenylenebis(triphenylsilane)'| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 330--330
+[]|\T1/cmr/m/n/9 594.89| 
+
+Overfull \hbox (2.19899pt too wide) in paragraph at lines 333--333
+[]|\T1/cmr/m/n/9 577.91| 
+[121] [122] [123]) (./thesis.lof [124] [125] [126] [127]) [128] (./thesis.lot)
+[129] (./thesis.aux) )
 (see the transcript file for additional information){/usr/share/texmf-dist/font
 s/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -349,5 +1084,5 @@ rm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></us
 r/share/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf-d
 ist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1
 /public/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (92 pages, 10420053 bytes).
+Output written on thesis.pdf (130 pages, 14121077 bytes).
 Transcript written on thesis.log.

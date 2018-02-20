@@ -1,0 +1,280 @@
+INFO - This is Biber 2.10
+INFO - Logfile is 'lifetimeApplications.blg'
+INFO - Reading 'lifetimeApplications.bcf'
+INFO - Found 44 citekeys in bib section 0
+INFO - Processing section 0
+INFO - Looking for bibtex format file 'library.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'library.bib'
+WARN - month field 'mar' in entry 'Watanabe2007' is not an integer - this will probably not sort properly.
+WARN - month field 'sep' in entry 'Adamovich2003' is not an integer - this will probably not sort properly.
+WARN - ISBN '0003-6951' in entry 'Chin2005' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Chwang2002' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-8979' in entry 'Kondakov2003' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-8979' in entry 'Kondakov2007d' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-8979, 1089-7550' in entry 'Giebink2008a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'apr' in entry 'Coburn2017' is not an integer - this will probably not sort properly.
+WARN - ISBN '1944-8252 (Electronic)$\backslash$r1944-8244 (Linking)' in entry 'Wang2013' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1616-3028' in entry 'Wang2014' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'nov' in entry 'Erickson2013a' is not an integer - this will probably not sort properly.
+WARN - month field 'aug' in entry 'Scholz2015' is not an integer - this will probably not sort properly.
+WARN - month field 'oct' in entry 'Xu2016' is not an integer - this will probably not sort properly.
+WARN - month field 'jun' in entry 'Coburn2016a' is not an integer - this will probably not sort properly.
+WARN - month field 'oct' in entry 'Lee2015' is not an integer - this will probably not sort properly.
+WARN - ISBN '0935-9648' in entry 'So2010' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1566-1199' in entry 'Wang2012' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Wang2010a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - Possible typo (case mismatch) between citation and datasource keys: 'wang2012' and 'Wang2012' in file 'library.bib'
+WARN - BibTeX subsystem: /tmp/JuTvilWACn/library.bib_7799.utf8, line 6, warning: 173 characters of junk seen at toplevel
+WARN - I didn't find a database entry for 'wang2012' (section 0)
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+INFO - No sort tailoring available for locale 'en-US'
+INFO - Writing 'lifetimeApplications.bbl' with encoding 'UTF-8'
+INFO - Converting UTF-8 to TeX macros on output to .bbl
+INFO - Output to lifetimeApplications.bbl
+INFO - WARNINGS: 21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./lifetimeApplications.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty)
+Preamble taken from file `../thesis.tex'
+(../thesis.tex (/usr/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(/usr/share/texmf-dist/tex/latex/appendix/appendix.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/share/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu)))
+(/usr/share/texmf-dist/tex/latex/natbib/bibentry.sty)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/share/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))))
+(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/share/texmf-dist/tex/latex/caption/subcaption.sty)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texmf-dist/tex/generic/chemfig/chemfig.sty
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex)
+
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex)
+ (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty))
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex))) (/usr/share/texmf-dist/tex/generic/chemfig/chemfig.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+))) (/usr/share/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx)))
+(./lifetimeApplications.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./lifetimeApplications.out) (./lifetimeApplications.out)
+(./lifetimeApplications.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                wang2012
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+) (/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty)
+ABD: EveryShipout initializing macros
+Chapter 1.
+
+LaTeX Warning: Reference `sec:integrated_lifetime' on page 1 undefined on input
+ line 5.
+
+
+LaTeX Warning: Reference `sec:oleds_fabrication' on page 1 undefined on input l
+ine 34.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../images/lifetimeApplic
+ations/architecture.png> <../images/lifetimeApplications/eqe.png>] [2 <../image
+s/lifetimeApplications/elpl.png>] [3 <../images/lifetimeApplications/tx_compone
+nts.png>] [4 <../images/lifetimeApplications/cbp_rz.png>]
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+162.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 16
+9.
+
+
+LaTeX Warning: Reference `sec:oleds_fabrication' on page 5 undefined on input l
+ine 170.
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 169--173
+\T1/cmr/m/n/10 Devices con-sisted of a 60-nm-thick hole in-jec-tion layer
+
+Underfull \hbox (badness 3029) in paragraph at lines 169--173
+\T1/cmr/m/n/10 (HIL) of poly(thiophene-3-[2[(2-methoxyethoxy)ethoxy]-2,5-
+[5 <../images/lifetimeApplications/meml_eqe.png>]
+
+LaTeX Warning: Reference `sec:rz_measurement' on page 6 undefined on input line
+ 179.
+
+[6 <../images/lifetimeApplications/meml_rz.png>] [7 <../images/lifetimeApplicat
+ions/meml_lifetime.png> <../images/lifetimeApplications/meml_scaled_lifetime.pn
+g>] [8 <../images/lifetimeApplications/meml_luminance.png>] [9] [10] [11]
+[12] (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd) [13] [14]
+(./lifetimeApplications.aux)
+
+LaTeX Warning: There were undefined references.
+
+ )
+(see the transcript file for additional information){/usr/share/texmf-dist/font
+s/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/share/texmf-d
+ist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf-dist/fonts/type1
+/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
+r/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb>
+</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/tex
+mf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm0500.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
+super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.
+pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share
+/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fon
+ts/type1/public/cm-super/sftt1000.pfb>
+Output written on lifetimeApplications.pdf (14 pages, 1070859 bytes).
+Transcript written on lifetimeApplications.log.

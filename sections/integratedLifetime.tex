@@ -22,8 +22,7 @@ Similar techniques have been utilized before, but have lacked completeness in th
 
 
 This chapter demonstrates a method for decoupling the device photoluminescence loss from the exciton formation losses during operational lifetime testing.  
-This is a summary and extension of my work entitled \textit{Decoupling degradation in exciton formation and recombination during lifetime testing of organic light-emitting devices}.\supercite{Hershey2017}
-
+This is a summary and extension of my work entitled \textcite{Hershey2017} as well as some error analysis from \textcite{Bangsund2018a}.
 
 \section{Luminance as Efficiency Loss}
 
@@ -281,6 +280,94 @@ Since the transient photoluminescence and photoluminescence degradation are both
 
 
 \section{Experimental Implementation}
+
+\subsection{Motivation}
+
+\begin{wrapfigure}{r}{.5\textwidth}
+\centering
+\includegraphics[width=.5\textwidth]{integratedLifetime/gang}
+\caption{Initial Attempts at measuring \pl during degradation using individual devices from the PTI.}
+\label{fig:gang}
+\end{wrapfigure}
+
+The conceptual idea of decoupling \ef and \pl during degradation was first investigated in our group without specialized equipment.
+Devices were fabricated and aged to varying points in the degradation in the same method as traditional lifetime measurements.
+After degradation, the device fluorescence was measured using a Photon Technologies International (PTI) fluorometer and compared to a control device.
+In this way, a PL curve can be produced, shown in Figure \ref{fig:gang}.
+In this graph, the control is taken as 1 at $t=0$ and each subsequent point consists of at least one device with three averaged fluorescence measurements for error bars.
+Though a proof of concept, this method is riddled with experimental problems.
+First off, experimental throughput is extremely low, since producing any \pl curve requires separate aging of a device for every desired point.  
+Even for the 5 point curves shown, this is extremely equipment heavy.
+Additionally, every point must be individually measured on the PTI, requiring substantial active lab time from the experimenter, as well as machine time.
+
+The second and more restricting problem with this technique is the large error bars.  
+As shown in Figure \ref{fig:gang}, with error bars of $\pm 10\%$, it is impossible to differentiate between devices.
+These large error bars for any individual point are caused by differences in loading into the PTI.  
+In this measurement, the raw magnitude of the spectra is being extracted for comparison, and is highly dependent on the exact position of the sample within the excitation beam, as well as alignment with the collection optics and any angular deviation, changing reflection.
+
+Furthermore, this method has no way of eliminating sample-to-sample variation from the \pl curve without reproduction of all experimental points, requiring dramatic increase in machine time.
+Because of this, only speculation as to the accuracy of the curvature and validity of any data point can be made.
+Comparison between devices, especially in the temporal behavior becomes impractical due to the experimental time and uncertainty.
+
+These initial experimental techniques demonstrated the need for a new testing method.
+Ideally, this method would automatically measure \pl on the same sample, dramatically reducing experimental time and throughput limitations.
+This automatic measurement can have the added benefit of reducing measurement error by holding the sample fixed throughout the decay and ensuring alignment.
+While sample-to-sample variation may still be an issue, it is no longer a problem in collecting a full dataset.
+
+\subsection{Development}
+
+In order to accomplish this automated measurement, the \pl measurement needed to be conducted in an automated way.
+A light source capable of producing a constant illumination source over the course of hundreds of hours was needed.
+A lamp source, such as the PTI was initially considered, but found to have lifetimes similar to the OLED lifetimes.
+The lamp would not be able to be turned on and off throughout the test since lamps require substantial warmup time to achieve steady-state.
+Instead, a laser was used since they can be rapidly turned on and off, eliminating any need for blocking the light source during EL measurement.
+To account for any fluctuations in laser power over time, the power can be measured as a function of time and corrected for if needed.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.9\textwidth]{integratedLifetime/gen1}
+\caption{First generation lifetime box setup.  a.  Box layout  b. Electronics c. dark enclosure (cardboard box) d. software interface}
+\label{fig:gen1}
+\end{figure}
+
+The first generation implementation of this setup is shown in Figure \ref{fig:gen1}.
+This was a single channel device degradation, with the laser and splitter shown in the Figure \ref{fig:gen1}a on the left and the device and photodiode collection shown on the right.
+Laser power detection relied on the split signal into the photodiode.
+The electronics are shown in Figure \ref{fig:gen1}b and control the laser, current source and voltage measurements, and photodiode measurements.
+The laser was controlled by switching the interlock using an Arduino (red PCB).
+A constant current source was implemented, with the current being set using the potentiometer on the front of the box.  
+This had to be set and measured manually and was only recorded in the software, not set.
+Photodiode signals were converted to voltages using the green PCB and recorded using the Arduino. 
+The software, shown in Figure \ref{fig:gen1}d recorded all measurements and controlled the current, laser, and measurement timings.
+This was implemented in Python, using the Tk graphics library to create the GUI.  
+At this initial stage, the software only had to interface with the Arduino, and did so using the Serial library.
+The Arduino was programmed to accept commands to turn on and off the laser and current, or report measurement values for voltage and the signals from either photodiode.
+
+
+Soon after development, the limited resolution of the photodiode measurements, as well as the limitations of the manual current source were realized.
+In our traditional measurements of lifetime, a Keithley 26xx source meter was used for sourcing current and measuring signals.  
+This Keithley was rapidly integrated into the system to allow better measurements and more accurate current control.
+The laser was replaced by a laser from Coherent which offered brighter and more stable power, as well as programmatic control.  
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.9\textwidth]{integratedLifetime/box_workflow}
+\caption{Box workflow summary.  Top panel shows the operation of Boxes 1 and 2, bottom shows Box 3.}
+\label{fig:box_workflow}
+\end{figure}
+
+After this early development and hardware changes, little has changed about general workflow of this experiment.
+However, rather than individual boxes for each experiment, a single laser has been multiplexed to excite up to six different devices, dramatically cutting costs.
+Each experimental setup consisting of a single laser and multiple testing devices is termed a \"box\", with each device residing in a \"compartment\".
+A summary of all hardware and software connections and control is shown in Figure \ref{fig:box_workflow}.
+There are two different hardware configurations shown, interfacing with different source-meters.
+In the top configuration, each compartment is controlled by an individual Keithley source-meter.
+In the bottom configuration, to cut costs, a Keysight source-meter is used to supply current.  
+The photodiodes in each box are measured by a single Keithley, switching between each compartment using an Arduino relay circuit.
+This allows a dramatic reduction in hardware and costs.
+
+The next two sections go into detail regarding the implementation of of the hardware and software setups.
+
 \subsection{Hardware Setup}
 
 \begin{figure}[ht]
@@ -297,17 +384,17 @@ Hardware for this setup requires control of current sources, voltage measurement
 Currently, there are four operational testing setups, termed ``boxes'', with varying hardware configurations.
 Several boxes are multiplexed to allow multiple measurements from the multiple compartments.
 Source units for providing current and voltage measurements have used either the Keithley 26xx or Keysight u2722a source meters.  
-The Keithley 26xx units are a two channel, low noise, high precision unit.
-The Keysight u2722a provides three channels with higher noise and lower precision at a lower price point per channel.
-Light sources for all boxes are conducted using Coherent OBIS lasers, with wavelengths of either 405 nm or 473 nm.
-Light measurements are conducted using the Keithley 26xx for all boxes, connected to a Hamamatsu S2281 photodiode.
-Figure \ref{fig:source_measure}a shows the electronic hardware
 \begin{wrapfigure}{r}{.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{integratedLifetime/hardware}
 \caption{Device contacting, measurement, and optical hardware.  Version 3 of the hardware is shown.  Controlling hardware is shown in Fig. \ref{fig:source_measure}}
 \label{fig:hardware}
 \end{wrapfigure}
+The Keithley 26xx units are a two channel, low noise, high precision unit.
+The Keysight u2722a provides three channels with higher noise and lower precision at a lower price point per channel.
+Light sources for all boxes are conducted using Coherent OBIS lasers, with wavelengths of either 405 nm or 473 nm.
+Light measurements are conducted using the Keithley 26xx for all boxes, connected to a Hamamatsu S2281 photodiode.
+Figure \ref{fig:source_measure}a shows the electronic hardware
  setup for a box utilizing Keysights for source units and a Keithley for measurement.
 To reduce measurement units, the photodiodes in each compartment can be switched between using an Arduino relay system shown in Figure \ref{fig:source_measure}b.
 All of these pieces of hardware are compatible with the National Instrument VISA command library for control.

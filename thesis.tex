@@ -4,13 +4,15 @@
 \usepackage{amsmath}
 % Graphics Setup
 \usepackage{graphicx}
-\graphicspath{{images/}{../images/}}
+\graphicspath{{images/}{../images/}{molecules/}{.}}
 \usepackage{wrapfig}
 \setlength{\intextsep}{0pt}
 
 
 % Links in Table of Contenets
 \usepackage[hidelinks]{hyperref}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
 
 
 % For bibliography logic
@@ -51,6 +53,10 @@
 
 % Chemical Compounds
 \usepackage{chemfig}
+
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{lscape}
 
 % Code
 \usepackage{listings}
@@ -163,6 +169,12 @@
 
 % Code
 \subfile{sections/code}
+
+% Material structures
+\subfile{molecules/structures}
+
+% Material properties
+\subfile{sections/materials}
 
 % Lists
 \addcontentsline{toc}{chapter}{List of Figures}

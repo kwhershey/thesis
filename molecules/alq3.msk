@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molscene MolsceneChargeVisible="false" MolsceneAutoAddHydrogen="false">
+    <molecule name="">
+        <atomArray>
+            <atom id="a1" elementType="Al" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-65"/>
+            <atom id="a2" elementType="C" hydrogenCount="2" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,-85"/>
+            <atom id="a3" elementType="O" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,-105"/>
+            <atom id="a4" elementType="C" hydrogenCount="2" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-25"/>
+            <atom id="a5" elementType="O" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,15"/>
+            <atom id="a6" elementType="C" hydrogenCount="2" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-412.141,-85"/>
+            <atom id="a7" elementType="O" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-446.782,-105"/>
+            <atom id="a8" elementType="C" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,-145"/>
+            <atom id="a9" elementType="C" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-481.423,-85"/>
+            <atom id="a10" elementType="C" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,35"/>
+            <atom id="a11" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,-165"/>
+            <atom id="a12" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,-205"/>
+            <atom id="a13" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,-225"/>
+            <atom id="a14" elementType="C" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,-205"/>
+            <atom id="a15" elementType="C" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,-165"/>
+            <atom id="a16" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-225"/>
+            <atom id="a17" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-412.141,-205"/>
+            <atom id="a18" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-412.141,-165"/>
+            <atom id="a19" elementType="N" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-145"/>
+            <atom id="a20" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,75"/>
+            <atom id="a21" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,95"/>
+            <atom id="a22" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,75"/>
+            <atom id="a23" elementType="C" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,35"/>
+            <atom id="a24" elementType="C" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,15"/>
+            <atom id="a25" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-238.936,15"/>
+            <atom id="a26" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-238.936,-25"/>
+            <atom id="a27" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,-45"/>
+            <atom id="a28" elementType="N" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,-25"/>
+            <atom id="a29" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-516.064,-105"/>
+            <atom id="a30" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-550.705,-85"/>
+            <atom id="a31" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-550.705,-45"/>
+            <atom id="a32" elementType="C" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-516.064,-25"/>
+            <atom id="a33" elementType="C" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-481.423,-45"/>
+            <atom id="a34" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-516.064,15"/>
+            <atom id="a35" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-481.423,35"/>
+            <atom id="a36" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-446.782,15"/>
+            <atom id="a37" elementType="N" hydrogenCount="0" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-446.782,-25"/>
+        </atomArray>
+        <bondArray>
+            <bond atomRefs2="a1 a2" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-65;-342.859,-85"/>
+            <bond atomRefs2="a2 a3" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,-85;-308.218,-105"/>
+            <bond atomRefs2="a1 a4" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-65;-377.5,-25"/>
+            <bond atomRefs2="a4 a5" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-25;-377.5,15"/>
+            <bond atomRefs2="a1 a6" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-65;-412.141,-85"/>
+            <bond atomRefs2="a6 a7" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-412.141,-85;-446.782,-105"/>
+            <bond atomRefs2="a3 a8" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,-105;-308.218,-145"/>
+            <bond atomRefs2="a7 a9" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-446.782,-105;-481.423,-85"/>
+            <bond atomRefs2="a5 a10" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,15;-342.859,35"/>
+            <bond atomRefs2="a8 a11" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,-145;-273.577,-165"/>
+            <bond atomRefs2="a11 a12" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,-165;-273.577,-205"/>
+            <bond atomRefs2="a12 a13" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,-205;-308.218,-225"/>
+            <bond atomRefs2="a13 a14" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,-225;-342.859,-205"/>
+            <bond atomRefs2="a14 a15" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,-205;-342.859,-165"/>
+            <bond atomRefs2="a15 a8" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,-165;-308.218,-145"/>
+            <bond atomRefs2="a14 a16" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,-205;-377.5,-225"/>
+            <bond atomRefs2="a16 a17" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-225;-412.141,-205"/>
+            <bond atomRefs2="a17 a18" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-412.141,-205;-412.141,-165"/>
+            <bond atomRefs2="a18 a19" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-412.141,-165;-377.5,-145"/>
+            <bond atomRefs2="a19 a15" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-145;-342.859,-165"/>
+            <bond atomRefs2="a10 a20" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,35;-342.859,75"/>
+            <bond atomRefs2="a20 a21" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-342.859,75;-308.218,95"/>
+            <bond atomRefs2="a21 a22" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,95;-273.577,75"/>
+            <bond atomRefs2="a22 a23" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,75;-273.577,35"/>
+            <bond atomRefs2="a23 a24" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,35;-308.218,15"/>
+            <bond atomRefs2="a24 a10" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,15;-342.859,35"/>
+            <bond atomRefs2="a23 a25" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,35;-238.936,15"/>
+            <bond atomRefs2="a25 a26" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-238.936,15;-238.936,-25"/>
+            <bond atomRefs2="a26 a27" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-238.936,-25;-273.577,-45"/>
+            <bond atomRefs2="a27 a28" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-273.577,-45;-308.218,-25"/>
+            <bond atomRefs2="a28 a24" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-308.218,-25;-308.218,15"/>
+            <bond atomRefs2="a9 a29" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-481.423,-85;-516.064,-105"/>
+            <bond atomRefs2="a29 a30" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-516.064,-105;-550.705,-85"/>
+            <bond atomRefs2="a30 a31" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-550.705,-85;-550.705,-45"/>
+            <bond atomRefs2="a31 a32" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-550.705,-45;-516.064,-25"/>
+            <bond atomRefs2="a32 a33" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-516.064,-25;-481.423,-45"/>
+            <bond atomRefs2="a33 a9" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-481.423,-45;-481.423,-85"/>
+            <bond atomRefs2="a32 a34" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-516.064,-25;-516.064,15"/>
+            <bond atomRefs2="a34 a35" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-516.064,15;-481.423,35"/>
+            <bond atomRefs2="a35 a36" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-481.423,35;-446.782,15"/>
+            <bond atomRefs2="a36 a37" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-446.782,15;-446.782,-25"/>
+            <bond atomRefs2="a37 a33" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-446.782,-25;-481.423,-45"/>
+            <bond atomRefs2="a1 a37" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-65;-446.782,-25"/>
+            <bond atomRefs2="a1 a28" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-65;-308.218,-25"/>
+            <bond atomRefs2="a1 a19" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="-377.5,-65;-377.5,-145"/>
+        </bondArray>
+    </molecule>
+    <molecule name="">
+        <atomArray>
+            <atom id="a1" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a2" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a3" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a4" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a5" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a6" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+        </atomArray>
+        <bondArray>
+            <bond atomRefs2="a1 a2" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a2 a3" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a3 a4" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a4 a5" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a5 a6" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a6 a1" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+        </bondArray>
+    </molecule>
+    <molecule name="">
+        <atomArray>
+            <atom id="a1" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a2" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a3" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a4" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a5" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a6" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+        </atomArray>
+        <bondArray>
+            <bond atomRefs2="a1 a2" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a2 a3" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a3 a4" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a4 a5" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a5 a6" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a6 a1" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+        </bondArray>
+    </molecule>
+    <molecule name="">
+        <atomArray>
+            <atom id="a1" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a2" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a3" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a4" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a5" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+            <atom id="a6" elementType="C" hydrogenCount="1" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan"/>
+        </atomArray>
+        <bondArray>
+            <bond atomRefs2="a1 a2" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a2 a3" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a3 a4" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a4 a5" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a5 a6" type="22" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+            <bond atomRefs2="a6 a1" type="10" colorR="0" colorG="0" colorB="0" scalingParameter="1" coordinates="nan,nan;nan,nan"/>
+        </bondArray>
+    </molecule>
+</molscene>
