@@ -1,0 +1,13 @@
+\documentclass[thesis.tex]{subfiles}
+\usepackage{tocloft}
+\let\Contentsline\contentsline
+\renewcommand\contentsline[3]{\Contentsline{#1}{#2}{}}
+\renewcommand{\cftdot}{}
+\begin{document}
+\begingroup
+\section*{\contentsname}
+\makeatletter
+\input{thesis.toc}
+\makeatother
+\endgroup
+\end{document}
