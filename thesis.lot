@@ -8,13 +8,21 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Fit parameters extracted from transient and steady-state electroluminescence. Transient EL fit parameters averaged over all measured current densities. \ensuremath {\eta _{_\text {\relax \fontsize {5}{6}\selectfont EQE}}}roll-off parameters averaged over several measured devices. Triplet-triplet annihilation and triplet-polaron quenching rates are fixed to those obtained from fitting the normalized efficiency roll-off.\relax }}{42}{table.caption.32}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Fit parameters extracted from transient and steady-state electroluminescence. Transient EL fit parameters averaged over all measured current densities. \ensuremath {\eta _{_\text {\relax \fontsize {5}{6}\selectfont EQE}}}roll-off parameters averaged over several measured devices. Triplet-triplet annihilation and triplet-polaron quenching rates are fixed to those obtained from fitting the normalized efficiency roll-off.\relax }}{53}{table.caption.42}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces Summary of device lifetimes. For each device, the starting luminance ($L_0$), current density ($J$), starting voltage ($V_0$) and time at which 50\% of the initial luminance is reached ($t_{50}$) are reported.\relax }}{74}{table.caption.55}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Summary of device lifetimes. For each device, the starting luminance ($L_0$), current density ($J$), starting voltage ($V_0$) and time at which 50\% of the initial luminance is reached ($t_{50}$) are reported.\relax }}{77}{table.caption.65}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.1}{\ignorespaces PL quantum yield (\ensuremath {\eta _{_\text {\relax \fontsize {5}{6}\selectfont PL}}})\relax }}{93}{table.caption.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.2}{\ignorespaces Summary of OLED device performance. \relax }}{95}{table.caption.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.3}{\ignorespaces Photoluminescence summary for the emitter molecules of Figure \ref {fig:hoye_oh_reactions}\relax }}{99}{table.caption.93}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

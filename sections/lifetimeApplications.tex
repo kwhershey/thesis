@@ -14,12 +14,12 @@ This includes a discussions of \textcite{Hershey2017} in Section \ref{sec:cbp_ho
 %\begin{wrapfigure}{r}{.4\textwidth}
 \begin{figure}[ht]
 \centering
-\begin{subfigure}{.3\textwidth}
+\begin{subfigure}{.2\textheight}
 \includegraphics[width=\textwidth]{lifetimeApplications/architecture}
 \caption{}
 \label{fig:cbp_architecture}
 \end{subfigure}
-\begin{subfigure}{.4\textwidth}
+\begin{subfigure}{.2\textheight}
 \includegraphics[width=\textwidth]{lifetimeApplications/eqe}
 \caption{}
 \label{fig:cbp_eqe}
@@ -28,7 +28,7 @@ This includes a discussions of \textcite{Hershey2017} in Section \ref{sec:cbp_ho
 \end{figure}
 
 
-Carbazole materials are architypical hosts for phosphorescent devices, most common among them being 4,4'-Bis(N-carbazolyly)-1,1'-biphenyl (CBP).\supercite{Han2014,OBrien1999a,Cho2014,Price2015,Adachi2001,Watanabe2007,Holmes2003,Adamovich2003}
+Carbazole materials are archetypical hosts for phosphorescent devices, most common among them being 4,4'-Bis(N-carbazolyly)-1,1'-biphenyl (CBP).\supercite{Han2014,OBrien1999a,Cho2014,Price2015,Adachi2001,Watanabe2007,Holmes2003,Adamovich2003}
 Therefore, CBP was used as a preliminary system to demonstrate the decoupling technique.
 Devices consisted of a 40-nm-thick hole-injection layer of Plexcore AQ1200 spun-cast on a glass substrate coated with a 150-nm-thick layer of  indium-tin-oxide (ITO), followed by a 30-nm-thick hole-transport layer of N,N' -Bis(naphthalen-1-yl)-N,N' -bis(phenyl)-benzidine (NPD), and an EML of 4,4'-Bis(N-carbazolyl)-1,1'-biphenyl (CBP) doped at 6 vol. % with tris[2-phenylpyridinato-C2,N]iridium(III) (Ir(ppy)3).  The emissive layer was capped with a 10-nm-thick layer of 2,2′,2"-(1,3,5-Benzinetriyl)-tris(1-phenyl-1-H-benzimidazole) (TPBi), and a 30-nm-thick layer of tris-(8-hydroxyquinoline)aluminum (Alq3). The cathode for each device consisted of a 0.5-nm-thick layer of LiF and a 100-nm-thick layer of Al.
 All devices were fabricated according to the processes outlined in Chapter \ref{sec:oleds_fabrication}.
@@ -53,7 +53,14 @@ In Figure \ref{fig:cbp_elpl}b, the intermittent \pl measurements can be seen, sh
 The operational conditions of each device is shown in Table \ref{tab:lifetime_summary}.
 Similar currents are used across EML thicknesses, but voltage increases slightly with thickness, as might be expected.
 
-\begin{table}[hb]
+
+To be able to extract \pl and \ef, \oc and $\chi$ cannot change during degradation.
+No birefringence was observed under cross polarization before or after degradation, suggesting the absence of large-scale crystallization which would change \oc .  
+No new emission features are observed with degradation, suggesting that the emissive state is unchanged and $\chi$ can be assumed constant.
+With these assumptions satisfied, \pl and \ef can be extracted from the measured PL intensity, and are shown in Figure \ref{fig:tx_components}.
+
+
+\begin{wraptable}{r}{.6\textwidth}%[hb]
 \centering
 \begin{tabular}{c|c|c|c|c}
 $d_{EML}$ (nm) & $L_0$ (cd/m$^2$) & $J$ (mA/cm$^2$) & $V_0$ (V) & $t_{50}$ (hours) \\
@@ -78,21 +85,8 @@ $d_{EML}$ (nm) & $L_0$ (cd/m$^2$) & $J$ (mA/cm$^2$) & $V_0$ (V) & $t_{50}$ (hour
 \end{tabular}
 \caption{Summary of device lifetimes.  For each device, the starting luminance ($L_0$), current density ($J$), starting voltage ($V_0$) and time at which 50\% of the initial luminance is reached ($t_{50}$) are reported.}
 \label{tab:lifetime_summary}
-\end{table}
+\end{wraptable}
 
-To be able to extract \pl and \ef, \oc and $\chi$ cannot change during degradation.
-No birefringence was observed under cross polarization before or after degradation, suggesting the absence of large-scale crystallization which would change \oc .  
-No new emission features are observed with degradation, suggesting that the emissive state is unchanged and $\chi$ can be assumed constant.
-With these assumptions satisfied, \pl and \ef can be extracted from the measured PL intensity, and are shown in Figure \ref{fig:tx_components}.
-
-
-
-\begin{wrapfigure}{r}{.6\textwidth}
-\centering
-\includegraphics[width=0.6\textwidth]{lifetimeApplications/tx_components}
-\caption{Extracted lifetimes for all 3 architectures as a function of luminance.}
-\label{fig:tx_components}
-\end{wrapfigure}
 
 The lifetime decreases with luminance for all architectures.  
 While a reduction in the EL lifetime is observed in Figures \ref{fig:cbp_elpl} and \ref{fig:tx_components} in reducing device thickness from 30 nm to 20 nm, little difference is seen between devices having EML thicknesses of 20 nm and 10 nm.  
@@ -103,18 +97,24 @@ Over this same period, the PL intensity has only degraded by ~10\% of its initia
 
 The similarity in PL degradation observed across all EML thicknesses suggests that the exciton and polaron densities are similar between these devices,\supercite{Giebink2008a,Coburn2017,Lee2017} thus have similar exciton recombination zone widths.  
 The accelerated degradation in the exciton formation efficiency (\ef) observed for devices with EML thicknesses of 10 nm and 20 nm suggests that the recombination zone samples the EML/TPBi interface, which has been previously shown to cause degradation.\supercite{Wang2013,Wang2014}
-This change in recombination zone location is also suggested by the \eqe behavior shifting peak location, shown in Figure \ref{fig:cbp_eqe}.
+This change in recombination zone location is also suggested by the \eqe behavior shifting peak location, shown in Figure \ref{fig:cbp_eqe}
 To validate this suggestion, the position of the recombination zone was assessed in the devices with EML thickness of 20 and 30 nm devices using a quenching TPTBP sensitizer.  
 The position of the recombination zone can be inferred by the corresponding reduction in device \eqe due to quenching by TPTBP.\supercite{Erickson2013a}
 The sensitized 30-nm-thick EML devices showed no quenching, suggesting no recombination near the interface, while devices with a 20-nm-thick EML showed quenching only at the EML/TPBi interface, confirming the position of the recombination zone at that interface.  
 Devices with a 10-nm-thick EML exhibited changing current-voltage behavior when sensitized with TPTBP, and thus PtTPTBP, an emissive sensitizer with a peak wavelength of 770 nm, was used in 2-nm-thick strips on either side of the EML at 0.5 vol. \%.
 This configuration was able to match the current-voltage behavior of the control device while permitting the measurement of emission from PtTPTBP.  
+\begin{wrapfigure}{r}{.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{lifetimeApplications/tx_components}
+\caption{Extracted lifetimes for all 3 architectures as a function of luminance.}
+\label{fig:tx_components}
+\end{wrapfigure}
 For devices with a 10-nm-thick EML, strong emission from PtTPTBP is observed from the EML/TPBi interface and weak emission seen from the EML/NPD interface. 
 These quenching experiments are shown in Figure \ref{fig:cbp_rz}.
 These results suggest that for devices with an EML thickness of 10 nm or 20 nm, the recombination zone samples the EML/TPBi interface, accelerating exciton formation loss.  
 While detailed analysis of the relevant degradation mechanism is the subject of future work, previous work has suggested a role played by exciton-polaron interactions.\supercite{Wang2015a,Zhang2016,Giebink2008a,Kondakov2007d,Kondakov2003}
 
-\begin{figure}[hb]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=.8\textwidth]{lifetimeApplications/cbp_rz}
 \caption{a. TPTBP quenched 30 nm devices.  No quenching is observed.  b. TPTBP quenched 20 nm devices.  Quenching is observed for the ETL side quencher, and minimally for the HTL side. c. PtTPTBP quenched 10 nm EML devices. Emission from the sensitizer only at the ETL. d. Summary of recombination zone measurements.}
@@ -130,7 +130,7 @@ However, for novel molecules, limiting processes are largely unknown and would b
 PL degradation could become increasingly important for blue-emitting species where the high exciton energies could contribute to material degradation.  \supercite{Scholz2015,Xu2016,Coburn2016a,Lee2015,Yi2016,Kim2008}
 This screening process would be dramatically improved if \ef and \pl can be mechanistically modeled.  
 With additional datasets, modeling and understanding of degradation mechanisms can be improved and help to identify limiting processes.
-The model presented in \textcite{Giebink2008a} could easily be adapted to seperate losses that would be captured by \pl and \ef, and would provide further checks to this overparameterized model.
+The model presented in \textcite{Giebink2008a} could easily be adapted to separate losses that would be captured by \pl and \ef, and would provide further checks to this over-parameterized model.
 
 In summary, this work presents a method for decoupling optical and electrical losses during OLED operational decay by attributing the overall reduction in electroluminescence to a loss in \pl or the exciton formation efficiency through \ef.  
 Model devices are shown as a function of luminance, with a loss in \ef shown to be the limiting factor for the short-lived devices.  
@@ -139,6 +139,8 @@ Contrary to the expectation, the RZ is not found to expand with the EML thicknes
 This technique allows access to additional experimental information which can offer insight about the degradation mechanism and understanding of device luminance loss.  
 This added information can be used to aid future efforts in modeling degradation.
 
+
+\newpage
 \section{MEML Luminance Scaling}\label{sec:lifetime_meml}
 
 \begin{wrapfigure}{r}{.4\textwidth}
@@ -155,16 +157,10 @@ All figures are reproduced from this work, while the text is an adapted version 
 
 As discussed in Section \ref{sec:cbp_host}, recombination zone width has been extensively connected with lifetime, mediated by the exciton and polaron populations.\supercite{Scholz2015,Giebink2008a,Giebink2009a,So2010,Zhang2016,Schmidbauer2013,Wu2016,Lee2006,Chwang2002}
 However, despite this observed trend with recombination zone thickness, the specific role of the RZ in degradation kinetics is still an active area of investigation.
-Using a mixed emmissive layer (MEML) architecture, this works seeks to provide a more concrete connection between the recombination zone and degradation within the same system.  
+Using a mixed emissive layer (MEML) architecture, this works seeks to provide a more concrete connection between the recombination zone and degradation within the same system.  
 
 \subsection{Experimental}
 
-\begin{wrapfigure}{r}{.4\textwidth}
-\centering
-\includegraphics[width=.4\textwidth]{lifetimeApplications/meml_rz}
-\caption{a. Raw spectra of sensitized devices.  b. Out-coupling for \irppy and PtTPTBP across the EML as well as electric field profille.  c. RZ as a function of current density.  For all currents, the RZ is found to span the entire EML.}
-\label{fig:meml_rz}
-\end{wrapfigure}
 
 Devices consisted of a 60-nm-thick hole injection layer (HIL) of poly(thiophene-3-[2[(2-methoxyethoxy)ethoxy]-2,5-diyl)(AQ1200, Sigma Aldrich), a 4,4',4"-tris(N-carbazolyl)triphenylamine (TCTA, TCI America) hole-transport layer (HTL), a mixed-host emissive layer (M-EML) consisting of a 47.5 vol.% TCTA, 47.5 vol.% 2,2',2''(1,3,5-benzenetriyl) tris-(1-phenyl-1H-benzimidazole) (TPBi, Lumtec) and 5 vol.% of the green phosphorescent emitter fac-tris(2-phenylpyridine)iridium(III) (Ir(ppy)3, Lumtec), a TPBi electron-transport layer (ETL), and a LiF (1 nm)/Al (100 nm) cathode. 
 All layers were deposited according to the procedures outlined in Section \ref{sec:oleds_fabrication}.
@@ -175,6 +171,12 @@ This device architecture system, shown in the inset of Figure \ref{fig:meml_eqe}
 Because of this property, the MEML thicknes, $d_{eml}$ can be taken as a proxy for the RZ width, and the exciton density can be controlled by modifying the EML.
 The increase in recombination zone thickness is evidenced by the change in onset of the roll-off with increasing RZ width, seen in Figure \ref{fig:meml_eqe}c.
 
+\begin{wrapfigure}{r}{.4\textwidth}
+\centering
+\includegraphics[width=.4\textwidth]{lifetimeApplications/meml_rz}
+\caption{a. Raw spectra of sensitized devices.  b. Out-coupling for \irppy and PtTPTBP across the EML as well as electric field profile.  c. RZ as a function of current density.  For all currents, the RZ is found to span the entire EML.}
+\label{fig:meml_rz}
+\end{wrapfigure}
 
 To experimentally confirm the RZ breadth, the 60 nm EML architecture was investigated using PtTPTBP as a sensitizer, using the methodology outlined in Chapter \ref{sec:rz_measurement}.
 The exciton density is found to remain above 60\% of the peak across the entire 60 nm M-EML at a current density of 10 mA/cm$^2$, shown in Figure \ref{fig:meml_rz}. 
@@ -185,15 +187,15 @@ Therefore, thinner EML devices are also assumed to have a RZ spanning the EML.
 
 \subsection{Results}
 
+
+The degradation of these devices at a initial luminance of $L_0$=3,000 cd/m$^2$ is shown in Figure \ref{fig:meml_lifetime}a.
+The EL lifetime increases by approximately a factor of 3 in increasing the thickness from 10 nm to 60 nm, and nearly all this enhancement can be attributed to a reduced rate of PL degradation, shown in Figure \ref{fig:meml_lifetime}b.
 \begin{wrapfigure}{r}{.4\textwidth}
 \centering
 \includegraphics[width=.4\textwidth]{lifetimeApplications/meml_lifetime}
 \caption{a. EL lifetime at 3,000 cd/m$^2$ for EML thicknesses of 10,30,60 nm.  b. The corresponding \pl and \ef degradation.}
 \label{fig:meml_lifetime}
 \end{wrapfigure}
-
-The degradation of these devices at a initial luminance of $L_0$=3,000 cd/m$^2$ is shown in Figure \ref{fig:meml_lifetime}a.
-The EL lifetime increases by approximately a factor of 3 in increasing the thickness from 10 nm to 60 nm, and nearly all this enhancement can be attributed to a reduced rate of PL degradation, shown in Figure \ref{fig:meml_lifetime}b.
 No trend with thickness is apparent in the \ef decays, which are all within typical device-to-device variation. 
 In contrast, the PL decays show a dramatic separation with thickness. 
 We also note that a reduction in \ef dominates the overall degradation rate in the 30 nm and 60 nm thick M-EML devices, but is comparable to PL losses in the 10 nm M-EML device. 
@@ -201,12 +203,6 @@ These results suggest that reduced degradation in emissive layer PL efficiency m
 Moreover, the combination of improved efficiency roll-off and PL lifetime with an increased RZ width, and thus decreased exciton density, provides further evidence of a link between bimolecular annihilation events and the degradation of PL efficiency. \supercite{Schmidbauer2013}
 Losses in \ef, however, appear to be relatively insensitive to exciton density.
 
-\begin{wrapfigure}{r}{.4\textwidth}
-\centering
-\includegraphics[width=.4\textwidth]{lifetimeApplications/meml_scaled_lifetime}
-\caption{Lifetimes of devices with luminance scaled to match the EML thickness. PL collapses due to matched exciton density.}
-\label{fig:meml_scaled_lifetime}
-\end{wrapfigure}
 
 To show that exciton density and PL loss are intimately related, the exciton density was matched between the architectures by scaling the luminance to the EML thickness ratio.  
 The 10, 30, and 60 nm EML devices were operated at initial luminances of 1,000, 3,000, and 6,000 cd/m$^2$, respectively.
@@ -218,14 +214,8 @@ The exciton density does not remain matched over the course of the entire test d
 This observation of matched PL losses under scaled luminance has been reproduced under a range of scaled luminances from 330 cd/m2 to 15,000 cd/m$^2$, showing the same trend. 
 Despite comparable exciton densities in the emissive layer, exciton formation efficiency losses differ substantially, and appear to scale with increased luminance and current density. 
 Increased current density would result in a larger polaron density in the transport layers and could lead to an increase in the rate of defect formation mediated by unstable cationic or anionic molecules.
-Alternatively, the trend with luminance could be explained as an increase in interfacial photodegradation of the cathode or anode due to device electroluminescence.\supercite{Wang2012,Wang2010a,wang2012}
+Alternatively, the trend with luminance could be explained as an increase in interfacial photodegradation of the cathode or anode due to device electroluminescence.\supercite{Wang2012,Wang2010a}
 
-\begin{wrapfigure}{r}{.4\textwidth}
-\centering
-\includegraphics[width=.4\textwidth]{lifetimeApplications/meml_luminance}
-\caption{Scaling behavior of \pl and \ef as a function of a) luminance and b) exciton density.}
-\label{fig:meml_scaling}
-\end{wrapfigure}
 
 
 An alternative approach to investigating this connection is to look at the scaling relationships with luminance and exciton density.
@@ -234,11 +224,24 @@ For these devices, $n = 1.8 \pm 0.1$ for the $t_{50}$ of EL and is independent o
 As shown in Figure \ref{fig:meml_scaling}a, the degradation in \pl and \ef for a 60 nm MEML show similar acceleration behavior as a function of luminance, with $n = 1.8$ and $n = 1.75$, respectively. 
 Comparable slopes are seen for 10 nm and 30 nm M-EML devices. 
 
+\begin{wrapfigure}{r}{.4\textwidth}
+\centering
+\includegraphics[width=.4\textwidth]{lifetimeApplications/meml_scaled_lifetime}
+\caption{Lifetimes of devices with luminance scaled to match the EML thickness. PL collapses due to matched exciton density.}
+\label{fig:meml_scaled_lifetime}
+\end{wrapfigure}
 However, when scaled by $1/d_{EML}$, as displayed in Figure \ref{fig:meml_scaling}b, \ef and \pl show distinct scaling behavior. 
 While PL $t_{85}$ shows a slope of $n = 1.9\pm0.3$, almost identical to the slope under luminance acceleration, \ef $t_{85}$ shows a much shallower slope of $n = 0.5\pm0.2$ (decreasing to $n = 0.3\pm0.3$ at 10,000 cd/m$^2$). 
 This raises several important implications.
 First, the identical slopes for PL provide further evidence that PL losses in this system are determined by the exciton density and the width of the recombination zone, and imply that there is a direct scaling law between recombination zone width and PL lifetime. 
 While polaron density can play a role in PL degradation as well,27,43 it is unlikely that polaron density scales identically with both luminance and $d_{EML}$, implying that a single exciton driven or an exciton-exciton annihilation driven degradation mechanism is dominant in this system.
+
+\begin{wrapfigure}{r}{.6\textwidth}
+\centering
+\includegraphics[width=.6\textwidth]{lifetimeApplications/meml_luminance}
+\caption{Scaling behavior of \pl and \ef as a function of a) luminance and b) exciton density.}
+\label{fig:meml_scaling}
+\end{wrapfigure}
 
 Second, the shallow dependence of \ef $t_{85}$ on RZ width (and hence exciton density) shown in Figure \ref{fig:meml_scaling}b suggests that excitons play a lesser role in \ef degradation. 
 Notably, the difference in scaling with $L_0$ and $d_{EML}$ for \ef $t_{85}$ suggests that multiple degradation mechanisms comprise the total \ef loss.  
@@ -269,9 +272,147 @@ Notably, the different dependences of PL and exciton formation efficiency loss o
 These results highlight the capability of decoupled measurements of \pl and \ef losses to yield useful diagnostic insight into the source of device instability and shed light on the kinetics of degradation and the nature of defects.
 
 
+
+\newpage
 \section{Dow Cohost}\label{sec:lifetime_dow}
 
-\section{NPD Study}
+The previous two sections present two alternaitive machanisms for lifetime enhancement within devices, being interfacial and exciton density driven degradation.
+Both of these mechanisms are common explanations for device behavior in the literature.
+The rate of OLED degradation is widely regarded to depend strongly on the exciton density via exciton-exciton and exciton-polaron processes.\supercite{Scholz2015,Schmidbauer2013a,Giebink2008a,Bangsund2018,Liu2004,So2010} 
+The width of the RZ determines the exciton density for a given luminance, and hence sets the rate of emissive layer degradation.\supercite{Bangsund2018,Zhang2014,Chwang2002,Wu2016} 
+In other works, the absolute position of the RZ is shown to be significant, as proximity to a transport layer interface can exacerbate degradation,\supercite{Hershey2017,Wang2013,Jeon2015} or can influence exciton confinement and charge balance.\supercite{Coburn2017,Coburn2016a} 
+In studies showing interfacial degradation, the recombination zone is typically heavily pinned at the degrading interface. 
+These two mechanisms are often view as seperate issues: for devices with pinned recombination zones, interfacial degradation is assumed dominant, but for well distributed RZs, broader is viewed as better.
+
+%In this work, we show that simply maximizing the width of the recombination zone is not always the optimal design choice, finding that interfacial degradation can be competitive with lifetime improvements from a wide recombination zone. 
+This study presents a unique counter example, in which both types of degradation are shown to be influential as a function of host material concentration.
+Using a co-host system, we find that lifetime can be significantly improved compared to single-host devices despite a reduction in RZ width. 
+%In conventional mixed and graded emissive layer (EML) devices, an electron transporting host is mixed with a hole transporting host to achieve high charge balance and a wide RZ.\supercite{Chwang2002,Erickson2011,Song2017} 
+Most other works on mixed host emissive layers have employed exciplex-forming pairs which jointly show more balanced electron and hole mobilities than either host alone, leading to a broad RZ which spans the majority of the EML.\supercite{Kim2017,Kim2017,Chwang2002,Erickson2011,Song2017}
+In this work, a high mobility, ambipolar host, which features a broad recombination zone, and a wide gap, low mobility host are used. 
+Measurements of the recombination zone confirm that the mixed host decreases the RZ width and shifts the RZ away from the hole transport layer (HTL). 
+The increased degradation rate due to a higher exciton density is offset by reduced degradation at the HTL/emissive layer (EML) interface, leading to an overall enhancement in device lifetime. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{lifetimeApplications/dow_iv}
+\caption{(a) \eqe for selected host compositions. (b) Peak efficiency and turn on voltage as a function of host composition (\% B). (c) and (d) show current density and luminance as a function of voltage. (e) Material energetics and layer thicknesses.}
+\label{fig:dow_iv}
+\end{figure}
+
+Two proprietary host materials, designated Host A and Host B, were provided by The Dow Chemical Company. 
+In commercial devices, a mixture of these hosts was found to yield improved lifetimes up to =8.6 hrs at 15,000 cd/m$^2$ compared to 1.3 hrs and 4.2 hrs for Hosts A and B, respectively, where $t_{90}$ is the time to degrade to 90\% of the initial luminance. 
+A hole-injection layer of poly(thiophene-3-[2[(2-methoxyethoxy)ethoxy]-2,5-diyl) (AQ1250) was spin-cast on the ITO anode, followed by a hole-transport layer (HTL) of 4,4',4"-tris(N-carbazolyl)triphenylamine (TCTA). 
+The emissive layer (EML) consists of Host A, Host B, or a mixture of the two hosts, and a constant emitter doping concentration of 15 vol. \% fac-tris(2-phenylpyridine)iridium(III) (\irppy). 
+The Host A and Host B mixture was varied with compositions of 0\%, 5\%, 15\%, 30\%, 50\%, 70\%, 85\%, and 100\% Host B. 
+An electron-transport layer (ETL) of tris-(1-phenyl-1H-benzimidazole) (TPBi) is deposited over the EML, followed by a LiF/Al cathode. 
+
+\begin{wrapfigure}{r}{.6\textwidth}
+\centering
+\includegraphics[width=0.6\textwidth]{lifetimeApplications/dow_pl}
+\caption{(a) Fluorescence and low temperature (10 K) Phosphorescence for both hosts. (b) Optical constant $k$ for both hosts.}
+\label{fig:dow_pl}
+\end{wrapfigure}
+The external quantum efficiency with varying host composition is shown in Figure \ref{fig:dow_iv}a-b, with devices with less than 30\% Host B showing a reduced efficiency and the remaining devices exhibiting efficiencies between 18\% and 19\%. The turn-on voltage to achieve 1 cd/m$^2$, shown in Figure \ref{fig:dow_iv}c, is reduced by over one volt when increasing Host B concentration from 0 to 30\%, then remains constant. 
+This behavior is attributed to a change in the injection barrier for electrons into the EML. 
+
+Figure \ref{fig:dow_iv}c shows molecular energy levels of interest for this work, with HOMO levels for Host A and Host B calculated from DFT, band gaps extracted from optical constants obtained by ellipsometry, and triplet energies obtained from low temperature phosphorescence.  
+The measurement of triplet energies is further discussed in Appendix \ref{sec:triplets}.
+Host B is a material with a relatively narrow optical bandgap of 2.9 eV, a calculated HOMO of 5.3 eV, and a measured triplet energy of 2.6 eV. 
+Host A as an optical gap of 3.4 eV, a calculate HOMO of 5.7 eV, and a measured triplet energy of 2.6 eV. 
+Despite having a difference in energy gap and fluorescence energy, Host A and Host B have similar triplet energies as extracted from phosphorescence, shown in Figure \ref{fig:dow_pl}.
+It is worth noting that the energy levels of Host B reside entirely within those of Host A, and Host A and B do not form an exciplex, as confirmed from measurements of PL on a mixed film and of electroluminescence of a simple bilayer device (ITO/Host A/Host B/LiF/Al), in contrast to the majority of reported co-host architectures. 
+
+\begin{wrapfigure}{r}{.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{lifetimeApplications/dow_lifetime}
+\caption{Total lifetime (a) and \pl lifetime for selected architectures.}
+\label{fig:dow_lifetime}
+\end{wrapfigure}
+
+Figure \ref{fig:dow_lifetime}a demonstrates that the mixed host architectures show the longest lifetimes. 
+Host A has the shortest lifetime ( hours), with lifetime rapidly increasing with the addition of small concentrations of Host B. 
+A maximum lifetime is seen for 30\% Host B in Host A, after which a steady decline in lifetime is seen as concentration is increased to pure Host B ( hours). 
+The simultaneous photoluminescence (PL) lifetimes of these devices is reported in Figure \ref{fig:dow_lifetime}b. 
+Interestingly, the PL stability increases monotonically as percentage of Host B increases. 
+This inverse trend between the PL and EL lifetimes was not observed in the data of Sections \ref{sec:cbp_host} or \ref{sec:lifetime_meml}and suggests that recombination zone width is maximized at pure Host B, but that maximizing RZ width does not optimize lifetime.
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{lifetimeApplications/dow_rz}
+\caption{(a) Hole and electron only devices featuring hosts A and B, as well as a 1:1 mixture.  The related architectures are shown in (c) and (d) for holes and electrons, respectively.  (b) Measured recombination zones at 2 mA/cm$^2$.}
+\label{fig:dow_rz}
+\end{figure}
+
+\begin{wrapfigure}{r}{.5\textwidth}
+\centering
+\includegraphics[width=0.4\textwidth]{lifetimeApplications/dow_rz_spectra}
+\caption{Raw spectral data for recombination zone measurements for hosts A, B and a 1:1 mixture}
+\label{fig:dow_rz_spectra}
+\end{wrapfigure}
+
+In conventional mixed host architectures, hole- and electron-transporting hosts are blended to improve the balance of electron and hole mobilities, resulting in a broadened RZ and reduced exciton density.\supercite{Chwang2002,Erickson2013a,Han2016,Kondakova2008a}
+To investigate how mixing Host A and Host B impacts charge transport, single-carrier devices were fabricated for emissive layers containing 0\%, 50\%, and 100\% Host B. 
+The current-voltage characteristics for HOD and EOD are shown in Figure \ref{fig:dow_rz}a-b, along with the device architectures.
+For both holes and electrons, Host B is found to be a more conductive host than Host A. 
+The 50\% Host B mixture shows intermediate hole conductivity relative to pure materials. 
+For electrons, at low voltage, the properties are similar to Host A, but transition to be Host B at high voltage. 
+Thus, unlike conventional mixed EMLs where hole- and electron-transporting materials are blended to form a composite layer with overall improved charge transport, here Host B and the phosphorescent guest are likely responsible for both hole and electron transport. 
+Thus, the addition of Host A to Host B to form the mixture favorably adjusts the transport properties of the EML for increased operational lifetime. 
+Given the differences in architecture between the HODs and EODs, the relative mobility of electrons and holes cannot be quantitatively assessed. 
+How these charge transport and injection properties translate to the exciton spatial profiles is most straightforwardly addressed by direct measurement of RZ.
+
+
+The recombination zones of devices with 0\%, 50\%, and 100\% Host B were measured using a doped sensitizer approach, discussed in Chapter \ref{sec:rz_measurement}.\supercite{Bangsund2018}
+The area-normalized exciton population map resulting from this measurement for each architecture is shown in Figure 3c (EL spectra from which these profiles are extracted are included in the supporting information). 
+Host A is shown to have the highest exciton density of all three architectures, peaked at the ETL interface. 
+Host B has the widest recombination zone, with a nearly flat exciton density across the EML. 
+The 50\% Host B mixture shows an intermediate behavior with a narrower RZ than Host B that is also shifted away from the HTL/EML interface. 
+This indicates that the EL lifetime improvement observed for the 50\% mixture compared to pure Host B cannot be attributed to a reduction in exciton density, as is the case in most mixed host EML OLEDs. 
+
+The photoluminescence degradation behavior shown in Figure \ref{fig:dow_lifetime}b becomes more stable with increasing composition of Host B, following the measured increase in recombination zone width decreased exciton density. 
+This is consistent with our previous studies on the dependence of PL on RZ width in mixed host architectures and expectations based on exciton-induced-degradation kinetics.\supercite{Bangsund2018,Giebink2008a} 
+Considering device degradation by bimolecular processes, devices with high concentration of Host A might be expected to exhibit a shorter lifetime than those based on Host B. 
+However, the total degradation, shown in Figure \ref{fig:dow_lifetime}a shows a reduction in overall EL stability at concentrations above 30\% Host B, indicating a competing mechanism that does not affect the PL stability.  
+Host B has the highest exciton population at the HTL interface, suggesting there may be an interfacial degradation process at play, creating a shorter lifetime.\supercite{Hershey2017,Wang2013} 
+We hypothesize that as Host A is added to Host B, the recombination zone is shifted away from the HTL interface, causing less interfacial degradation and increasing the total lifetime, despite reductions in PL lifetime as the RZ narrows. 
+However, the benefits of added Host A fall off rapidly below 15\% Host B as the injection barrier lowering provided by Host B are lost and significant narrowing of the RZ is observed.
+
+\begin{wrapfigure}{r}{.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{lifetimeApplications/dow_eqe_10}
+\caption{\eqe for the 10 nm EML devices.}
+\label{fig:dow_eqe_10}
+\end{wrapfigure}
+
+To minimize differences in RZ width and normalize the effect of the HTL interface on degradation, devices were fabricated with EMLs of only 10 nm, with efficiencies shown in Figure \ref{fig:dow_eqe_10}. 
+This thin emissive layer ensures that excitons are present throughout the entire EML and recombination zone is minimally different between the devices. 
+For these devices, the ETL thickness was set to 50 nm to center the electric field profile of the $\lambda$=473 nm pump laser in the EML. 
+The peak external quantum efficiency of these devices was found to be 14 $\pm$ 1\% for all three architectures. 
+The EL and PL lifetimes can be seen in Figure \ref{fig:dow_lifetime_10}a and b, respectively. The 50\% and 100\% Host B are found to have the identical lifetimes for both EL and PL,  = (22 $\pm$ 1) hr for EL, and  = (16 $\pm$ 1) hr for PL. 
+\begin{wrapfigure}{r}{.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{lifetimeApplications/dow_lifetime_10}
+\caption{Lifetimes for the 10 nm EML devices.}
+\label{fig:dow_lifetime_10}
+\end{wrapfigure}
+This identical behavior in both EL and PL degradation suggests that the kinetics and mechanism of degradation are the same for devices based on Host B and the 50:50 mixture. 
+Host A shows a shorter lifetime in both EL and PL, likely due to its narrow RZ which is heavily peaked at the ETL interface (Figure \ref{fig:dow_rz}c). 
+Given this identical degradation behavior for a thin emissive layer, it is unlikely that the mixed host devices are longer lived due to enhanced morphological stability. 
+Using an insulative host along with a higher mobility ambipolar host in this architecture has allowed tuning of the RZ away from the HTL interface. 
+While successful in this device, it can be difficult to understand a priori how an insulative material will shift the charge transport characteristics of the high mobility host. 
+This could make designing a co-host system around a high mobility and insulating hosts a challenge. 
+However, when investigating material systems where transport properties are unknown, this type of interaction may be encountered. 
+This system is also an important counterexample to the assumption that reducing mobility is always detrimental to device behavior. 
+In fact, device lifetime can be a much more subtle and intricate design system than the simple maximization of mobility and recombination zone width. 
+
+In this work, a unique co-host architecture is demonstrated using an insulative host and a high mobility host. 
+Interestingly, despite a reduction in recombination zone width, an increase in device lifetime is observed. 
+This increase in lifetime is demonstrated to be due to exciton formation at an unstable interface, known to accelerate degradation. 
+This conclusion is contrary to the typical design rule that an increased recombination zone width is always beneficial to device lifetime. 
+Rather, a balance of recombination zone width and position needs to be established, especially with regard to recombination at interfaces.
+This result provides an example of the blend of the two mechanisms demonstrated in Sections \ref{sec:cbp_host} and \ref{sec:lifetime_meml}.
 
 
 \ifcsdef{mainfile}{}{\printbibliography}

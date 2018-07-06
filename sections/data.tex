@@ -10,18 +10,18 @@
 Within laboratory research, storage and organization of experimental data is a constant challenge.
 Any experiment can generate a large quantity of data in a variety of formats from various instruments.
 This data is typically delivered in unlabeled files, with only the name to convey all experimental information.
-Further details are left to a lab journal or formal writeup, where researchers outline the experimental procedures and analyze results.
+Further details are left to a lab journal or formal write up, where researchers outline the experimental procedures and analyze results.
 Experimental details and data labeling in this manner is designed to help an active researcher with working knowledge of the experiments understand what has been done.
 However, as anyone who has worked in a lab can sympathize with, revisiting work, even your own, after the course of only a few months can often be incomplete, if not enigmatic.
 Given these challenges, researchers can often find themselves weighing the benefits of repeating experiments versus finding and attempting to comprehend previous results.
 
-This frustration can be broken into two seperate problem statements.
+This frustration can be broken into two separate problem statements.
 First, experimental details and data are not intimately connected or collected by default when output from testing equipment.
 To find results, often experiments have to be searched for in a lab notebook, then cross referenced with electronic files.  
-This relies on the searcher paging through notebooks, interpretting scribbled notes that were made, and hoping that whatever title was chosen for the days experiment to obviously identify what they are looking for.
+This relies on the searcher paging through notebooks, interpreting scribbled notes that were made, and hoping that whatever title was chosen for the days experiment to obviously identify what they are looking for.
 Then, assuming at best that this researcher provided a full filepath to experimental data on a computer that doesn't exist in your lab anymore, you have the task of searching through poorly labeled folders on a backup drive somewhere to find the data.
 As a researcher, it is nearly impossible to make this foolproof for later use, especially in an academic setting, since these is no standardization of storage location or note taking applications.
-Corperate research facilities often use electronic lab notebooks and project archives to help have collected digital archives to mitigate this problem. 
+Corporate research facilities often use electronic lab notebooks and project archives to help have collected digital archives to mitigate this problem. 
 
 The second issue is the exclusion of critical information.  
 In any experiment, there are numerous experimental parameters and details that need to be recorded. 
@@ -43,14 +43,14 @@ Ideally, solutions will not interfere were current methods, and will make work e
 \begin{wrapfigure}{r}{.5\textwidth}
 \centering
 \includegraphics[width=.5\textwidth]{data/bohm}
-\caption{Dependence of EQE (red) and lifetime (black) on the driving voltage for various ETL configurations, sharing same HTL and EML. Reproduced from \textcite{Bohm2011}.}
+\caption{Dependence of \eqe (red) and lifetime (black) on the driving voltage for various ETL configurations, sharing same HTL and EML. Reproduced from \textcite{Bohm2011}.}
 \label{fig:bohm}
 \end{wrapfigure}
 
 Commercially, this issue of keeping track of experimental data is largely resolved.
 This is due to an ability to mandate research standards and organization required at this higher throughput scale.
 While the methods are not published, an example of commercial data management is shown from Merck \& Company, Inc. in Figure \ref{fig:bohm}.
-This figure references hundreds of efficiencies and lifetimes with extracted peak EQE characteristics and operating conditions.
+This figure references hundreds of efficiencies and lifetimes with extracted peak \eqe characteristics and operating conditions.
 Without data management, figures and conclusions like this would not be possible to make.
 
 Within our lab, I have made an effort to address these issues using a relational database.
@@ -59,21 +59,21 @@ The details of implementation and usage examples are provided in this Chapter.
 
 \section{Overview}
 
-The first issue addressed above is the seperation of experimental details from the actual collected data.  
+The first issue addressed above is the separation of experimental details from the actual collected data.  
 This is almost universally resolved using relational databases.
 In a relational database, a series of records are stored with a list of attributes and values.
 Individual records can be looked at and all of the information is well organized.
 However, this system becomes increasingly valuable if records share a list of attributes, where the records can be searched based on the values of certain attributes.
 
-Relational database systems are largely catagorized into SQL and non-SQL systems.
+Relational database systems are largely categorized into SQL and non-SQL systems.
 In SQL, all data is organized into tables, providing a relatively rigid structure.
 If values are not single valued, it is often necessary to create additional tables.
 Without going into further detail, non-SQL database systems are more ideal for laboratory data, as they have better support for list form values.
 With this in mind, I have developed this data collection system using MongoDB, a widely accepted non-SQL database.
-Mongo supports interfacing directly as well as multiple other programming languages, including Python, the language I have utilized.
+MongoDB supports interfacing directly as well as multiple other programming languages, including Python, the language I have utilized.
 
 To facilitate this discussion, a few terms need to be defined.  
-In the world of Mongo, a "Document" is a single entry of data with many keys (attributes) and values, equivalent to a record in SQL.
+In the world of MongoDB, a "Document" is a single entry of data with many keys (attributes) and values, equivalent to a record in SQL.
 An example of this is:
 
 \begin{lstlisting}
@@ -87,14 +87,14 @@ An example of this is:
 
 Here, several pieces of connected information are collected, creating a document.
 In this example, "Name" is a key, while "Kyle Hershey" is the associated value.
-Every document stored in Mongo also has a unique ID, that can be used to reference it.
+Every document stored in MongoDB also has a unique ID, that can be used to reference it.
 Several Documents sharing the same type of information are organized into a "Collection".
 A Collection of Documents like the one above would serve as a sort of directory of people.
-In Mongo, not all Documents in a Collection are required to share the same list of keys.  
+In MongoDB, not all Documents in a Collection are required to share the same list of keys.  
 For example, other Documents may add a "Phone Number" or exclude the "Lab".
 However, Collections are intended to provide Documents with common information.
 A "Database" is a series of Collections that have related in formation and interact with each other.
-For example, a seperate Collection in the same Database may store information about every lab.
+For example, a separate Collection in the same Database may store information about every lab.
 
 
 \begin{lstlisting}
@@ -134,7 +134,7 @@ As mentioned previously, databases require consistency of documents within the c
 This can be difficult to do effectively within a research environment where experimental design can change frequently.
 Within our lab, I have capitalized on the workflow of our experiments in order to organize the collections.
 The four primary collections for daily workflow are \textbf{materials}, \textbf{architectures}, \textbf{growths}, and \textbf{lifetimes}.
-A full list of keys and datatype expectations can be found on the wiki page at \url{https://github.umn.edu/HolmesGroup/lifetimeTesting/wiki}.
+A full list of keys and datatype expectations can be found on the wiki page at \url{https://github.umn.edu/HolmesGroup/lifetimeTesting/wiki}, as well as in Appendix \ref{sec:code}.
 
 At the most basic level, any film or device consists of a series of materials that are utilized for their physical properties.
 The \textbf{materials} collection seeks to keep track of all materials used in our lab and their various properties.  
@@ -147,7 +147,7 @@ Additionally, standard information like the EML thickness, doping concentration,
 
 For a planned experiment, once an architecture is decided upon, the experiment needs to be executed.
 An individual object in the \textbf{growth} collection consists of a single device architecture and the characterization data associated with the set.
-Characterization data includes all steady-state, standard characterization measurements, including spectrums, \eqe, power efficiency,  and current-voltage-luminace characteristics, among others.
+Characterization data includes all steady-state, standard characterization measurements, including spectrums, \eqe, power efficiency,  and current-voltage-luminance characteristics, among others.
 All data is stored for every device pixel, and is labeled by substrate and pixel number.
 Additional data about the experiment including the date, last chamber clean, grower name, and additional notes and reference tags is also collected.
 
@@ -159,7 +159,7 @@ Lifetimes are connected to the individual pixels from a \textbf{growth}.
 This hierarchy creates lifetime objects which stems from a single growth, stemming from a single architecture.  
 However, an architecture can be the base of multiple growths, which can each have multiple lifetimes.  
 
-Various spectral characterizations are stored in seperate collections.  These include photoluminescence, absorption, and excitation spectra, as well as optical constants.
+Various spectral characterizations are stored in separate collections.  These include photoluminescence, absorption, and excitation spectra, as well as optical constants.
 Each of these collections stores a layer structure, relevant illumination and testing conditions, tester name and date, as well as other test information.
 
 \section{Applications}
@@ -173,7 +173,7 @@ This section seeks to outline some of the key areas of use and capabilities of t
 
 After a growth is completed, spectral and current voltage characterization needs to be done.
 All of this data collection is done on a laboratory computer.
-Previously, generated datafiles would be transfered using a flashdrive to the researcher's computer, where they would be organized and analyzed.
+Previously, generated datafiles would be transferred using a flash drive to the researcher's computer, where they would be organized and analyzed.
 
 \begin{figure}[ht]
 \centering
@@ -223,9 +223,9 @@ This can be trivially done in python using the following command:
 }
 \end{lstlisting}
 
-With this ease of selecting data, a flexible plotting solution is needed to accomodate analysis or the resulting data.  
+With this ease of selecting data, a flexible plotting solution is needed to accommodate analysis or the resulting data.  
 Primarily, we have settled on using Python in Jupyter Notebooks with Matplotlib for plotting.
-This allows for easy data selection, programatic analysis, and plotting, all in a well organized notebook-like format.
+This allows for easy data selection, programmatic analysis, and plotting, all in a well organized notebook-like format.
 
 \begin{figure}[ht]
 \centering
@@ -281,18 +281,18 @@ The test automatically populates the testing conditions, and the user is able to
 The menu in the top left allows easy selection of a growth to connect to.  
 If a luminance is entered here, the current can be calculated for operation based off of the IV scan for the exact device being tested.
 This eliminates a loading step of having to measure the luminance again with a luminance scope.
-Since this menu is part of the user experience of loading lifetimes, all lifetimes are seemlessly logged.
+Since this menu is part of the user experience of loading lifetimes, all lifetimes are seamlessly logged.
 
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{data/dbImporter}
-\caption{Graphical Interface for importling lifetime to database.}
+\caption{Graphical Interface for importing lifetime to database.}
 \label{fig:dbImporter}
 \end{figure}
 
 As the test is running, data is actively uploaded to the database, rather than waiting for the end of the test.
-A jupyter notebook interface has been developed to plot all actively running tests.
+A Jupyter notebook interface has been developed to plot all actively running tests.
 This allows remote monitoring of all running lifetime tests distributing between the four lifetime testing platforms in our labs.
 Upon test completion, the user gets an email alert that the test has completed, along with a graph of the lifetime results.
 
@@ -365,7 +365,7 @@ This has resulted and every researcher having a differing set of constants and o
 Additionally, no experimental details are included, other than the results, making the history and validity of constants always being a problem.
 
 With optical constants being included in the database, a central repository of constants has been developed, that can include all relevant test information for the curious researcher to use as needed.
-Developed by my collegue John S. Bangsund, a Transfer Matrix simulation package is now available to the group at \url{https://github.umn.edu/HolmesGroup/holmesPackage}.
+Developed by my colleague John S. Bangsund, a Transfer Matrix simulation package is now available to the group at \url{https://github.umn.edu/HolmesGroup/holmesPackage}.
 This package is capable of doing most Transfer Matrix calculations while fetching all necessary optical constants from the database.
 This eliminates any need for individual collections and makes any new data instantly available to the whole group.
 
@@ -379,7 +379,7 @@ A brief summary of useful programs is provided below.
 \item \textbf{Daily Analysis:} Allows selection of growth and plots all related IV, \eqe, and lifetime plots.  Serves as a template for analysis of a growth.
 \item \textbf{Database Query Examples:} A guide for building queries to find tests.
 \item \textbf{Energy Level Diagrams:} Constructs an energy level diagram that can be downloaded as an image.  Energy levels are obtained from the materials collection.  Diagrams can be constructed from a selected architecture, or from a custom list of materials.
-\item \textbf{EQEtrustAsses:} Allows selection of representative \eqe scans for a growth.
+\item \textbf{EQEtrustAssess:} Allows selection of representative \eqe scans for a growth.
 \item \textbf{lifetimeTrustAsses:} Sets the validity of lifetimes connected to a growth or architecture.
 \item \textbf{plotCurrentLifetimes:} Plots all actively running lifetimes in all boxes.
 \item \textbf{plotRecentLifetimes:} Plots lifetimes run recently.  Date range is selectable.
@@ -393,16 +393,16 @@ A brief summary of useful programs is provided below.
 \section{Future}
 
 The usage of a database system for organizing laboratory results for OLEDs have dramatically changed our workflow for the better.
-Data is easily and perminantly logged in a format that is easily searchable and programatically accessible.
+Data is easily and permanently logged in a format that is easily searchable and programmatically accessible.
 This has provided multiple capabilities that we did not previously have.
 Implementing this system to the point it is today has required significant investment of time and energy without generating immediate forward research progress.
 This has included thousands of lines of code and over 350 versions of the front-end software.
 
-Thankfully, our team of OLED researchers has found this investment to be very useful and we have fully commited to using this system.
+Thankfully, our team of OLED researchers has found this investment to be very useful and we have fully committed to using this system.
 All aspects of growth, materials analysis, lifetime and steady-state characterization are recorded and analyzed using this system.
 These analyses are standard procedures for our lab and invariant with time, providing consistent data compatible with a research database.
 
-We have found that there are some experiments where the database system is not advantagious.
+We have found that there are some experiments where the database system is not advantageous.
 For this system to be useful, a standard data structure is needed to provide easy searching and extraction of data.  
 Often, for one time, novel experiments, there is minimal overlap with other tests.  
 In these cases, logging experiments into the database does not fit the structure of other documents, and trying to force compliance into this system is not worth the effort.
@@ -416,7 +416,7 @@ However, given the value that this database archive has provided, I have confide
 \subsection{Machine Learning}
 
 Having a well populated dataset such as this also opens up the possibility for use of machine learning algorithms.
-Machine learning uses a large dataset to train an algorithm which in turn will predict outcomes of future data into either catagorical or numerical output.
+Machine learning uses a large dataset to train an algorithm which in turn will predict outcomes of future data into either categorical or numerical output.
 With enough examples that have all input variables, the algorithm can predict many different behaviors.
 Due to the complexity of OLED design, and number of unknown variables, predicting \eqe or lifetime from material information is unrealistic.
 However, less complex problems are solvable and can offer insight and utility into the manufacturing of devices.
@@ -449,7 +449,7 @@ In this figure, the \irppy feature is successfully identified, and depending on 
 While identifying the most recognizable emission feature from our lab is not very useful, this type of training could be useful for identifying unrecognized features.
 For example, if an impurity is seen in emission, it may be from a more exotic molecule.  
 By having a trained algorithm to identify the emission, the researcher could be saved from having to look through spectra from every molecule.
-This identification could be done using a catagorical algorithm.
+This identification could be done using a categorical algorithm.
 The implementation of a full identifier that can recognize all molecules has been hindered by the lack of spectral data for some molecules.
 The ability to predict output depends heavily on the size of the training set, so it is important to have a large number of example spectra.
 As more data is uploaded from the group, the resolution of this program will improve.
@@ -458,15 +458,15 @@ The second example is to identify bad IV scans, shown in Figure \ref{fig:data_ml
 This was an attempt to identify features of good \eqe scans, using all devices in the database as a reference.
 However, this study found that given that all devices are not ideal, representative ``good'' behavior is not consistent between devices.
 Therefore, the ability to recognize characteristic behavior for all devices is variable.
-While the example in Figure \ref{fig:data_ml_irrpy} shows reasonable seperation, there are other device sets that predict that all devices are bad.
+While the example in Figure \ref{fig:data_ml_irppy} shows reasonable separation, there are other device sets that predict that all devices are bad.
 For better results, identified good and bad devices from the same architecture should be used.
-An interesting application of this would be to store trained algorithms for each architecture within the database, providing much better catagorization.
+An interesting application of this would be to store trained algorithms for each architecture within the database, providing much better categorization.
 Then, when a new stack is grown for an existing architecture, the algorithm could identify scans immediately upon upload.
 Given the variety of devices we tend to grow, this would not be useful for most cases, but might be for benchmark devices.
 
 The third application is an attempt to spectrally identify the Ir(ppy)$_3$ concentration.
 This algorithm takes in the device spectra and predicts the \irppy concentration.
-Figure \ref{fig:data_ml_concentration} compares the intended and predicted concentration, and surpringly shows a reasonable correlation.
+Figure \ref{fig:data_ml_concentration} compares the intended and predicted concentration, and surprisingly shows a reasonable correlation.
 The astute reader would note that the emission should also be a function of the emitter distance from the metal interface.
 However, further attempts at improving this algorithm are mostly limited by knowledge of the actual variation in the intended concentration.
 Since the reference value has a relatively large error bar, the accuracy of the training set is relatively low and limits the ability to resolve concentration differences.
@@ -486,21 +486,21 @@ Despite the advantages and currently developed code base, a solar cell research 
 This has largely been due to resistance to a change in workflow.
 Most data analysis within the solar cell research in our group is done within Matlab, with test data loaded from files.
 MongoDB does not have a Matlab driver, and for OLEDs, we have developed our scripts in Python.
-For established researchers, transitioning existing workflow and learning a new programming language is seen to outway the advantaqes of the database system.
+For established researchers, transitioning existing workflow and learning a new programming language is seen to outweigh the advantages of the database system.
 In order for the database to be utilized, new students will have to develop the analysis workflow to help establish this technique for solar cells.
 
 \subsection{Perovskite Film Growth}
 
 While vacuum-deposited solar cells share many similarities to OLEDs and the existing data, perovskites offer unique challenges to organization.
-For vacuum deposited OLEDs with reproducible growths, the discussed data structre allows for easy comparison against architectures, and growths should be relatively consistent.
+For vacuum deposited OLEDs with reproducible growths, the discussed data structure allows for easy comparison against architectures, and growths should be relatively consistent.
 However perovskite growth is currently less reproducible and theoretical architecture may not translate to a consistent growth characteristics.  
 In trying to extend this data structure to perovskite growths, less emphasis needs to be placed on the architecture, and more on the individual growth, due to reproducibility.
-This will require a diffent type of data structure, focused around the growth as a key construct.  
+This will require a different type of data structure, focused around the growth as a key construct.  
 The beginnings of this organization and use for perovskite growth has been started.
-My colleque, Catherine Clark has been using this database for recording her perovskite growth results for films from the perovskite vapor deposition system.
+My colleague, Catherine Clark, has been using this database for recording her perovskite growth results for films from the perovskite vapor deposition system.
 As this expands into device fabrication, the structure of growth documents will need to be established.
 
-All of these future applications will require developement of new analysis functions and a shift away from programming in Matlab to a more functional programming language, such as Python.
+All of these future applications will require development of new analysis functions and a shift away from programming in Matlab to a more functional programming language, such as Python.
 It is important that new students in the group realize the capabilities that this database provides and buy into the importance of its usage.
 With more group members actively using the database, the features and capabilities will greatly expand.
 If new students start using the features of this database, I think it will provide a valuable tool with capabilities not realized within more research groups.

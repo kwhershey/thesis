@@ -1,19 +1,284 @@
 \documentclass[../thesis.tex]{subfiles}
 \begin{document}
 
-\chapter{Out-Coupling Code}\label{sec:outCoupling_code}
+\chapter{Code}\label{sec:code}
 \section{Transfer Matrix Model}
 The following is code to implement a transfer matrix model for calculating absorption and electric field profile within a thin film stack, as described by Pettersson.\supercite{Pettersson1999}
 
 transfer.m
 \lstinputlisting[language=Octave]{sections/code/Optical-Model/transfer.m}
 
-\section{Out-Coupling (Power Dissipation)}
+\section{Out-Coupling (Power Dissipation)}\label{sec:outCoupling_code}
 The following model implements an out-coupling calculation by calculating the power dissipation as a function of the normalized in-plane wavevector, $u$.  
 This is an implementation of the method outlined by Furno \textit{et al.}.\supercite{Furno2010,Furno2012}
 
 PowerDissipationModel.m
 \lstinputlisting[language=Octave]{sections/code/Optical-Model/PowerDissipationModel.m}
+
+\section{Database Keys}
+\subsection{materials}
+
+\begin{itemize}
+\item commonName : string (all lowercase)
+\item formattedName : string (as you would like it displayed)
+\item chemicalName : string (long chemical name)
+\item allNames : list of all possible names
+\item LUMO\_list : [[LUMO (eV) , source (string)],...]
+\item HOMO\_list : [[HOMO (eV) , source (string)],...]
+\item E\_T\_list : [[E\_T (eV) , source (string)],...]
+\item LUMO : float (eV) (preferred value)
+\item HOMO : float (eV) (preferred value)
+\item E\_T : float (eV) (preferred value)
+\item CAS : integer (no dashes)
+\item molecularWeight : float (amu)
+\item Tg : float (Celcius)
+\item meltingTemp : float (Celcius)
+\item L\_D : float (nm)
+\item L\_D\_list : [[L\_D (nm) , source (string)],...]
+\item tau : float (ns)
+\item tau\_list : [[tau (ns) , source (string)],...]
+\end{itemize}
+
+
+\subsection{architectures}
+\begin{itemize}
+\item layers\_list - [layer,...]
+\begin{itemize}
+
+\item 'layer':int(layernum),
+\item 'material':string,
+\item 'materialID' : \_id(material),
+\item 'type':string,
+\item 'thickness':float,
+\item 'concentration':float<1
+\end{itemize}
+\item eml\_thickness-float
+\item doping\_concentration-float<1
+\item device\_type - string(SEML/DEML/MEML/AEML/GEML)
+\end{itemize}
+
+
+
+\subsection{growths}
+
+\begin{itemize}
+\item experiment\_label - string
+\item grower\_name - string
+\item growth\_date - datetime.datetime
+\item peak\_eqe - float(\%)
+\item device\_area - float(cm$^2$)
+\item ito\_pattern - string
+\item last\_chamber\_clean - datetime.datetime
+\item architectureID - \_id(architecture)
+\item notes - string
+\item tags - [string,...]
+\item spectrums - [spectrum,...]
+
+\begin{itemize}
+\item current\_density - float (A/cm$^2$),
+\item integration\_time - float (s),
+\item waves - [float,...] (nm),
+\item intensity - [float,...]
+\end{itemize}
+
+\item devices - [stat,...]
+
+\begin{itemize}
+\item filename - string,
+\item devID - string,
+\item substrate - int,
+\item device - int,
+\item area - float,
+\item V\_raw - [float,...],
+\item I\_dev\_raw - [float,...] (A),
+\item I\_photo\_raw - [float,...] (A),
+\item V - [float,...] (V),
+\item I\_photo - [float,...] (A),
+\item J - [float,...] (mA/cm$^2$),
+\item P\_opt - [float,...] (W),
+\item EQE - [float,...] (\%),
+\item peakEQE - float (\%),
+\item lumens - [float,...] (lm),
+\item cdm2 - [float,...] (cd/m$^2$),
+\item P\_eff - [float,...] (lm/W),
+\end{itemize}
+\end{itemize}
+
+\subsection{lifetimes}
+
+\textbf{General Info}
+
+\begin{itemize}
+\item experiment\_label - string
+\item test\_date - datetime.datetime
+\item growthID - \_id(growth)
+\item architectureID - \_id(architecture)
+\item notes - string
+\item tags -[string,...]
+\item device - int
+\item substrate - int
+\end{itemize}
+
+\textbf{Test Info}
+\begin{itemize}
+\item background - float(A)
+\item box - int
+\item compartment - int
+\item current - float(A)
+\item luminance - int(cd/m2)
+\item powerDensity - int(mW/cm2) // Power density of light source for optical and L+J tests
+\item break\_interval - float(min) //break time for laser or current
+\item test\_type - str([IL/CL/IC]+'-'+[var\_testDrop])
+\item pump\_wavelength - float(nm) // Wavelength of PL pump
+\item pump\_type - str // obis laser, led, etc.
+\end{itemize}
+
+\textbf{Test Data}
+\begin{itemize}
+\item ELdatetime - [datetime,...]
+\item ELonTime - [float,...]
+\item voltage - [float,...]
+\item initial\_voltage=float
+\item ELdevSignal = [float,...]
+\item ELnormDevSignal - [float,...]
+\item ELtrust - int (0,1,2) //2 is most trusted
+\item PLtrust - int (0,1,2) //2 is most trusted
+\item PLdatetime - [datetime,...]
+\item PLonTime - [float,...]
+\item PLdevSignal = [float,...]
+\item PLelDecSignal = [float,...] //el decay at the pl points
+\item PLlaserSignal = [float,...]
+\item PLnormSignal - [float,...] //normalized to laser signal then peak norm
+\item EQEdegPoint - [float,...] //the degradation point for each EQE
+\item EQEcurrent - [[float,...],...]
+\item EQEvoltage - [[float,...],...]
+\item EQEel - [[float,...],...]
+\item EQErelativeEQE - [[float,...],...]
+\end{itemize}
+
+\textbf{Test specific data}
+Single-Carrier + Photodegradation
+For this test, "voltage" is measured with no applied light, and "PLdevSignal" is measured with no applied current.
+\begin{itemize}
+\item VoltageWithLight - [float,...] // Voltage measured while light is applied to device
+
+\item PLWithCurrent - [float,...] // PL measured while current is applied to device
+
+\end{itemize}
+
+\textbf{lifetimes}
+\begin{itemize}
+\item ELt50 - (float(hours),float(hours)) // exp,fit
+\item ELt75 - (float(hours),float(hours)) // exp,fit
+\item ELt90 - (float(hours),float(hours)) // exp,fit
+\item PLt95 - (float(hours),float(hours)) // exp,fit
+\item PLt90 - (float(hours),float(hours)) // exp,fit
+\item PLt85 - (float(hours),string(fit/experiment))
+\item PLt80 - (float(hours),string(fit/experiment))
+\end{itemize}
+
+\subsection{absSpectra}
+\begin{itemize}
+\item tester: string (all lowercase)
+\item notes: string
+\item label: string
+\item waves: wavelengths in nm (float)
+\item abs: absorbance (float) - same length as waves
+\item date: datetime
+\item type: solution or film (string)
+\item composition: [layer,...]
+\item layer : dict
+\begin{itemize}
+\item 'layer':int(layernum),
+\item 'material':string,
+\item 'materialID' : \_id(material),
+\item 'thickness':float,
+\item 'concentration':float<1 
+
+\end{itemize}
+\end{itemize}
+
+\subsection{excSpectra}
+\begin{itemize}
+\item tester: string (all lowercase)
+\item notes: string
+\item label: string
+\item inslits: slit opening in mm (float)
+\item outslits: slit opening in mm (float)
+\item pump : pump wavelength in nm
+\item waves: wavelengths in nm (float)
+\item rawBackground: background scan [float,...] - same length as waves
+\item rawPL: pl scan [float,...] - same length as waves
+\item pl: background corrected PL [float,...] - same length as waves
+\item date: datetime
+\item type: solution or film (string)
+\item composition: [layer,...]
+\item layer : dict
+\begin{itemize}
+
+\item 'layer':int(layernum),
+\item 'material':string,
+\item 'materialID' : \_id(material),
+\item 'thickness':float,
+\item 'concentration':float<1 
+\end{itemize}
+\end{itemize}
+
+\subsection{opticalConstants}
+\begin{itemize}
+\item substrate - string [glass/quartz/Si]
+\item acquisitionDate - datetime
+\item acquiredBy - name (string)
+\item label - string
+\item wavelengths = [float,...]
+\begin{itemize}
+\item n - [float,...]
+\item k - [float,...]
+\end{itemize}
+
+\item composition: [layer,...]
+\item layer : dict
+\begin{itemize}
+
+\item 'layer':int(layernum),
+\item 'material':string,
+\item 'materialID' : \_id(material),
+\item 'thickness':float,
+\item 'concentration':float<1 
+\end{itemize}
+
+\end{itemize}
+
+\subsection{plSpectra}
+\begin{itemize}
+\item tester: string (all lowercase)
+\item notes: string
+\item label: string
+\item inslits: slit opening in mm (float)
+\item outslits: slit opening in mm (float)
+\item pump : pump wavelength in nm
+\item waves: wavelengths in nm (float)
+\item rawBackground: background scan [float,...] - same length as waves
+\item rawPL: pl scan [float,...] - same length as waves
+\item pl: background corrected PL [float,...] - same length as waves
+\item date: datetime
+\item type: solution or film (string)
+\item tempK: temperature in Kelvin
+\item emission\_type: string [fluorescence \ delayed phosphorescence]
+\item composition: [layer,...]
+\item layer : dict
+
+\begin{itemize}
+\item 'layer':int(layernum),
+\item 'material':string,
+\item 'materialID' : \_id(material),
+\item 'thickness':float,
+\item 'concentration':float<1 
+
+\end{itemize}
+\end{itemize}
+
+
 
 \chapter{Lifetime Box Code}\label{sec:lifetime_code}
 
