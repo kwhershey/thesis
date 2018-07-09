@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="739.6947"
-     inkscape:cy="679.55066"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="599.22722"
+     inkscape:cy="877.02365"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -85,7 +85,7 @@
          id="tspan841"
          x="24.669958"
          y="48.745518"
-         style="stroke-width:0.26458332">b.</tspan></text>
+         style="stroke-width:0.26458332">(b)</tspan></text>
     <image
        y="-76.021301"
        x="20.788692"
@@ -108,10 +108,10 @@
          id="tspan1016"
          x="25.302996"
          y="155.25888"
-         style="stroke-width:0.26458332">c.</tspan></text>
+         style="stroke-width:0.26458332">(c)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="24.946426"
        y="-64.269707"
        id="text839"
@@ -121,6 +121,6 @@
          id="tspan837"
          x="24.946426"
          y="-64.269707"
-         style="stroke-width:0.26458332;fill:#ffffff;">a.</tspan></text>
+         style="fill:#ffffff;stroke-width:0.26458332">(a)</tspan></text>
   </g>
 </svg>

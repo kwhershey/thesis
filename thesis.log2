@@ -1,7 +1,7 @@
 INFO - This is Biber 2.6
 INFO - Logfile is 'thesis.blg'
 INFO - Reading 'thesis.bcf'
-INFO - Found 263 citekeys in bib section 0
+INFO - Found 278 citekeys in bib section 0
 INFO - Processing section 0
 INFO - Looking for bibtex format file 'library.bib' for section 0
 INFO - Decoding LaTeX character macros into UTF-8
@@ -15,26 +15,36 @@ WARN - month field 'jun' in entry 'Cok2005' is not an integer - this will probab
 WARN - month field 'nov' in entry 'Han2014a' is not an integer - this will probably not sort properly.
 WARN - ISBN '1099-0488' in entry 'Sondergaard2013' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'mar' in entry 'Tsujimura2012' is not an integer - this will probably not sort properly.
+WARN - Entry 'Statista2018' (library.bib): Invalid format '2018/7/6' of date field 'urldate' - ignoring
 WARN - ISBN '0897-4756' in entry 'Schlenker2011' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0927-0248' in entry 'Sapkota2014' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1520-6106' in entry 'Gregg2003' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0028-0836' in entry 'Briseno2006a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1521-4095 (Electronic)$\backslash$r0935-9648 (Linking)' in entry 'Sirringhaus2014' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0935-9648' in entry 'Briseno2006' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'mar' in entry 'Reineke2007' is not an integer - this will probably not sort properly.
+WARN - ISBN '0009-2665' in entry 'Hains2010' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1520-6106' in entry 'Gregg2003a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1616-3028' in entry 'Song2011' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1098-0121' in entry 'Ryasnyanskiy2011' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1944-8252 (Electronic)$\backslash$r1944-8244 (Linking)' in entry 'Wang2013' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'mar' in entry 'Furno2012' is not an integer - this will probably not sort properly.
+WARN - month field 'jul' in entry 'Baldo2002' is not an integer - this will probably not sort properly.
+WARN - ISBN 'doi:10.1038/nphoton.2014.12' in entry 'Zhang2014a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1521-4095' in entry 'Nakanotani2013' is invalid - run biber with '--validate_datamodel' for details.
+WARN - month field 'mar' in entry 'Menke2013' is not an integer - this will probably not sort properly.
 WARN - ISBN '0021-9606' in entry 'Padhye1956' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '2045-2322' in entry 'Reineke2014' is invalid - run biber with '--validate_datamodel' for details.
-WARN - ISBN 'doi:10.1038/nphoton.2014.12' in entry 'Zhang2014a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - Range field 'pages' in entry 'Zhang2012c' is malformed, falling back to literal
 WARN - ISBN '1521-4095 (Electronic)$\backslash$r0935-9648 (Linking)' in entry 'Endo2009' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1521-4095' in entry 'Li2013' is invalid - run biber with '--validate_datamodel' for details.
-WARN - ISBN '1521-4095' in entry 'Nakanotani2013' is invalid - run biber with '--validate_datamodel' for details.
-WARN - month field 'mar' in entry 'Menke2013' is not an integer - this will probably not sort properly.
+WARN - ISBN '1476-4687 (Electronic)$\backslash$r0028-0836 (Linking)' in entry 'Uoyama2012' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'jul' in entry 'Mullenbach2013' is not an integer - this will probably not sort properly.
-WARN - month field 'mar' in entry 'Reineke2007' is not an integer - this will probably not sort properly.
-WARN - ISBN '1098-0121' in entry 'Ryasnyanskiy2011' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '1616-3028' in entry 'Luhman2011' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0036-8075' in entry 'Congreve2013' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0001-4842' in entry 'Lee2013a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'mar' in entry 'Fujii1994' is not an integer - this will probably not sort properly.
+WARN - ISBN '0021-8979, 1089-7550' in entry 'Giebink2008a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0306-0012' in entry 'Tao2011' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0009-2665' in entry 'Shirota2007' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0031-9007' in entry 'Kafer2005' is invalid - run biber with '--validate_datamodel' for details.
@@ -44,7 +54,6 @@ WARN - month field 'aug' in entry 'Fielitz2016' is not an integer - this will pr
 WARN - month field 'aug' in entry 'Scholz2015' is not an integer - this will probably not sort properly.
 WARN - month field 'feb' in entry 'Baldo2000' is not an integer - this will probably not sort properly.
 WARN - month field 'feb' in entry 'Furno2010' is not an integer - this will probably not sort properly.
-WARN - month field 'mar' in entry 'Furno2012' is not an integer - this will probably not sort properly.
 WARN - month field 'jul' in entry 'Forrest2003' is not an integer - this will probably not sort properly.
 WARN - month field 'jan' in entry 'Smith1931' is not an integer - this will probably not sort properly.
 WARN - month field 'mar' in entry 'Wright1929' is not an integer - this will probably not sort properly.
@@ -52,14 +61,14 @@ WARN - month field 'jan' in entry 'Guild1932' is not an integer - this will prob
 WARN - ISBN '0323145701, 9780323145701' in entry 'Venkataraman1971' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'feb' in entry 'Helfrich1965' is not an integer - this will probably not sort properly.
 WARN - ISBN '00218979' in entry 'Tang1989a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0002-7863' in entry 'King1985' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0002-7863' in entry 'Sprouse1984' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '09359648$\backslash$r15214095' in entry 'Su2008a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1616301X$\backslash$n16163028' in entry 'Scholz2008' is invalid - run biber with '--validate_datamodel' for details.
-WARN - ISBN '1476-4687 (Electronic)$\backslash$r0028-0836 (Linking)' in entry 'Uoyama2012' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '00218979' in entry 'Adachi2001b' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1616-3028' in entry 'Zhang2012b' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1616-3028' in entry 'Jankus2014' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0010-8545' in entry 'Lavie-Cambot2008' is invalid - run biber with '--validate_datamodel' for details.
-WARN - ISBN '1616-3028' in entry 'Song2011' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'dec' in entry 'Murawski2013' is not an integer - this will probably not sort properly.
 WARN - month field 'jun' in entry 'Giebink2008c' is not an integer - this will probably not sort properly.
 WARN - month field 'mar' in entry 'Xiang2016' is not an integer - this will probably not sort properly.
@@ -67,9 +76,7 @@ WARN - ISBN '0003-6951' in entry 'Reineke2009' is invalid - run biber with '--va
 WARN - month field 'oct' in entry 'Baldo2000a' is not an integer - this will probably not sort properly.
 WARN - month field 'nov' in entry 'Kohler2009' is not an integer - this will probably not sort properly.
 WARN - month field 'nov' in entry 'Erickson2013a' is not an integer - this will probably not sort properly.
-WARN - ISBN '0021-8979, 1089-7550' in entry 'Giebink2008a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'apr' in entry 'Coburn2017' is not an integer - this will probably not sort properly.
-WARN - month field 'jul' in entry 'Baldo2002' is not an integer - this will probably not sort properly.
 WARN - month field 'feb' in entry 'Takenobu2008' is not an integer - this will probably not sort properly.
 WARN - month field 'oct' in entry 'Samuel2009' is not an integer - this will probably not sort properly.
 WARN - month field 'sep' in entry 'Kasemann2011' is not an integer - this will probably not sort properly.
@@ -86,10 +93,9 @@ WARN - ISBN '1077-260X' in entry 'Popovic2002' is invalid - run biber with '--va
 WARN - ISBN '0003-6951' in entry 'Melpignano2005' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0021-8979' in entry 'Shin2006' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0021-8979' in entry 'Scott1996' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0003-6951' in entry 'Chwang2002' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0935-9648' in entry 'So2010' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0003-6951' in entry 'Chin2005' is invalid - run biber with '--validate_datamodel' for details.
-WARN - ISBN '0003-6951' in entry 'Chwang2002' is invalid - run biber with '--validate_datamodel' for details.
-WARN - ISBN '1944-8252 (Electronic)$\backslash$r1944-8244 (Linking)' in entry 'Wang2013' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0036-8075' in entry 'Aziz1999' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'mar' in entry 'Aziz1999' is not an integer - this will probably not sort properly.
 WARN - ISBN '0021-8979' in entry 'Kondakov2003' is invalid - run biber with '--validate_datamodel' for details.
@@ -117,13 +123,12 @@ WARN - ISBN '0003-6951' in entry 'Liu2012d' is invalid - run biber with '--valid
 WARN - ISBN '0884-2914' in entry 'Rothberg1996' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'apr' in entry 'Parshin2006' is not an integer - this will probably not sort properly.
 WARN - ISBN '1566-1199' in entry 'Wang2011a' is invalid - run biber with '--validate_datamodel' for details.
-WARN - month field 'mar' in entry 'Watanabe2007' is not an integer - this will probably not sort properly.
-WARN - month field 'sep' in entry 'Adamovich2003' is not an integer - this will probably not sort properly.
 WARN - month field 'oct' in entry 'Xu2016' is not an integer - this will probably not sort properly.
 WARN - month field 'oct' in entry 'Lee2015' is not an integer - this will probably not sort properly.
+WARN - month field 'mar' in entry 'Watanabe2007' is not an integer - this will probably not sort properly.
+WARN - month field 'sep' in entry 'Adamovich2003' is not an integer - this will probably not sort properly.
 WARN - ISBN '1566-1199' in entry 'Wang2012' is invalid - run biber with '--validate_datamodel' for details.
 WARN - month field 'nov' in entry 'Kim2017' is not an integer - this will probably not sort properly.
-WARN - month field 'jan' in entry 'Tang2018' is not an integer - this will probably not sort properly.
 WARN - ISBN '1460-4744 (Electronic) 0306-0012 (Linking)' in entry 'Chi2010' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1460-4744 (Electronic)$\backslash$r0306-0012 (Linking)' in entry 'Zhu2013' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1476-4687 (Electronic)$\backslash$r0028-0836 (Linking)' in entry 'Hoye2012' is invalid - run biber with '--validate_datamodel' for details.
@@ -132,11 +137,15 @@ WARN - ISBN '0002-7863' in entry 'Bradley1997' is invalid - run biber with '--va
 WARN - ISBN '1750-2799 (Electronic)$\backslash$r1750-2799 (Linking)' in entry 'Baire2013' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0009-2665' in entry 'Tadross2012' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0897-4756' in entry 'Ren2004' is invalid - run biber with '--validate_datamodel' for details.
-WARN - ISBN '1439-7641' in entry 'Schueppel2007' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0922-6168' in entry 'Choi2013' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '0021-4922' in entry 'Goushi2004a' is invalid - run biber with '--validate_datamodel' for details.
+WARN - Range field 'pages' in entry 'Goushi2004a' is malformed, falling back to literal
+WARN - ISBN '00036951' in entry 'Chopra2008' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0022-3654' in entry 'Ichimura1987' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '0003-6951' in entry 'Tokito2003a' is invalid - run biber with '--validate_datamodel' for details.
 WARN - ISBN '1098-0121$\backslash$r1550-235X' in entry 'Zhang2011a' is invalid - run biber with '--validate_datamodel' for details.
-WARN - BibTeX subsystem: /tmp/tVKrZK1CIe/library.bib_9192.utf8, line 6, warning: 172 characters of junk seen at toplevel
+WARN - ISBN '1439-7641' in entry 'Schueppel2007' is invalid - run biber with '--validate_datamodel' for details.
+WARN - BibTeX subsystem: /tmp/1ALkVzp6Jf/library.bib_2132.utf8, line 6, warning: 172 characters of junk seen at toplevel
 INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
@@ -144,7 +153,7 @@ INFO - No sort tailoring available for locale 'en-US'
 INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
 INFO - Converting UTF-8 to TeX macros on output to .bbl
 INFO - Output to thesis.bbl
-INFO - WARNINGS: 131
+INFO - WARNINGS: 140
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
@@ -340,9 +349,21 @@ code.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
 (./thesis.out) (./thesis.out) (./thesis.bbl
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Statista2018':
+(biblatex)                - Entry 'Statista2018' (library.bib): Invalid format 
+'2018/7/6' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'Zhang2012c':
 (biblatex)                - Range field 'pages' in entry 'Zhang2012c' is malfor
 med, falling back to literal.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Goushi2004a':
+(biblatex)                - Range field 'pages' in entry 'Goushi2004a' is malfo
+rmed, falling back to literal.
 
 )
 
@@ -358,519 +379,558 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 e identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 \end
+l.22 \end
          {document} [1]) (./sections/dedication.tex [2])
 (./sections/abstract.tex [3]) (./sections/toc.tex (./thesis.toc [4] [5]
-[6])) (./sections/commercial.tex [7]
+[6])) (./sections/acronyms.tex [7] [8]
+Overfull \hbox (23.99998pt too wide) in alignment at lines 33--54
+ [] [] 
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 54--74
+ [] [] 
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 74--94
+ [] [] 
+[9]
+Overfull \hbox (23.99998pt too wide) in alignment at lines 94--94
+ [] [] 
+) (./sections/commercial.tex [10]
 Chapter 1.
-[8] <images/commercial/displays.png, id=890, 353.1594pt x 719.0865pt>
-<use images/commercial/displays.png> [9 <./images/commercial/displays.png>]
-<images/commercial/solar_cells.png, id=925, 451.2057pt x 928.4286pt>
-<use images/commercial/solar_cells.png> [10 <./images/commercial/solar_cells.pn
-g>]) (./sections/orgSemiconductors.tex [11]
+[11] <images/commercial/displays.png, id=909, 365.4453pt x 766.3029pt>
+<use images/commercial/displays.png> [12 <./images/commercial/displays.png>]
+<images/commercial/solar_cells.png, id=947, 451.6875pt x 928.4286pt>
+<use images/commercial/solar_cells.png>
+Overfull \hbox (23.57846pt too wide) in paragraph at lines 91--91
+[]\T1/cmr/bx/n/12 Organic Field-Effect Tran-sis-tors (OFETs) 
+[13 <./images/commercial/solar_cells.png>]) (./sections/orgSemiconductors.tex
+[14]
 Chapter 2.
-<images/orgSemiconductors/benzene.png, id=965, 752.8125pt x 401.5pt>
-<use images/orgSemiconductors/benzene.png> [12 <./images/orgSemiconductors/benz
-ene.png>] [13]
-<images/orgSemiconductors/exciton.png, id=1002, 225.84375pt x 148.30406pt>
+<images/orgSemiconductors/benzene.png, id=985, 752.8125pt x 401.5pt>
+<use images/orgSemiconductors/benzene.png> [15 <./images/orgSemiconductors/benz
+ene.png>] [16]
+<images/orgSemiconductors/exciton.png, id=1019, 137.7647pt x 148.30406pt>
 <use images/orgSemiconductors/exciton.png>
-<images/orgSemiconductors/triplets.png, id=1005, 491.79735pt x 310.0383pt>
-<use images/orgSemiconductors/triplets.png> [14 <./images/orgSemiconductors/exc
+<images/orgSemiconductors/triplets.png, id=1025, 484.67642pt x 365.66463pt>
+<use images/orgSemiconductors/triplets.png> [17 <./images/orgSemiconductors/exc
 iton.png>]
-<images/orgSemiconductors/jablonski.png, id=1017, 374.90062pt x 248.42813pt>
-<use images/orgSemiconductors/jablonski.png> [15 <./images/orgSemiconductors/tr
-iplets.png> <./images/orgSemiconductors/jablonski.png>]
-<images/orgSemiconductors/ir(ppy)3.png, id=1031, 216.05719pt x 248.42813pt>
-<use images/orgSemiconductors/ir(ppy)3.png> [16 <./images/orgSemiconductors/ir(
-ppy)3.png (PNG copy)>] [17]
-<images/orgSemiconductors/exciton-exciton.png, id=1061, 432.11438pt x 249.93375
-pt> <use images/orgSemiconductors/exciton-exciton.png>
-<images/orgSemiconductors/triplet-fusion.png, id=1063, 315.42844pt x 250.68657p
-t> <use images/orgSemiconductors/triplet-fusion.png> [18 <./images/orgSemicondu
-ctors/exciton-exciton.png>]
-<images/orgSemiconductors/singlet-fission.png, id=1077, 312.41719pt x 249.93375
-pt> <use images/orgSemiconductors/singlet-fission.png> [19 <./images/orgSemicon
-ductors/triplet-fusion.png> <./images/orgSemiconductors/singlet-fission.png>]
-<images/orgSemiconductors/exciton-polaron.png, id=1093, 315.42844pt x 151.3153p
-t> <use images/orgSemiconductors/exciton-polaron.png>
-<images/orgSemiconductors/field-dis.png, id=1097, 345.54094pt x 248.42813pt>
-<use images/orgSemiconductors/field-dis.png>) (./sections/oleds.tex [20 <./imag
-es/orgSemiconductors/exciton-polaron.png> <./images/orgSemiconductors/field-dis
-.png>]
-Chapter 3.
-<images/oleds/layer_diagram.png, id=1115, 766.5438pt x 214.8828pt>
-<use images/oleds/layer_diagram.png> [21 <./images/oleds/layer_diagram.png>]
-<images/oleds/energy_diagram.png, id=1138, 371.2269pt x 279.6849pt>
-<use images/oleds/energy_diagram.png>
-<images/oleds/energy_diagram_EQE.png, id=1140, 367.1316pt x 254.6313pt>
-<use images/oleds/energy_diagram_EQE.png>
-Overfull \hbox (6.8143pt too wide) in paragraph at lines 63--72
-[]\T1/cmr/m/n/10 The ef-fi-ciency with which in-jected charges form ex-ci-tons 
-is the ex-ci-ton for-ma-tion ef-fi-ciency, $\OML/cmm/m/it/10 ^^Q[]$\T1/cmr/m/n/
-10 (traditionally
-[22 <./images/oleds/energy_diagram.png>] [23 <./images/oleds/energy_diagram_EQE
-.png>] <images/oleds/chamber.jpg, id=1162, 721.69624pt x 962.59625pt>
-<use images/oleds/chamber.jpg>
-<images/oleds/dep_boat.png, id=1163, 415.5525pt x 655.69969pt>
-<use images/oleds/dep_boat.png>
-<images/oleds/al_boat.png, id=1164, 452.69125pt x 161.60374pt>
-<use images/oleds/al_boat.png>
-<images/oleds/masks.png, id=1168, 352.31625pt x 352.31625pt>
-<use images/oleds/masks.png> [24 <./images/oleds/chamber.jpg> <./images/oleds/d
-ep_boat.png> <./images/oleds/al_boat.png (PNG copy)>] [25 <./images/oleds/masks
-.png>] <images/oleds/ivl.PNG, id=1183, 496.85625pt x 386.19281pt>
-<use images/oleds/ivl.PNG> [26 <./images/oleds/ivl.PNG>]
-<images/oleds/responsivity.PNG, id=1197, 389.95688pt x 537.50812pt>
-<use images/oleds/responsivity.PNG> [27 <./images/oleds/responsivity.PNG>]
-<images/oleds/color_addition.png, id=1212, 421.575pt x 401.5pt>
-<use images/oleds/color_addition.png>
-<images/oleds/chromaticity.png, id=1213, 250.9375pt x 282.05376pt>
-<use images/oleds/chromaticity.png> [28 <./images/oleds/color_addition.png (PNG
- copy)> <./images/oleds/chromaticity.png>]
-<images/oleds/cie_phones.png, id=1228, 487.8225pt x 377.91188pt>
-<use images/oleds/cie_phones.png> [29 <./images/oleds/cie_phones.png>]
-<images/oleds/tang.PNG, id=1238, 429.10312pt x 268.00125pt>
-<use images/oleds/tang.PNG>
-Underfull \hbox (badness 1888) in paragraph at lines 288--293
-\T1/cmr/m/n/10 tempts at pro-duc-ing elec-tro-lu-mi-nes-cent de-vices
-[30 <./images/oleds/tang.PNG>]
-<images/oleds/tadf.png, id=1275, 405.1938pt x 331.9602pt>
-<use images/oleds/tadf.png> [31 <./images/oleds/tadf.png>]
-<images/oleds/roll_off.png, id=1330, 418.56375pt x 379.4175pt>
-<use images/oleds/roll_off.png>
-<images/oleds/rz_arch.png, id=1343, 621.82312pt x 251.43938pt>
-<use images/oleds/rz_arch.png> [32 <./images/oleds/roll_off.png>]
-<images/oleds/rz_comparison.png, id=1377, 575.90157pt x 280.04625pt>
-<use images/oleds/rz_comparison.png> [33 <./images/oleds/rz_arch.png>]
-<images/oleds/hole_only.png, id=1397, 321.45094pt x 188.95593pt>
-<use images/oleds/hole_only.png>
-<images/oleds/electron_only.png, id=1398, 322.20375pt x 158.84344pt>
-<use images/oleds/electron_only.png> [34 <./images/oleds/rz_comparison.png>]
-[35 <./images/oleds/hole_only.png> <./images/oleds/electron_only.png>]
-<images/oleds/dark_spot.PNG, id=1427, 121.95563pt x 120.45pt>
-<use images/oleds/dark_spot.PNG>
-<images/oleds/bubbles.PNG, id=1428, 249.18094pt x 181.42781pt>
-<use images/oleds/bubbles.PNG>
-Overfull \hbox (9.80855pt too wide) in paragraph at lines 513--518
-\T1/cmr/m/n/10 One of the most widely ob-served and char-ac-ter-ized degra-da-t
-ion phe-nom-ena is the for-ma-tion of dark spots.$[]$
-[36]
-Overfull \hbox (35.78831pt too wide) in paragraph at lines 527--534
-\T1/cmr/m/n/10 Most degra-da-tion mech-a-nisms within a de-vice are fa-cil-i-ta
-ted by the ex-ci-ton and po-laron pop-u-la-tion.$[]$
-[37 <./images/oleds/dark_spot.PNG> <./images/oleds/bubbles.PNG>] [38]
-<images/oleds/mass_spec.png, id=1512, 659.73209pt x 450.79308pt>
-<use images/oleds/mass_spec.png> [39 <./images/oleds/mass_spec.png>] [40]
-<images/oleds/cbp_degradation.png, id=1544, 791.39227pt x 203.21466pt>
-<use images/oleds/cbp_degradation.png> [41 <./images/oleds/cbp_degradation.png>
-] <images/oleds/coburn.png, id=1567, 294.0888pt x 581.02217pt>
-<use images/oleds/coburn.png>) (./sections/unified.tex [42 <./images/oleds/cobu
-rn.png>]
-Chapter 4.
-<images/unified/bad_fit.png, id=1579, 719.68875pt x 579.16376pt>
-<use images/unified/bad_fit.png> [43 <./images/unified/bad_fit.png (PNG copy)>]
- <images/unified/rz_dependence.png, id=1614, 532.99126pt x 810.02625pt>
-<use images/unified/rz_dependence.png> [44 <./images/unified/rz_dependence.png 
-(PNG copy)>] [45] [46]
-<images/unified/transport.png, id=1664, 296.307pt x 239.9364pt>
-<use images/unified/transport.png> [47 <./images/unified/transport.png>]
-[48]
-Overfull \hbox (14.68579pt too wide) in paragraph at lines 195--207
-\T1/cmr/m/n/10 (100 nm). Tran-sient PL de-cays were mea-sured us-ing 60-nm-thic
-k films of CBP doped with 10% Ir(ppy)$[]$deposited
-<images/unified/PL_fitting.png, id=1701, 305.943pt x 489.027pt>
-<use images/unified/PL_fitting.png> [49]
-Underfull \hbox (badness 2119) in paragraph at lines 219--234
-\T1/cmr/m/n/10 triplet an-ni-hi-la-tion and triplet-polaron quench-
-[50 <./images/unified/PL_fitting.png>] [51]
-<images/unified/rollOffFit.png, id=1758, 409.53pt x 343.5234pt>
-<use images/unified/rollOffFit.png> [52] [53 <./images/unified/rollOffFit.png>]
- <images/unified/transientFits.png, id=1789, 571.8966pt x 399.894pt>
-<use images/unified/transientFits.png> [54 <./images/unified/transientFits.png>
-] <images/unified/termEfficiency.png, id=1806, 312.2064pt x 464.937pt>
-<use images/unified/termEfficiency.png> [55 <./images/unified/termEfficiency.pn
-g>] <images/unified/chargeBalance.png, id=1831, 482.7636pt x 357.0138pt>
-<use images/unified/chargeBalance.png>
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]\T1/cmr/bx/n/9 Figure 4.8: |\T1/cmr/m/n/9 Tran-sit time ex-tracted from
-[56 <./images/unified/chargeBalance.png>] [57]
-<images/unified/currentDiagram.png, id=1861, 1160.83687pt x 1120.185pt>
-<use images/unified/currentDiagram.png> [58 <./images/unified/currentDiagram.pn
-g>] <images/unified/EHratio.png, id=1874, 3005.2275pt x 2649.9pt>
-<use images/unified/EHratio.png> [59 <./images/unified/EHratio.png>])
-(./sections/integratedLifetime.tex [60]
-Chapter 5.
-[61]
-<images/integratedLifetime/microscope.png, id=1931, 2055.68pt x 1541.76pt>
-<use images/integratedLifetime/microscope.png>
-<images/integratedLifetime/crystals.PNG, id=1932, 91.09032pt x 150.5625pt>
-<use images/integratedLifetime/crystals.PNG> [62]
-<images/integratedLifetime/schematic.png, id=1949, 473.6094pt x 176.8206pt>
-<use images/integratedLifetime/schematic.png> [63 <./images/integratedLifetime/
-microscope.png> <./images/integratedLifetime/crystals.PNG>]
-<images/integratedLifetime/lifetime_vs_drive.png, id=1957, 413.545pt x 340.2712
-6pt> <use images/integratedLifetime/lifetime_vs_drive.png> [64 <./images/integr
-atedLifetime/schematic.png> <./images/integratedLifetime/lifetime_vs_drive.png>
-] <images/integratedLifetime/optical_k.png, id=1970, 768.8725pt x 513.92pt>
-<use images/integratedLifetime/optical_k.png>
-<images/integratedLifetime/rz_field_overlap.png, id=1972, 611.4042pt x 534.798p
-t> <use images/integratedLifetime/rz_field_overlap.png> [65 <./images/integrate
-dLifetime/optical_k.png (PNG copy)>]
-<images/integratedLifetime/dark_spot.JPG, id=1983, 275.1078pt x 139.9629pt>
-<use images/integratedLifetime/dark_spot.JPG> [66 <./images/integratedLifetime/
-rz_field_overlap.png> <./images/integratedLifetime/dark_spot.JPG>]
-<images/integratedLifetime/quenching_correction.png, id=1996, 671.43872pt x 501
-.68826pt> <use images/integratedLifetime/quenching_correction.png> [67 <./image
-s/integratedLifetime/quenching_correction.png>]
-<images/integratedLifetime/transient_lifetimes.png, id=2011, 693.34032pt x 589.
-4522pt> <use images/integratedLifetime/transient_lifetimes.png>
-<images/integratedLifetime/gang.png, id=2016, 490.83376pt x 371.88937pt>
-<use images/integratedLifetime/gang.png> [68 <./images/integratedLifetime/trans
-ient_lifetimes.png>] [69 <./images/integratedLifetime/gang.png>]
-<images/integratedLifetime/gen1.png, id=2032, 721.2546pt x 470.7186pt>
-<use images/integratedLifetime/gen1.png> [70 <./images/integratedLifetime/gen1.
-png>]
-<images/integratedLifetime/box_workflow.png, id=2043, 713.5458pt x 502.0356pt>
-<use images/integratedLifetime/box_workflow.png> [71 <./images/integratedLifeti
-me/box_workflow.png>]
-<images/integratedLifetime/source_measure.png, id=2051, 289.08pt x 212.9556pt>
-<use images/integratedLifetime/source_measure.png>
-<images/integratedLifetime/arduino.jpg, id=2052, 532.99126pt x 578.16pt>
-<use images/integratedLifetime/arduino.jpg>
-<images/integratedLifetime/hardware.png, id=2053, 429.7656pt x 331.9602pt>
-<use images/integratedLifetime/hardware.png>
-Underfull \hbox (badness 10000) in paragraph at lines 383--392
-\T1/cmr/m/n/10 or Keysight u2722a source me-ters.
-[72 <./images/integratedLifetime/source_measure.png> <./images/integratedLifeti
-me/arduino.jpg> <./images/integratedLifetime/hardware.png>]
-<images/integratedLifetime/software_controller.png, id=2068, 210.5466pt x 108.8
-868pt> <use images/integratedLifetime/software_controller.png>
-<images/integratedLifetime/lifetime_db_import.png, id=2070, 322.3242pt x 155.13
-96pt> <use images/integratedLifetime/lifetime_db_import.png> [73 <./images/inte
-gratedLifetime/software_controller.png>]) (./sections/lifetimeApplications.tex
-[74 <./images/integratedLifetime/lifetime_db_import.png>]
-Chapter 6.
-
-<images/lifetimeApplications/architecture.png, id=2093, 221.628pt x 227.4096pt>
-<use images/lifetimeApplications/architecture.png>
-<images/lifetimeApplications/eqe.png, id=2094, 223.58531pt x 234.1247pt>
-<use images/lifetimeApplications/eqe.png> [75 <./images/lifetimeApplications/ar
-chitecture.png> <./images/lifetimeApplications/eqe.png>]
-<images/lifetimeApplications/elpl.png, id=2114, 949.29657pt x 344.03531pt>
-<use images/lifetimeApplications/elpl.png>
-Overfull \hbox (12.5634pt too wide) in paragraph at lines 65--86
- [][] 
-[76 <./images/lifetimeApplications/elpl.png>]
-<images/lifetimeApplications/tx_components.png, id=2136, 783.67781pt x 573.6431
-3pt> <use images/lifetimeApplications/tx_components.png> [77]
-<images/lifetimeApplications/cbp_rz.png, id=2149, 994.46532pt x 789.70032pt>
-<use images/lifetimeApplications/cbp_rz.png> [78 <./images/lifetimeApplications
-/tx_components.png> <./images/lifetimeApplications/cbp_rz.png>] [79]
-<images/lifetimeApplications/meml_eqe.png, id=2170, 331.99031pt x 595.47469pt>
-<use images/lifetimeApplications/meml_eqe.png>
-Underfull \hbox (badness 2608) in paragraph at lines 165--169
-\T1/cmr/m/n/10 Devices con-sisted of a 60-nm-thick hole in-jec-tion layer
-
-Underfull \hbox (badness 3029) in paragraph at lines 165--169
-\T1/cmr/m/n/10 (HIL) of poly(thiophene-3-[2[(2-methoxyethoxy)ethoxy]-2,5-
-<images/lifetimeApplications/meml_rz.png, id=2187, 337.26pt x 571.38469pt>
-<use images/lifetimeApplications/meml_rz.png> [80 <./images/lifetimeApplication
-s/meml_eqe.png>]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-193.
+118.
+
+<images/orgSemiconductors/jablonski.png, id=1043, 374.90062pt x 248.42813pt>
+<use images/orgSemiconductors/jablonski.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 12
+5.
+
+[18 <./images/orgSemiconductors/triplets.png> <./images/orgSemiconductors/jablo
+nski.png>]
+<images/orgSemiconductors/ir(ppy)3.png, id=1062, 216.05719pt x 248.42813pt>
+<use images/orgSemiconductors/ir(ppy)3.png>
+Underfull \hbox (badness 1648) in paragraph at lines 152--152
+\T1/cmr/m/n/9 an ex-cited state which ex-hibits
+[19 <./images/orgSemiconductors/ir(ppy)3.png (PNG copy)>] [20]
+<images/orgSemiconductors/exciton-exciton.png, id=1103, 432.11438pt x 247.67531
+pt> <use images/orgSemiconductors/exciton-exciton.png> [21 <./images/orgSemicon
+ductors/exciton-exciton.png>]
+<images/orgSemiconductors/triplet-fusion.png, id=1115, 315.42844pt x 248.42813p
+t> <use images/orgSemiconductors/triplet-fusion.png> [22 <./images/orgSemicondu
+ctors/triplet-fusion.png>]
+<images/orgSemiconductors/exciton-polaron.png, id=1131, 239.39438pt x 146.79843
+pt> <use images/orgSemiconductors/exciton-polaron.png>
+<images/orgSemiconductors/field-dis.png, id=1135, 282.30469pt x 248.42813pt>
+<use images/orgSemiconductors/field-dis.png> [23 <./images/orgSemiconductors/ex
+citon-polaron.png> <./images/orgSemiconductors/field-dis.png>])
+(./sections/oleds.tex [24]
+Chapter 3.
+<images/oleds/layer_diagram.png, id=1170, 766.5438pt x 214.8828pt>
+<use images/oleds/layer_diagram.png> [25 <./images/oleds/layer_diagram.png>]
+<images/oleds/energy_diagram.png, id=1193, 371.2269pt x 279.6849pt>
+<use images/oleds/energy_diagram.png>
+<images/oleds/energy_diagram_EQE.png, id=1195, 367.1316pt x 254.6313pt>
+<use images/oleds/energy_diagram_EQE.png> [26 <./images/oleds/energy_diagram.pn
+g>] [27 <./images/oleds/energy_diagram_EQE.png>]
+<images/oleds/masks.png, id=1218, 352.4367pt x 352.4367pt>
+<use images/oleds/masks.png> [28]
+<images/oleds/ivl.PNG, id=1225, 496.85625pt x 386.19281pt>
+<use images/oleds/ivl.PNG> [29 <./images/oleds/masks.png>]
+<images/oleds/responsivity.PNG, id=1237, 523.9575pt x 717.68124pt>
+<use images/oleds/responsivity.PNG> [30 <./images/oleds/ivl.PNG> <./images/oled
+s/responsivity.PNG>]
+<images/oleds/color_addition.png, id=1254, 421.575pt x 401.5pt>
+<use images/oleds/color_addition.png>
+<images/oleds/chromaticity.png, id=1255, 250.9375pt x 282.05376pt>
+<use images/oleds/chromaticity.png> [31] [32 <./images/oleds/color_addition.png
+ (PNG copy)> <./images/oleds/chromaticity.png>]
+<images/oleds/cie_phones.png, id=1277, 487.8225pt x 377.91188pt>
+<use images/oleds/cie_phones.png>
+<images/oleds/tang.PNG, id=1280, 429.10312pt x 268.00125pt>
+<use images/oleds/tang.PNG> [33 <./images/oleds/cie_phones.png>]
+Underfull \hbox (badness 1728) in paragraph at lines 294--299
+[]\T1/cmr/m/n/10 Early in-ter-est in or-ganic ma-te-ri-als was gen-er-
+
+Underfull \hbox (badness 2269) in paragraph at lines 294--299
+\T1/cmr/m/n/10 dyes with demon-strated high flu-o-res-cence ef-fi-
+[34 <./images/oleds/tang.PNG>]
+<images/oleds/tadf.png, id=1325, 405.1938pt x 331.9602pt>
+<use images/oleds/tadf.png>
+<images/oleds/roll_off.png, id=1361, 553.06625pt x 512.91624pt>
+<use images/oleds/roll_off.png> [35 <./images/oleds/tadf.png>]
+<images/oleds/rz_arch.png, id=1394, 621.82312pt x 251.43938pt>
+<use images/oleds/rz_arch.png>
+Underfull \hbox (badness 1019) in paragraph at lines 384--387
+\T1/cmr/m/n/10 ex-ci-tons. Fre-quently this mea-sure-ment is car-
+[36 <./images/oleds/roll_off.png> <./images/oleds/rz_arch.png>]
+<images/oleds/rz_comparison_2.png, id=1430, 593.21625pt x 411.03563pt>
+<use images/oleds/rz_comparison_2.png> [37 <./images/oleds/rz_comparison_2.png>
+] <images/oleds/hole_only.png, id=1447, 321.45094pt x 188.95593pt>
+<use images/oleds/hole_only.png>
+<images/oleds/electron_only.png, id=1448, 322.20375pt x 158.84344pt>
+<use images/oleds/electron_only.png> [38 <./images/oleds/hole_only.png> <./imag
+es/oleds/electron_only.png>]
+<images/oleds/lifetimes.png, id=1467, 955.31906pt x 699.36281pt>
+<use images/oleds/lifetimes.png>
+Underfull \hbox (badness 1253) in paragraph at lines 481--483
+[]\T1/cmr/m/n/10 In typ-i-cal life-time char-ac-ter-i-za-tion, de-vices are
+[39 <./images/oleds/lifetimes.png>]
+<images/oleds/dark_spot.PNG, id=1483, 121.95563pt x 120.45pt>
+<use images/oleds/dark_spot.PNG>
+<images/oleds/bubbles.PNG, id=1484, 249.18094pt x 181.42781pt>
+<use images/oleds/bubbles.PNG> [40 <./images/oleds/dark_spot.PNG> <./images/ole
+ds/bubbles.PNG>]
+Overfull \hbox (31.80318pt too wide) in paragraph at lines 546--553
+\T1/cmr/m/n/10 Most degra-da-tion mech-a-nisms within a de-vice are fa-cil-i-ta
+ted by the ex-ci-ton and po-laron pop-u-la-tion.$[]$
+[41] [42] <images/oleds/mass_spec.png, id=1572, 659.73209pt x 450.79308pt>
+<use images/oleds/mass_spec.png> [43 <./images/oleds/mass_spec.png>] [44]
+<images/oleds/cbp_degradation.png, id=1603, 1288.0923pt x 329.5512pt>
+<use images/oleds/cbp_degradation.png>
+<images/oleds/coburn.png, id=1616, 294.0888pt x 581.02217pt>
+<use images/oleds/coburn.png> [45 <./images/oleds/cbp_degradation.png>])
+(./sections/unified.tex [46 <./images/oleds/coburn.png>]
+Chapter 4.
+<images/unified/bad_fit.png, id=1640, 719.68875pt x 579.16376pt>
+<use images/unified/bad_fit.png> [47 <./images/unified/bad_fit.png (PNG copy)>]
+ <images/unified/rz_dependence.png, id=1676, 533.1117pt x 810.1467pt>
+<use images/unified/rz_dependence.png>
+
+Package Fancyhdr Warning: \headheight is too small (13.6pt): 
+ Make it at least 22.48724pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48 <./images/unified/rz_dependence.png>] [49] [50]
+<images/unified/transport.png, id=1732, 296.307pt x 239.9364pt>
+<use images/unified/transport.png> [51 <./images/unified/transport.png>]
+[52] <images/unified/PL_fitting.png, id=1770, 376.2858pt x 532.8708pt>
+<use images/unified/PL_fitting.png> [53] [54 <./images/unified/PL_fitting.png>]
+ [55] <images/unified/rollOffFit.png, id=1830, 413.3844pt x 342.8007pt>
+<use images/unified/rollOffFit.png> [56] [57 <./images/unified/rollOffFit.png>]
+ <images/unified/transientFits.png, id=1861, 571.8966pt x 399.894pt>
+<use images/unified/transientFits.png> [58 <./images/unified/transientFits.png>
+] <images/unified/termEfficiency.png, id=1877, 391.7034pt x 515.526pt>
+<use images/unified/termEfficiency.png> [59 <./images/unified/termEfficiency.pn
+g>] <images/unified/chargeBalance.png, id=1901, 483.2454pt x 357.7365pt>
+<use images/unified/chargeBalance.png>
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
+[]\T1/cmr/bx/n/9 Figure 4.8: |\T1/cmr/m/n/9 Tran-sit time ex-tracted from
+
+Underfull \hbox (badness 4366) in paragraph at lines 405--405
+\OML/cmm/m/it/9 ^^Q[] $\T1/cmr/m/n/9 measurements are shown as the red cir-cles
+.
+[60 <./images/unified/chargeBalance.png>] [61]
+<images/unified/currentDiagram.png, id=1932, 1160.83687pt x 1120.185pt>
+<use images/unified/currentDiagram.png> [62 <./images/unified/currentDiagram.pn
+g>] <images/unified/EHratio.png, id=1946, 3005.2275pt x 2649.9pt>
+<use images/unified/EHratio.png> [63 <./images/unified/EHratio.png>])
+(./sections/integratedLifetime.tex [64]
+Chapter 5.
+[65] [66]
+<images/integratedLifetime/schematic.png, id=2013, 473.6094pt x 176.8206pt>
+<use images/integratedLifetime/schematic.png> [67 <./images/integratedLifetime/
+schematic.png>]
+<images/integratedLifetime/lifetime_vs_drive.png, id=2022, 413.545pt x 340.2712
+6pt> <use images/integratedLifetime/lifetime_vs_drive.png> [68 <./images/integr
+atedLifetime/lifetime_vs_drive.png>]
+<images/integratedLifetime/optical_k.png, id=2033, 771.88374pt x 520.94624pt>
+<use images/integratedLifetime/optical_k.png>
+<images/integratedLifetime/rz_field_overlap.png, id=2035, 611.4042pt x 534.798p
+t> <use images/integratedLifetime/rz_field_overlap.png> [69 <./images/integrate
+dLifetime/optical_k.png> <./images/integratedLifetime/rz_field_overlap.png>]
+<images/integratedLifetime/dark_spot.JPG, id=2049, 275.1078pt x 139.9629pt>
+<use images/integratedLifetime/dark_spot.JPG>
+<images/integratedLifetime/quenching_correction.png, id=2053, 671.43872pt x 501
+.68826pt> <use images/integratedLifetime/quenching_correction.png> [70 <./image
+s/integratedLifetime/dark_spot.JPG> <./images/integratedLifetime/quenching_corr
+ection.png>]
+<images/lifetimeApplications/architecture.png, id=2069, 221.628pt x 227.4096pt>
+<use images/lifetimeApplications/architecture.png>
+<images/integratedLifetime/transient_lifetimes.png, id=2070, 693.34032pt x 589.
+4522pt> <use images/integratedLifetime/transient_lifetimes.png> [71]
+<images/integratedLifetime/gang.png, id=2082, 490.83376pt x 371.88937pt>
+<use images/integratedLifetime/gang.png>
+Underfull \hbox (badness 5316) in paragraph at lines 309--325
+[]\T1/cmr/m/n/10 The con-cep-tual idea of de-cou-pling $\OML/cmm/m/it/10 ^^Q[] 
+$\T1/cmr/m/n/10 and
+[72 <./images/lifetimeApplications/architecture.png> <./images/integratedLifeti
+me/transient_lifetimes.png> <./images/integratedLifetime/gang.png>]
+<images/integratedLifetime/gen1.png, id=2096, 721.2546pt x 470.7186pt>
+<use images/integratedLifetime/gen1.png> [73] [74 <./images/integratedLifetime/
+gen1.png>]
+<images/integratedLifetime/box_workflow.png, id=2111, 713.5458pt x 502.0356pt>
+<use images/integratedLifetime/box_workflow.png>
+<images/integratedLifetime/source_measure.png, id=2113, 289.08pt x 212.9556pt>
+<use images/integratedLifetime/source_measure.png>
+<images/integratedLifetime/arduino.jpg, id=2114, 532.99126pt x 578.16pt>
+<use images/integratedLifetime/arduino.jpg> [75 <./images/integratedLifetime/bo
+x_workflow.png>]
+<images/integratedLifetime/hardware.png, id=2121, 429.7656pt x 331.9602pt>
+<use images/integratedLifetime/hardware.png> [76 <./images/integratedLifetime/s
+ource_measure.png> <./images/integratedLifetime/arduino.jpg> <./images/integrat
+edLifetime/hardware.png>]
+<images/integratedLifetime/software_controller.png, id=2134, 210.5466pt x 108.8
+868pt> <use images/integratedLifetime/software_controller.png>
+<images/integratedLifetime/lifetime_db_import.png, id=2136, 322.3242pt x 155.13
+96pt> <use images/integratedLifetime/lifetime_db_import.png> [77 <./images/inte
+gratedLifetime/software_controller.png> <./images/integratedLifetime/lifetime_d
+b_import.png>]) (./sections/lifetimeApplications.tex [78]
+Chapter 6.
+<use images/lifetimeApplications/architecture.png>
+<images/lifetimeApplications/eqe.png, id=2168, 223.58531pt x 234.1247pt>
+<use images/lifetimeApplications/eqe.png> [79 <./images/lifetimeApplications/eq
+e.png>] <images/lifetimeApplications/elpl.jpg, id=2186, 650.43pt x 246.6816pt>
+<use images/lifetimeApplications/elpl.jpg> [80 <./images/lifetimeApplications/e
+lpl.jpg>]
+Overfull \hbox (12.5634pt too wide) in paragraph at lines 62--83
+ [][] 
+
+<images/lifetimeApplications/tx_components.png, id=2213, 783.67781pt x 573.6431
+3pt> <use images/lifetimeApplications/tx_components.png> [81]
+<images/lifetimeApplications/cbp_rz.png, id=2226, 994.4352pt x 789.6702pt>
+<use images/lifetimeApplications/cbp_rz.png> [82 <./images/lifetimeApplications
+/tx_components.png>]
+<images/lifetimeApplications/meml_eqe.png, id=2233, 331.99031pt x 595.47469pt>
+<use images/lifetimeApplications/meml_eqe.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 14
+3.
 
 
-<images/lifetimeApplications/meml_lifetime.png, id=2203, 344.78813pt x 551.0587
-5pt> <use images/lifetimeApplications/meml_lifetime.png>
-Underfull \hbox (badness 1281) in paragraph at lines 191--198
+Underfull \hbox (badness 4036) in paragraph at lines 145--148
+[]\T1/cmr/m/n/10 As dis-cussed in Sec-tion []6.1[], RZ width has
+
+Underfull \hbox (badness 2617) in paragraph at lines 145--148
+\T1/cmr/m/n/10 been ex-ten-sively con-nected with life-time, me-
+
+Underfull \hbox (badness 6204) in paragraph at lines 145--148
+\T1/cmr/m/n/10 di-ated by the ex-ci-ton and po-laron pop-u-la-
+[83 <./images/lifetimeApplications/cbp_rz.png> <./images/lifetimeApplications/m
+eml_eqe.png>]
+Underfull \hbox (badness 5345) in paragraph at lines 152--156
+\T1/cmr/m/n/10 Devices con-sisted of a 60-nm-thick hole in-
+
+Underfull \hbox (badness 7704) in paragraph at lines 152--156
+\T1/cmr/m/n/10 jec-tion layer (HIL) of poly(thiophene-3-[2[(2-
+
+Overfull \hbox (28.92162pt too wide) in paragraph at lines 152--156
+\T1/cmr/m/n/10 methoxyethoxy)ethoxy]-2,5-diyl)(AQ1200, Sigma Aldrich),
+<images/lifetimeApplications/meml_rz.png, id=2257, 337.26pt x 571.38469pt>
+<use images/lifetimeApplications/meml_rz.png> [84 <./images/lifetimeApplication
+s/meml_rz.png>]
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+180.
+
+
+<images/lifetimeApplications/meml_lifetime.png, id=2269, 349.305pt x 551.661pt>
+<use images/lifetimeApplications/meml_lifetime.png>
+Underfull \hbox (badness 1281) in paragraph at lines 178--185
 \T1/cmr/m/n/10 The degra-da-tion of these de-vices at a ini-tial lu-mi-nance
 
-Underfull \hbox (badness 1194) in paragraph at lines 191--198
+Underfull \hbox (badness 1194) in paragraph at lines 178--185
 \T1/cmr/m/n/10 of $\OML/cmm/m/it/10 L[]$\T1/cmr/m/n/10 =3,000 cd/m$[]$ is shown
  in Fig-ure []6.7[]a. The EL
 
-Underfull \hbox (badness 1215) in paragraph at lines 191--198
+Underfull \hbox (badness 1215) in paragraph at lines 178--185
 \T1/cmr/m/n/10 life-time in-creases by ap-prox-i-mately a fac-tor of 3 in in-
 
-Underfull \hbox (badness 5189) in paragraph at lines 191--198
+Underfull \hbox (badness 5189) in paragraph at lines 178--185
 \T1/cmr/m/n/10 creas-ing the thick-ness from 10 nm to 60 nm, and
 
-Underfull \hbox (badness 1371) in paragraph at lines 191--198
+Underfull \hbox (badness 1371) in paragraph at lines 178--185
 \T1/cmr/m/n/10 nearly all this en-hance-ment can be at-tributed to a re-
 
-Underfull \hbox (badness 2884) in paragraph at lines 191--198
+Underfull \hbox (badness 2884) in paragraph at lines 178--185
 \T1/cmr/m/n/10 duced rate of PL degra-da-tion, shown in Fig-ure []6.7[]b.
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 19
-8.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 18
+5.
 
-[81 <./images/lifetimeApplications/meml_rz.png>]
-<images/lifetimeApplications/meml_scaled_lifetime.png, id=2215, 335.00156pt x 3
-35.00156pt> <use images/lifetimeApplications/meml_scaled_lifetime.png> [82 <./i
-mages/lifetimeApplications/meml_lifetime.png>]
-<images/lifetimeApplications/meml_luminance.png, id=2224, 623.32875pt x 316.934
-07pt> <use images/lifetimeApplications/meml_luminance.png> [83 <./images/lifeti
-meApplications/meml_scaled_lifetime.png> <./images/lifetimeApplications/meml_lu
-minance.png>] [84]
-<images/lifetimeApplications/dow_iv.png, id=2266, 497.6994pt x 361.35pt>
-<use images/lifetimeApplications/dow_iv.png>
-<images/lifetimeApplications/dow_pl.png, id=2267, 901.4478pt x 391.7034pt>
-<use images/lifetimeApplications/dow_pl.png> [85] [86 <./images/lifetimeApplica
-tions/dow_iv.png> <./images/lifetimeApplications/dow_pl.png>]
-<images/lifetimeApplications/dow_lifetime.png, id=2289, 533.3526pt x 273.6624pt
-> <use images/lifetimeApplications/dow_lifetime.png>
-<images/lifetimeApplications/dow_rz.png, id=2294, 526.6074pt x 462.0462pt>
-<use images/lifetimeApplications/dow_rz.png>
-<images/lifetimeApplications/dow_rz_spectra.png, id=2295, 366.168pt x 486.618pt
-> <use images/lifetimeApplications/dow_rz_spectra.png> [87 <./images/lifetimeAp
-plications/dow_lifetime.png> <./images/lifetimeApplications/dow_rz_spectra.png>
-] [88 <./images/lifetimeApplications/dow_rz.png>]
-<images/lifetimeApplications/dow_eqe_10.png, id=2326, 346.896pt x 346.896pt>
+[85 <./images/lifetimeApplications/meml_lifetime.png>]
+<images/lifetimeApplications/meml_scaled_lifetime.png, id=2282, 335.00156pt x 3
+35.00156pt> <use images/lifetimeApplications/meml_scaled_lifetime.png>
+<images/lifetimeApplications/meml_luminance.png, id=2284, 623.4492pt x 322.0833
+pt> <use images/lifetimeApplications/meml_luminance.png> [86 <./images/lifetime
+Applications/meml_scaled_lifetime.png>] [87 <./images/lifetimeApplications/meml
+_luminance.png>] [88]
+<images/lifetimeApplications/dow_iv.jpg, id=2333, 500.5902pt x 364.7226pt>
+<use images/lifetimeApplications/dow_iv.jpg> [89]
+<images/lifetimeApplications/dow_pl.jpg, id=2342, 901.4478pt x 383.5128pt>
+<use images/lifetimeApplications/dow_pl.jpg> [90 <./images/lifetimeApplications
+/dow_iv.jpg> <./images/lifetimeApplications/dow_pl.jpg>]
+<images/lifetimeApplications/dow_lifetime.jpg, id=2355, 237.5274pt x 378.213pt>
+<use images/lifetimeApplications/dow_lifetime.jpg>
+<images/lifetimeApplications/dow_rz.jpg, id=2360, 540.0978pt x 471.6822pt>
+<use images/lifetimeApplications/dow_rz.jpg>
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+336.
+
+
+<images/lifetimeApplications/dow_rz_spectra.png, id=2361, 366.168pt x 486.618pt
+> <use images/lifetimeApplications/dow_rz_spectra.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 34
+3.
+
+[91 <./images/lifetimeApplications/dow_lifetime.jpg>] [92 <./images/lifetimeApp
+lications/dow_rz.jpg> <./images/lifetimeApplications/dow_rz_spectra.png>]
+<images/lifetimeApplications/dow_eqe_10.png, id=2389, 346.896pt x 346.896pt>
 <use images/lifetimeApplications/dow_eqe_10.png>
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-394.
+382.
 
 
-<images/lifetimeApplications/dow_lifetime_10.png, id=2329, 321.8424pt x 258.726
-6pt> <use images/lifetimeApplications/dow_lifetime_10.png>
+<images/lifetimeApplications/dow_lifetime_10.png, id=2392, 318.9516pt x 256.799
+4pt> <use images/lifetimeApplications/dow_lifetime_10.png> [93 <./images/lifeti
+meApplications/dow_eqe_10.png>]
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 39
-9.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 38
+7.
 
-[89 <./images/lifetimeApplications/dow_eqe_10.png>]) (./sections/hoye.tex
-[90 <./images/lifetimeApplications/dow_lifetime_10.png>]
+) (./sections/hoye.tex [94 <./images/lifetimeApplications/dow_lifetime_10.png>]
 Chapter 7.
-[91] <images/hoye/hdda.PNG, id=2367, 465.23813pt x 298.11375pt>
+[95] <images/hoye/hdda.PNG, id=2429, 465.23813pt x 298.11375pt>
 <use images/hoye/hdda.PNG>
-Underfull \hbox (badness 2884) in paragraph at lines 38--46
+Underfull \hbox (badness 2884) in paragraph at lines 41--49
 [][]\T1/cmr/m/n/10 A schematic il-lus-trat-ing the ad-van-tages of
-<images/hoye/nap_reactions.PNG, id=2376, 459.21562pt x 385.44pt>
-<use images/hoye/nap_reactions.PNG> [92 <./images/hoye/hdda.PNG>]
+<images/hoye/nap_reactions.PNG, id=2438, 459.21562pt x 385.44pt>
+<use images/hoye/nap_reactions.PNG> [96 <./images/hoye/hdda.PNG> <./images/hoye
+/nap_reactions.PNG>]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-87.
+88.
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 83--100
+Underfull \hbox (badness 1264) in paragraph at lines 84--101
 \T1/cmr/m/n/10 state, so-lu-tions were pre-pared in THF, to in-
 
-Underfull \hbox (badness 1939) in paragraph at lines 83--100
+Underfull \hbox (badness 1939) in paragraph at lines 84--101
 \T1/cmr/m/n/10 ves-ti-gate their op-ti-cal prop-er-ties. Ab-sorp-tion
 
-Underfull \hbox (badness 6641) in paragraph at lines 83--100
+Underfull \hbox (badness 6641) in paragraph at lines 84--101
 \T1/cmr/m/n/10 shown in Fig-ure []7.3[]. A slight red shift in emis-sion is see
 n for \T1/cmr/bx/n/10 10c \T1/cmr/m/n/10 com-pared with
 
-Underfull \hbox (badness 5490) in paragraph at lines 83--100
+Underfull \hbox (badness 5490) in paragraph at lines 84--101
 \T1/cmr/bx/n/10 10a \T1/cmr/m/n/10 and \T1/cmr/bx/n/10 10b\T1/cmr/m/n/10 . The 
 PL quan-tum yield of each com-pound is sum-ma-rized in Ta-ble []7.1[]
 
-Package wrapfig Warning: Stationary wraptable forced to float on input line 100
+Package wrapfig Warning: Stationary wraptable forced to float on input line 101
 .
 
-<images/hoye/nap_pl_wide.png, id=2394, 833.36343pt x 246.1697pt>
-<use images/hoye/nap_pl_wide.png> [93 <./images/hoye/nap_reactions.PNG> <./imag
-es/hoye/nap_pl_wide.png>]
-<images/hoye/nap_oleds.PNG, id=2412, 462.22687pt x 405.01312pt>
-<use images/hoye/nap_oleds.PNG> [94 <./images/hoye/nap_oleds.PNG>]
-<images/hoye/nap_cie.PNG, id=2424, 418.56375pt x 338.01282pt>
+<images/hoye/nap_pl_wide.png, id=2459, 833.2731pt x 251.0178pt>
+<use images/hoye/nap_pl_wide.png> [97 <./images/hoye/nap_pl_wide.png>]
+<images/hoye/nap_oleds.PNG, id=2475, 462.2871pt x 405.4347pt>
+<use images/hoye/nap_oleds.PNG>
+Overfull \hbox (3.523pt too wide) in paragraph at lines 148--162
+ [][] 
+[98 <./images/hoye/nap_oleds.PNG>]
+<images/hoye/nap_cie.PNG, id=2489, 418.56375pt x 338.01282pt>
 <use images/hoye/nap_cie.PNG>
-<images/hoye/nap_degraded_spectra.jpg, id=2431, 606.5862pt x 517.6941pt>
-<use images/hoye/nap_degraded_spectra.jpg> [95 <./images/hoye/nap_cie.PNG>]
-<images/hoye/nap_10c_lifetime.jpg, id=2444, 609.477pt x 498.1812pt>
+<images/hoye/nap_degraded_spectra.png, id=2496, 771.1209pt x 590.205pt>
+<use images/hoye/nap_degraded_spectra.png> [99 <./images/hoye/nap_cie.PNG> <./i
+mages/hoye/nap_degraded_spectra.png>]
+<images/hoye/nap_10c_lifetime.jpg, id=2510, 609.477pt x 498.1812pt>
 <use images/hoye/nap_10c_lifetime.jpg>
-<images/hoye/nap_pl_concentration.jpg, id=2446, 613.3314pt x 497.6994pt>
-<use images/hoye/nap_pl_concentration.jpg> [96 <./images/hoye/nap_degraded_spec
-tra.jpg> <./images/hoye/nap_10c_lifetime.jpg>]
-<images/hoye/triben_reactions.png, id=2456, 364.2408pt x 475.5366pt>
-<use images/hoye/triben_reactions.png> [97 <./images/hoye/nap_pl_concentration.
-jpg> <./images/hoye/triben_reactions.png>]
-<images/hoye/triben_pl.jpg, id=2469, 627.5445pt x 495.7722pt>
+<images/hoye/nap_pl_concentration.jpg, id=2512, 613.3314pt x 497.6994pt>
+<use images/hoye/nap_pl_concentration.jpg> [100 <./images/hoye/nap_10c_lifetime
+.jpg> <./images/hoye/nap_pl_concentration.jpg>]
+<images/hoye/triben_reactions.png, id=2522, 364.2408pt x 475.5366pt>
+<use images/hoye/triben_reactions.png>
+<images/hoye/triben_pl.jpg, id=2526, 627.5445pt x 495.7722pt>
 <use images/hoye/triben_pl.jpg>
-<images/hoye/oh_reactions.png, id=2470, 378.66469pt x 289.08pt>
-<use images/hoye/oh_reactions.png> [98 <./images/hoye/triben_pl.jpg> <./images/
-hoye/oh_reactions.png>]
-<images/hoye/oh_el_combo.png, id=2486, 1045.0242pt x 435.0654pt>
-<use images/hoye/oh_el_combo.png>
-<images/hoye/solutionPL.jpg, id=2487, 725.71124pt x 967.615pt>
-<use images/hoye/solutionPL.jpg> [99 <./images/hoye/oh_el_combo.png>]
-<images/hoye/solutionPL_schem.png, id=2496, 257.46187pt x 109.91063pt>
-<use images/hoye/solutionPL_schem.png> [100 <./images/hoye/solutionPL.jpg> <./i
-mages/hoye/solutionPL_schem.png>]
-<images/hoye/stir.png, id=2509, 722.7pt x 578.16pt> <use images/hoye/stir.png>
-[101 <./images/hoye/stir.png>]) (./sections/hosts.tex [102]
+<images/hoye/oh_reactions.png, id=2527, 378.66469pt x 289.08pt>
+<use images/hoye/oh_reactions.png> [101 <./images/hoye/triben_reactions.png>]
+[102 <./images/hoye/triben_pl.jpg> <./images/hoye/oh_reactions.png>]
+<images/hoye/oh_el_combo.png, id=2550, 1045.0242pt x 435.0654pt>
+<use images/hoye/oh_el_combo.png>) (./sections/hosts.tex [103 <./images/hoye/oh
+_el_combo.png>]
 Chapter 8.
-<images/hosts/molecules.png, id=2527, 652.68843pt x 459.96844pt>
+<images/hosts/molecules.png, id=2561, 652.68843pt x 459.96844pt>
 <use images/hosts/molecules.png>
-<images/hosts/el.png, id=2529, 1313.6578pt x 523.9575pt>
-<use images/hosts/el.png> [103 <./images/hosts/molecules.png>]
-<images/hosts/energy.png, id=2538, 769.87625pt x 614.295pt>
-<use images/hosts/energy.png>
-<images/hosts/trends.png, id=2544, 791.20593pt x 654.94687pt>
-<use images/hosts/trends.png> [104 <./images/hosts/el.png> <./images/hosts/ener
-gy.png>] <images/hosts/optical_k.png, id=2556, 673.51625pt x 512.91624pt>
-<use images/hosts/optical_k.png> [105 <./images/hosts/trends.png> <./images/hos
-ts/optical_k.png>]
-<images/hosts/setup.jpg, id=2566, 866.23625pt x 649.42625pt>
-<use images/hosts/setup.jpg> [106 <./images/hosts/setup.jpg>]
-<images/hosts/spectra.png, id=2574, 641.39626pt x 504.88625pt>
-<use images/hosts/spectra.png>
-<images/hosts/pl_lifetimes_350_405.png, id=2580, 654.445pt x 887.315pt>
-<use images/hosts/pl_lifetimes_350_405.png> [107 <./images/hosts/spectra.png>]
-<images/hosts/pl_lifetimes_405.png, id=2589, 654.445pt x 522.95375pt>
-<use images/hosts/pl_lifetimes_405.png> [108 <./images/hosts/pl_lifetimes_350_4
-05.png> <./images/hosts/pl_lifetimes_405.png>]
-<images/hosts/pl_lifetimes_405_1pct.png, id=2603, 641.39626pt x 504.88625pt>
-<use images/hosts/pl_lifetimes_405_1pct.png>) (./sections/data.tex [109 <./imag
-es/hosts/pl_lifetimes_405_1pct.png>]
+<images/hosts/el.png, id=2575, 1313.6277pt x 523.9575pt>
+<use images/hosts/el.png> [104 <./images/hosts/molecules.png>]
+<images/hosts/energy.png, id=2589, 734.0223pt x 408.0846pt>
+<use images/hosts/energy.png> [105 <./images/hosts/el.png> <./images/hosts/ener
+gy.png>] <images/hosts/trends.png, id=2603, 791.20593pt x 654.94687pt>
+<use images/hosts/trends.png>
+<images/hosts/optical_k.png, id=2606, 673.51625pt x 512.91624pt>
+<use images/hosts/optical_k.png> [106 <./images/hosts/trends.png>]
+<images/hosts/setup.jpg, id=2615, 866.23625pt x 649.42625pt>
+<use images/hosts/setup.jpg> [107 <./images/hosts/optical_k.png>]
+<images/hosts/spectra.png, id=2625, 641.39626pt x 504.88625pt>
+<use images/hosts/spectra.png> [108 <./images/hosts/setup.jpg> <./images/hosts/
+spectra.png>]
+<images/hosts/pl_lifetimes_350_405.png, id=2638, 654.19406pt x 887.56593pt>
+<use images/hosts/pl_lifetimes_350_405.png>
+<images/hosts/pl_lifetimes_405.png, id=2640, 654.445pt x 504.88625pt>
+<use images/hosts/pl_lifetimes_405.png> [109 <./images/hosts/pl_lifetimes_350_4
+05.png>]
+<images/hosts/pl_lifetimes_405_1pct.png, id=2652, 641.39626pt x 504.88625pt>
+<use images/hosts/pl_lifetimes_405_1pct.png> [110 <./images/hosts/pl_lifetimes_
+405.png> <./images/hosts/pl_lifetimes_405_1pct.png>]) (./sections/data.tex
+[111]
 Chapter 9.
-[110] <images/data/bohm.png, id=2619, 694.09312pt x 425.33907pt>
-<use images/data/bohm.png> [111 <./images/data/bohm.png>] [112]
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd) [113] [114]
-<images/data/growthStats.PNG, id=2678, 1050.92625pt x 548.0475pt>
-<use images/data/growthStats.PNG> [115 <./images/data/growthStats.PNG>]
-<images/data/idSelector.PNG, id=2689, 531.48563pt x 448.67625pt>
-<use images/data/idSelector.PNG> [116 <./images/data/idSelector.PNG>]
-<images/data/growthDBexamples2.PNG, id=2696, 262.73157pt x 178.41656pt>
+[112] <images/data/bohm.png, id=2673, 694.09312pt x 425.33907pt>
+<use images/data/bohm.png> [113 <./images/data/bohm.png>] [114]
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd) [115] [116]
+<images/data/growthStats.PNG, id=2733, 1050.92625pt x 548.0475pt>
+<use images/data/growthStats.PNG> [117 <./images/data/growthStats.PNG>]
+<images/data/idSelector.PNG, id=2744, 531.48563pt x 448.67625pt>
+<use images/data/idSelector.PNG> [118 <./images/data/idSelector.PNG>]
+<images/data/growthDBexamples2.PNG, id=2751, 262.73157pt x 178.41656pt>
 <use images/data/growthDBexamples2.PNG>
-<images/data/cie.png, id=2697, 1382.16376pt x 737.00343pt>
-<use images/data/cie.png> [117 <./images/data/growthDBexamples2.PNG> <./images/
+<images/data/cie.png, id=2752, 1382.16376pt x 737.00343pt>
+<use images/data/cie.png> [119 <./images/data/growthDBexamples2.PNG> <./images/
 data/cie.png>]
-<images/data/dbImporter.png, id=2726, 1089.06876pt x 479.7925pt>
-<use images/data/dbImporter.png> [118 <./images/data/dbImporter.png>]
-<images/data/growthDBexamples3.PNG, id=2733, 688.07062pt x 516.42938pt>
+<images/data/dbImporter.png, id=2780, 1089.06876pt x 479.7925pt>
+<use images/data/dbImporter.png> [120 <./images/data/dbImporter.png>]
+<images/data/growthDBexamples3.PNG, id=2788, 688.07062pt x 516.42938pt>
 <use images/data/growthDBexamples3.PNG>
-<images/data/mats_by_homo.png, id=2737, 841.9455pt x 144.54pt>
+<images/data/mats_by_homo.png, id=2792, 841.9455pt x 144.54pt>
 <use images/data/mats_by_homo.png>
 Overfull \hbox (10.10027pt too wide) in paragraph at lines 334--338
 \T1/cmr/m/n/10 book avail-able at []$\T1/cmtt/m/n/10 http : / / holmes-[]carl .
  cems . umn . edu : 8888 / notebooks / databaseNotebooks / Spectra % 20-[] %
-[119 <./images/data/growthDBexamples3.PNG> <./images/data/mats_by_homo.png>]
-<images/data/alqSpectra.PNG, id=2747, 339.51843pt x 225.84375pt>
+[121 <./images/data/growthDBexamples3.PNG> <./images/data/mats_by_homo.png>]
+<images/data/alqSpectra.PNG, id=2802, 339.51843pt x 225.84375pt>
 <use images/data/alqSpectra.PNG>
-<images/data/subpcSpectra.PNG, id=2748, 326.72063pt x 221.32687pt>
-<use images/data/subpcSpectra.PNG> [120 <./images/data/alqSpectra.PNG> <./image
+<images/data/subpcSpectra.PNG, id=2803, 326.72063pt x 221.32687pt>
+<use images/data/subpcSpectra.PNG> [122 <./images/data/alqSpectra.PNG> <./image
 s/data/subpcSpectra.PNG>]
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd) [121]
-<images/data/irppyLearn.PNG, id=2768, 479.54156pt x 379.4175pt>
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd) [123]
+<images/data/irppyLearn.PNG, id=2822, 479.54156pt x 379.4175pt>
 <use images/data/irppyLearn.PNG>
-<images/data/trustLearn.PNG, id=2769, 290.58563pt x 201.75375pt>
+<images/data/trustLearn.PNG, id=2823, 290.58563pt x 201.75375pt>
 <use images/data/trustLearn.PNG>
-<images/data/concentrationLearn.PNG, id=2770, 299.61937pt x 192.72pt>
-<use images/data/concentrationLearn.PNG> [122] [123 <./images/data/irppyLearn.P
+<images/data/concentrationLearn.PNG, id=2824, 299.61937pt x 192.72pt>
+<use images/data/concentrationLearn.PNG> [124] [125 <./images/data/irppyLearn.P
 NG> <./images/data/trustLearn.PNG> <./images/data/concentrationLearn.PNG>]
-[124]) (./sections/outCoupling.tex [125]
+[126]) (./sections/future.tex [127]
 Chapter 10.
-[126] <images/outCoupling/diagram.png, id=2810, 526.96875pt x 345.54094pt>
-<use images/outCoupling/diagram.png> [127 <./images/outCoupling/diagram.png>]
-<images/outCoupling/power_density.png, id=2821, 521.69907pt x 377.15906pt>
-<use images/outCoupling/power_density.png> [128 <./images/outCoupling/power_den
-sity.png>] [129]
-<images/outCoupling/gradient_oc_spatial.png, id=2847, 1181.91562pt x 550.30594p
-t> <use images/outCoupling/gradient_oc_spatial.png>
-Overfull \hbox (9.8216pt too wide) in paragraph at lines 153--157
-[]\T1/cmr/m/n/10 A GEML de-vice con-sist-ing of TCTA as an HTL and BPhen as an 
-ETL with 5% dop-ing of Ir(ppy)$[]$throughout
-[130 <./images/outCoupling/gradient_oc_spatial.png>]
-<images/outCoupling/gradient_rz.png, id=2858, 648.17157pt x 524.71031pt>
-<use images/outCoupling/gradient_rz.png> [131 <./images/outCoupling/gradient_rz
-.png>] <images/outCoupling/meml_rz.png, id=2871, 201.00093pt x 404.26031pt>
-<use images/outCoupling/meml_rz.png> [132 <./images/outCoupling/meml_rz.png>])
-(./sections/future.tex [133]
-Chapter 11.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 5.
 
-[134] <images/future/pl_lifetime.png, id=2909, 435.87843pt x 333.49594pt>
-<use images/future/pl_lifetime.png> [135 <./images/future/pl_lifetime.png>]
-Overfull \hbox (1.3877pt too wide) in paragraph at lines 61--63
-[]\T1/cmr/m/n/10 One of the key pa-ram-e-ters of a TADF emit-ter is the re-vers
-e in-ter-sys-tem cross-ing rate, $\OML/cmm/m/it/10 k[]$\T1/cmr/m/n/10 .$[]$
-[136] [137]) [138] [139] [140] [141] [142] [143] [144] [145] [146] [147]
-[148] [149] [150] [151] [152] [153]
+[128] <images/future/pl_lifetime.png, id=2864, 435.87843pt x 333.49594pt>
+<use images/future/pl_lifetime.png> [129 <./images/future/pl_lifetime.png>]
+[130] [131]) [132] [133] [134] [135] [136] [137] [138] [139] [140] [141]
+[142] [143] [144] [145] [146] [147] [148]
 Appendix A.
-(./sections/publications.tex) (./sections/triplets.tex [154]
+(./sections/publications.tex) (./sections/triplets.tex [149]
 Appendix B.
-<images/triplets/fluorescence.png, id=3140, 334.81335pt x 221.89148pt>
+<images/triplets/fluorescence.png, id=3106, 334.81335pt x 221.89148pt>
 <use images/triplets/fluorescence.png>
-<images/triplets/phosphorescence.png, id=3141, 351.75165pt x 225.27914pt>
-<use images/triplets/phosphorescence.png> [155 <./images/triplets/fluorescence.
+<images/triplets/phosphorescence.png, id=3107, 351.75165pt x 225.27914pt>
+<use images/triplets/phosphorescence.png> [150 <./images/triplets/fluorescence.
 png> <./images/triplets/phosphorescence.png>]
-<images/triplets/setup.png, id=3150, 758.3532pt x 622.0038pt>
-<use images/triplets/setup.png>
-Overfull \hbox (288.59633pt too wide) in paragraph at lines 46--47
- [][] 
-
-LaTeX Warning: Float too large for page by 25.57228pt on input line 49.
-
-) (./sections/singleCarrier.tex [156] [157 <./images/triplets/setup.png>]
+<images/triplets/setup.png, id=3117, 758.3532pt x 622.0038pt>
+<use images/triplets/setup.png>) (./sections/solution.tex [151 <./images/triple
+ts/setup.png>]
+<images/hoye/solutionPL.png, id=3125, 408.02437pt x 158.84344pt>
+<use images/hoye/solutionPL.png> [152 <./images/hoye/solutionPL.png>]
+<images/hoye/stir.png, id=3140, 722.7pt x 578.16pt> <use images/hoye/stir.png>)
+ (./sections/singleCarrier.tex [153 <./images/hoye/stir.png>]
 Appendix C.
-<images/singleCarrier/polaron_circuit.png, id=3163, 479.391pt x 131.0496pt>
-<use images/singleCarrier/polaron_circuit.png> [158 <./images/singleCarrier/pol
+<images/singleCarrier/polaron_circuit.png, id=3148, 479.391pt x 131.0496pt>
+<use images/singleCarrier/polaron_circuit.png> [154 <./images/singleCarrier/pol
 aron_circuit.png>]
-<images/singleCarrier/differential_currents.png, id=3175, 1069.74657pt x 437.38
+<images/singleCarrier/differential_currents.png, id=3160, 1069.74657pt x 437.38
 406pt> <use images/singleCarrier/differential_currents.png>
-<images/singleCarrier/SC_architectures.png, id=3180, 282.3348pt x 205.7286pt>
+<images/singleCarrier/SC_architectures.png, id=3165, 282.3348pt x 205.7286pt>
 <use images/singleCarrier/SC_architectures.png>
-<images/singleCarrier/SC_ivs.png, id=3181, 548.80031pt x 432.86719pt>
-<use images/singleCarrier/SC_ivs.png> [159 <./images/singleCarrier/differential
+<images/singleCarrier/SC_ivs.png, id=3166, 548.80031pt x 432.86719pt>
+<use images/singleCarrier/SC_ivs.png> [155 <./images/singleCarrier/differential
 _currents.png> <./images/singleCarrier/SC_architectures.png> <./images/singleCa
 rrier/SC_ivs.png>]
-<images/singleCarrier/SC_polaron_pop_vs_current.png, id=3195, 481.04718pt x 362
+<images/singleCarrier/SC_polaron_pop_vs_current.png, id=3181, 481.04718pt x 362
 .10281pt> <use images/singleCarrier/SC_polaron_pop_vs_current.png>)
-(./sections/code.tex [160 <./images/singleCarrier/SC_polaron_pop_vs_current.png
->]
+(./sections/outCoupling.tex [156 <./images/singleCarrier/SC_polaron_pop_vs_curr
+ent.png>]
 Appendix D.
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
-(./sections/code/Optical-Model/transfer.m [161] [162] [163] [164] [165])
-(./sections/code/Optical-Model/PowerDissipationModel.m [166] [167] [168]
-[169] [170] [171] [172] [173]) [174] [175] [176] [177] [178] [179] [180]
-[181] [182]
+[157] <images/outCoupling/diagram.png, id=3207, 526.96875pt x 345.54094pt>
+<use images/outCoupling/diagram.png> [158 <./images/outCoupling/diagram.png>]
+<images/outCoupling/power_density.png, id=3218, 521.69907pt x 377.15906pt>
+<use images/outCoupling/power_density.png> [159 <./images/outCoupling/power_den
+sity.png>] [160]
+<images/outCoupling/gradient_oc_spatial.png, id=3244, 1181.91562pt x 550.30594p
+t> <use images/outCoupling/gradient_oc_spatial.png> [161 <./images/outCoupling/
+gradient_oc_spatial.png>]
+<images/outCoupling/gradient_rz.png, id=3254, 648.17157pt x 524.71031pt>
+<use images/outCoupling/gradient_rz.png> [162 <./images/outCoupling/gradient_rz
+.png>] <images/outCoupling/meml_rz.png, id=3268, 201.00093pt x 404.26031pt>
+<use images/outCoupling/meml_rz.png> [163 <./images/outCoupling/meml_rz.png>])
+(./sections/code.tex [164]
 Appendix E.
-) (./molecules/structures.tex [183]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+(./sections/code/Optical-Model/transfer.m [165] [166] [167] [168] [169])
+(./sections/code/Optical-Model/PowerDissipationModel.m [170] [171] [172]
+[173] [174] [175] [176] [177]) [178] [179] [180] [181] [182] [183] [184]
+[185] [186]
 Appendix F.
-<molecules/tapc.png, id=3822, 460.72125pt x 252.945pt>
+) (./molecules/structures.tex [187]
+Appendix G.
+<molecules/tapc.png, id=3905, 460.72125pt x 252.945pt>
 <use molecules/tapc.png>
-<molecules/mcbp.png, id=3823, 310.15875pt x 233.37187pt>
+<molecules/mcbp.png, id=3906, 310.15875pt x 233.37187pt>
 <use molecules/mcbp.png>
-<molecules/cdbp.png, id=3824, 355.3275pt x 155.07938pt>
+<molecules/cdbp.png, id=3907, 355.3275pt x 155.07938pt>
 <use molecules/cdbp.png>
-<molecules/ir(ppy)3.png, id=3825, 216.05719pt x 248.42813pt>
+<molecules/ir(ppy)3.png, id=3908, 216.05719pt x 248.42813pt>
 <use molecules/ir(ppy)3.png>
-<molecules/firpic.png, id=3826, 243.91125pt x 252.945pt>
+<molecules/firpic.png, id=3909, 243.91125pt x 252.945pt>
 <use molecules/firpic.png>
-<molecules/3tpymb.png, id=3827, 338.01282pt x 338.76563pt>
+<molecules/3tpymb.png, id=3910, 338.01282pt x 338.76563pt>
 <use molecules/3tpymb.png>
-<molecules/bphen.png, id=3828, 247.67531pt x 142.28156pt>
+<molecules/bphen.png, id=3911, 247.67531pt x 142.28156pt>
 <use molecules/bphen.png>
-<molecules/mcp.png, id=3829, 284.56313pt x 154.32657pt>
+<molecules/mcp.png, id=3912, 284.56313pt x 154.32657pt>
 <use molecules/mcp.png>
-<molecules/pqir.png, id=3830, 293.59688pt x 293.59688pt>
+<molecules/pqir.png, id=3913, 293.59688pt x 293.59688pt>
 <use molecules/pqir.png>
-<molecules/tcta.png, id=3831, 388.45125pt x 344.03531pt>
+<molecules/tcta.png, id=3914, 388.45125pt x 344.03531pt>
 <use molecules/tcta.png>
-<molecules/tpbi.png, id=3832, 297.36093pt x 304.13625pt>
+<molecules/tpbi.png, id=3915, 297.36093pt x 304.13625pt>
 <use molecules/tpbi.png>
-<molecules/npd.png, id=3833, 429.10312pt x 163.3603pt> <use molecules/npd.png>
-<molecules/cbp.png, id=3834, 355.3275pt x 155.07938pt> <use molecules/cbp.png>
-<molecules/bcbp.png, id=3835, 400.49625pt x 233.37187pt>
+<molecules/npd.png, id=3916, 429.10312pt x 163.3603pt> <use molecules/npd.png>
+<molecules/cbp.png, id=3917, 355.3275pt x 155.07938pt> <use molecules/cbp.png>
+<molecules/bcbp.png, id=3918, 400.49625pt x 233.37187pt>
 <use molecules/bcbp.png>
-<molecules/ugh2.png, id=3836, 308.65312pt x 188.20313pt>
+<molecules/ugh2.png, id=3919, 308.65312pt x 188.20313pt>
 <use molecules/ugh2.png>
-<molecules/alq3.png, id=3837, 532.23843pt x 517.935pt>
-<use molecules/alq3.png> [184 <./molecules/tapc.png (PNG copy)> <./molecules/mc
+<molecules/alq3.png, id=3920, 532.23843pt x 517.935pt>
+<use molecules/alq3.png> [188 <./molecules/tapc.png (PNG copy)> <./molecules/mc
 bp.png (PNG copy)> <./molecules/cdbp.png (PNG copy)> <./molecules/ir(ppy)3.png 
 (PNG copy)> <./molecules/firpic.png (PNG copy)> <./molecules/3tpymb.png (PNG co
-py)>]) (./sections/materials.tex [185 <./molecules/bphen.png (PNG copy)> <./mol
+py)>]) (./sections/materials.tex [189 <./molecules/bphen.png (PNG copy)> <./mol
 ecules/mcp.png (PNG copy)> <./molecules/pqir.png (PNG copy)> <./molecules/tcta.
 png (PNG copy)> <./molecules/tpbi.png (PNG copy)> <./molecules/npd.png (PNG cop
 y)> <./molecules/cbp.png (PNG copy)> <./molecules/bcbp.png (PNG copy)> <./molec
 ules/ugh2.png (PNG copy)> <./molecules/alq3.png>]
-Appendix G.
-[186]
+Appendix H.
+[190]
 Overfull \hbox (3.50978pt too wide) in paragraph at lines 8--8
 []|\T1/cmr/bx/n/9 M.W.| 
 
@@ -1044,7 +1104,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--95
 
 Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \T1/cmr/m/n/9 yl)phenyl]-9H-
-[187]
+[191]
 Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\T1/cmr/m/n/9 b'2-[7-(4-
 
@@ -1122,7 +1182,7 @@ Overfull \hbox (57.69247pt too wide) in paragraph at lines 139--139
 
 Overfull \hbox (2.19899pt too wide) in paragraph at lines 139--139
 []|\T1/cmr/m/n/9 384.27| 
-[188]
+[192]
 Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []|\T1/cmr/m/n/9 b'Bis(2-
 
@@ -1206,7 +1266,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--213
 
 Overfull \hbox (2.19899pt too wide) in paragraph at lines 213--213
 []|\T1/cmr/m/n/9 588.74| 
-[189] [190]
+[193] [194]
 Underfull \hbox (badness 10000) in paragraph at lines 218--218
 []|\T1/cmr/m/n/9 b'1,4,5,8-
 
@@ -1338,7 +1398,7 @@ Overfull \hbox (4.74152pt too wide) in paragraph at lines 269--269
 
 Overfull \hbox (2.19899pt too wide) in paragraph at lines 269--269
 []|\T1/cmr/m/n/9 1008.0| 
-[191] [192]
+[195] [196]
 Underfull \hbox (badness 10000) in paragraph at lines 270--270
 []|\T1/cmr/m/n/9 Pt(II) meso-
 
@@ -1401,7 +1461,7 @@ Overfull \hbox (21.40764pt too wide) in paragraph at lines 305--305
 
 Overfull \hbox (2.19899pt too wide) in paragraph at lines 305--305
 []|\T1/cmr/m/n/9 626.87| 
-[193] [194]
+[197] [198]
 Underfull \hbox (badness 10000) in paragraph at lines 308--308
 []|\T1/cmr/m/n/9 b'3-(Biphenyl-4-yl)-5-
 
@@ -1488,8 +1548,8 @@ Overfull \hbox (2.19899pt too wide) in paragraph at lines 330--330
 
 Overfull \hbox (2.19899pt too wide) in paragraph at lines 333--333
 []|\T1/cmr/m/n/9 577.91| 
-[195] [196] [197]) (./thesis.lof [198] [199] [200] [201] [202] [203] [204]
-[205]) [206] (./thesis.lot) [207] (./thesis.aux) )
+[199] [200] [201]) (./thesis.lof [202] [203] [204] [205] [206] [207] [208]
+[209]) [210] (./thesis.lot) [211] (./thesis.aux) )
 (see the transcript file for additional information){/usr/share/texlive/texmf-d
 ist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/typ
@@ -1523,5 +1583,5 @@ are/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (208 pages, 40013455 bytes).
+Output written on thesis.pdf (212 pages, 52814923 bytes).
 Transcript written on thesis.log.

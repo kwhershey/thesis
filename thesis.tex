@@ -90,15 +90,15 @@
 \lstset{style=mystyle}
 
 % Common Expressions
-\newcommand{\eqe}{\ensuremath{\eta_{_\text{\tiny EQE}}}}
-\newcommand{\pl}{\ensuremath{\eta_{_\text{\tiny PL}}}}
-\newcommand{\ef}{\ensuremath{\eta_{_\text{\tiny EF}}}}
-\newcommand{\oc}{\ensuremath{\eta_{_\text{\tiny OC}}}}
-\newcommand{\kf}{\ensuremath{k_{_\text{\tiny F}}}}
-\newcommand{\ktt}{\ensuremath{k_{_\text{\tiny TT}}}}
-\newcommand{\ktp}{\ensuremath{k_{_\text{\tiny TP}}}}
-\newcommand{\irppy}{Ir(ppy)$_3$}
-\newcommand{\lum}{cd/m$^2$}
+\newcommand{\eqe}{\ensuremath{\eta_{_\text{\tiny EQE}}\ }}
+\newcommand{\pl}{\ensuremath{\eta_{_\text{\tiny PL}}\ }}
+\newcommand{\ef}{\ensuremath{\eta_{_\text{\tiny EF}}\ }}
+\newcommand{\oc}{\ensuremath{\eta_{_\text{\tiny OC}}\ }}
+\newcommand{\kf}{\ensuremath{k_{_\text{\tiny F}}\ }}
+\newcommand{\ktt}{\ensuremath{k_{_\text{\tiny TT}}\ }}
+\newcommand{\ktp}{\ensuremath{k_{_\text{\tiny TP}}\ }}
+\newcommand{\irppy}{Ir(ppy)$_3$\ }
+\newcommand{\lum}{cd/m$^2$\ }
 
 \begin{document}
 
@@ -120,6 +120,9 @@
 
 % Table of Contents
 \subfile{sections/toc}
+
+% Acronyms
+\subfile{sections/acronyms}
 
 % Overview of OLEDs commercially
 \subfile{sections/commercial}
@@ -148,8 +151,6 @@
 % Data
 \subfile{sections/data}
 
-% Out Coupling
-\subfile{sections/outCoupling}
 
 % Future
 \subfile{sections/future}
@@ -165,14 +166,20 @@
 \addappheadtotoc
 
 % Publications
-\chapter{List of Publications}
+\chapter{List of Publications and Presentations}
 \input{sections/publications}
 
 % Triplet Measurements
 \subfile{sections/triplets}
 
+% Solution Degradation 
+\subfile{sections/solution}
+
 % Polaron Density
 \subfile{sections/singleCarrier}
+
+% Out Coupling
+\subfile{sections/outCoupling}
 
 % Code
 \subfile{sections/code}

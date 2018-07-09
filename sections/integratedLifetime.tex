@@ -1,6 +1,8 @@
 \documentclass[../thesis.tex]{subfiles}
 \begin{document}
-\chapter{Integrated Photoluminescence Lifetimes} \label{sec:integrated_lifetime}
+\chapter{Decoupling Degradation Mechanisms - Methodology and Experimental Design} \label{sec:integrated_lifetime}
+This is a summary and extension of published works entitled \textit{``Decoupling degradation in exciton formation and recombination during lifetime testing of organic light-emitting devices''}\supercite{Hershey2017} as well as some error analysis from \textit{``Isolating Degradation Mechanisms in Mixed Emissive Layer Organic Light-Emitting Devices''}\supercite{Bangsund2018}.
+
 As OLEDs become fully a fully commercialized technology, several challenges still exist that need to be overcome to realize full potential.
 Chief among these is the operational lifetime, which has been a key focus of recent studies.\supercite{Scholz2015,DeMoraes2011,Seifert2013b,Moraes2011,Burrows1994,Seifert2013b}
 Lifetime is typically characterized at constant current density, recording the luminance loss and voltage as a function of time.
@@ -14,15 +16,14 @@ Modeling techniques are used extensively for degradation characterization, using
 While these techniques are able to reproduce the decay characteristics with a root in physical mechanisms, they suffer from over-parameterization and introduce parameters that cannot be experimentally confirmed.
 As discussed in Chapter \ref{sec:degradation_analysis}, a variety of chemical, structural, and spectroscopic techniques are often employed to gain further insight into the physical processes.\supercite{Seifert2013b,Moraes2011,Scholz2015,Wang2011a,Zhang2016}
 These techniques can be insightful, but are difficult to apply on a large scale due to the additional processing time.
-Post degradation analysis does not provide a temporal characterization of degradation without processing individual devices at several decay points, which can be extremely time consuming.
+Post-degradation analysis does not provide a temporal characterization of degradation without processing individual devices at several decay points, which can be extremely time consuming.
 Additionally, it may be helpful to categorize luminance loss into different luminance loss pathways, which few of these techniques are able to do.
 It would be beneficial to have a technique that is able to provide more information during the degradation, without increasing experimental time, as well as provide a way to decouple loss pathways.
-This is done by introducing an optical pump to independently measure \pl as a function of time.
-Similar techniques have been utilized before, but have lacked completeness in their care to treat assumptions, as well as their resolution.\supercite{Popovic2001,Kondakov2007d,Winter2008a}
-
-
+In this chapter, this goal is realized by introducing an optical pump to independently measure \pl as a function of time.
+While previous works have measured PL during lifetime,\supercite{Popovic2001,Kondakov2007d,Winter2008a} none have attempted to decouple the total loss into \pl and \ef losses.
 This chapter demonstrates a method for decoupling the device photoluminescence loss from the exciton formation losses during operational lifetime testing.  
-This is a summary and extension of my work entitled \textcite{Hershey2017} as well as some error analysis from \textcite{Bangsund2018a}.
+
+
 
 \section{Luminance as Efficiency Loss}
 
@@ -40,49 +41,46 @@ For decoupling luminance loss pathways, a categorical expression for \eqe is des
 
 where $\eta_\tau$ is the fraction of excitons that relax via the natural exciton lifetime, $\tau$.  
 This term is current-density dependent and captures the quenching events discussed in Chapter \ref{sec:unified}.
-It is also important to note that during degradation, \ef captures not only the previously discussed polaron loss due to leakage events, but also the formation of non-radiative recombination centers (NRRCs).
-NRRCs are states that form excitons off of the emissive molecule and allow charge recombination without forming light, which have been shown to be present in degrading devices.\supercite{Kondakov2003,Kondakov2007d}
+It is also important to note that during degradation, \ef captures not only the previously discussed polaron loss due to leakage events, but also the formation of non-radiative recombination centers (NRRCs).\supercite{Kondakov2003,Kondakov2007d}
 The interpretation of \ef as the exciton formation efficiency needs to be clarified to be the efficiency of exciton formation on the emissive molecule, but remains otherwise unchanged.
 
 During degradation, to categorize efficiency loss, each term in Equation \ref{eqn:eqe_quenching} could be considered to be time dependent.  
 However, it is reasonable to assume that some of these terms are unchanged, or have minimal impact.
-The exciton's radiative spin fraction, $\chi$ is a quantum mechanical property of the emissive molecule.
+The exciton radiative spin fraction, $\chi$ is a quantum mechanical property of the emissive molecule.
 Therefore, without changes in the emissive molecule, this term should remain constant.  
 If emission from another state was observed spectrally, this would indicate a need to adapt Equation \ref{eqn:eqe_quenching} for multiple emissive states, greatly complicating this process.
-Thankfully, that is of yet unobserved in our research.
+%Thankfully, that is of yet unobserved in our research.
 
 
-\begin{wrapfigure}{r}{.5\textwidth}
-    \begin{minipage}{\linewidth}
-    \centering%\captionsetup[subfigure]{justification=centering}
-    \includegraphics[width=0.48\textwidth]{integratedLifetime/microscope}
-    %\subcaption{}
-    %\label{fig:5a}\par\vfill
-
-    \includegraphics[width=0.48\textwidth]{integratedLifetime/crystals}
-    %\subcaption{}
-    %\label{fig:5b}
-\end{minipage}
-\caption{Cross polarized optical micrographs of (a) active device area (b) crystallized film from Fielitz \textit{et al.}.\supercite{Fielitz2016}
-(I) Orthorhombic phase, (II) Triclinic Phase, (III) 200 $\mu$m scale bar}
-\label{fig:micrographs}
-\end{wrapfigure}
+%\begin{wrapfigure}{r}{.5\textwidth}
+%    \begin{minipage}{\linewidth}
+%    \centering%\captionsetup[subfigure]{justification=centering}
+%    \includegraphics[width=0.48\textwidth]{integratedLifetime/microscope}
+%    %\subcaption{}
+%    %\label{fig:5a}\par\vfill
+%
+%    \includegraphics[width=0.48\textwidth]{integratedLifetime/crystals}
+%    %\subcaption{}
+%    %\label{fig:5b}
+%\end{minipage}
+%\caption{Cross polarized optical micrographs of (a) active device area (b) crystallized film from Fielitz \textit{et al.}.\supercite{Fielitz2016}
+%(I) Orthorhombic phase, (II) Triclinic Phase, (III) 200 $\mu$m scale bar}
+%\label{fig:micrographs}
+%\end{wrapfigure}
 
 The out-coupling efficiency, \oc, is a property dependent on the layer optical constants and thicknesses.
 Without significant changes in molecular composition and morphology, it is unlikely that \oc should change.
 The most likely was to create these changes would be through crystallization.  
-This can be investigated by looking at the devices under crossed polarized optical microscopy.\supercite{Fielitz2016}
-Figure \ref{fig:micrographs} shows that in our devices, no crystallization is observed.
-The reference photo, taken from Fielitz \textit{et al.}\supercite{Fielitz2016} demonstrates how apparent crystallization would be if present.
+For these devices, no changes in morphology were seen in cross-polarized optical microscopy, a common technique for observing crystallization.\supercite{Fielitz2016}
 It is also important to note that \oc depends on the emitter distribution within the device, and thus the recombination zone.
 If there is a shift in RZ, out-coupling is likely to change.  
 It is difficult to assess recombination zone and unprecedented to measure as a function of degradation.
 However, this problem is minimized in thin emissive layers, so studies should attempt to focus on thinner EML devices to reduce error.
 
-Lastly, $\eta_\tau$ is assumed to be constant for this work since it cannot be measured quantitatively.
+Lastly, $\eta_\tau$ is assumed to be constant during degradation.
 An approximation of the impacts of this term are discussed in Section \ref{sec:eta_tau}
 
-With these terms assumed to be constant, the only time dependent terms are \pl and \ef, and the time dependent version of Equation \ref{eqn:eqe_quenching} can be written as
+With the other terms assumed to be constant, \pl and \ef are the only time-dependent quantities, and the time-dependent version of Equation \ref{eqn:eqe_quenching} can be written as
 
 
 \begin{equation}
@@ -92,17 +90,18 @@ With these terms assumed to be constant, the only time dependent terms are \pl a
 
 where $X^0$ is the initial value of the parameter before degradation.
 Since $\eqe(t)$ is the luminance loss as a function of time, an independent measurement of \pl would allow a full decoupling of \eqe into \pl and \ef.
+In other works, this separates \eqe into the ability of excitons to form (\ef) and the ability of excitons to radiate (\pl).
 
 \section{Photoluminescence Characterization}
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.8\textwidth]{integratedLifetime/schematic}
-\caption{(a) Experimental configuration for the measurement of electro- (EL) and photoluminescence (PL) during OLED degradation.  Laser excitation is incident on a subsection of the device area.  The laser is aligned so that neither the incident nor reflected beam strikes the detector.  Stray laser light is removed by a $\lambda$=475 nm dielectric long pass filter.  (b) Excitation scheme.  EL and PL signals are probed independently with no temporal overlap.  (c) External quantum efficiency versus current density and luminance for devices having emissive layer thickness of 10 nm, 20 nm and 30 nm.}
+\caption{(a) Experimental configuration for the measurement of electro- (EL) and photoluminescence (PL) during OLED degradation.  Laser excitation is incident on a subsection of the device area.  The laser is aligned so that neither the incident nor reflected beam strikes the detector.  Stray laser light is removed by a $\lambda$=475 nm dielectric long pass filter.  (b) Excitation scheme.  EL and PL signals are probed independently with no temporal overlap.  }
 \label{fig:schematic}
 \end{figure}
 
-In order to independently measure \pl during degradation, intermittent optical excitation is done using a laser, as shown in Figure {fig:schematic}a.
-The laser forms as 1mm diameter circular spot on the active device area.
+In order to independently measure \pl during degradation, intermittent optical excitation is done using a laser, as shown in Figure \ref{fig:schematic}a.
+The laser active area is a 1mm diameter circular spot on the active device area.
 The photoluminescence loss observed from this measurement can be related to the photoluminescence efficiency loss by
 
 \begin{equation}
@@ -142,7 +141,7 @@ Lamps do have the advantage that they can pump all of the device active area, ge
 \begin{wrapfigure}{r}{.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{integratedLifetime/optical_k}
-\caption{Extinction coefficients shown for the green emitter \irppy and blue emitter Fir(pic) as well as a few host materials.}
+\caption{Extinction coefficients shown for the green emitter \irppy and blue emitter FIrpic as well as a few host materials.}
 \label{fig:optical_k}
 \end{wrapfigure}
 
@@ -151,7 +150,7 @@ To accomplish this, careful selection of wavelength must occur.
 Figure \ref{fig:optical_k} shows the optical extinction coefficient for several materials.  
 Ideally, the pump wavelength should be selected so that the emitter molecule has significant absorption, but the host does not.  
 This is relatively easy for the green emitter, \irppy where a wide range of pumps would work between 375 and 500 nm.
-However, This becomes extremely difficult for blue emitters such as Fir(pic), where hosts are more resonant with the emitter.  
+However, This becomes extremely difficult for blue emitters such as FIrpic, where hosts are more resonant with the emitter.  
 In this case, the host may have to be pumped and exciton transfer from the host to the guest will be included in the measurement.
 Even with this, the transport layers would have to have higher triplet energies than the emitter.
 
@@ -163,19 +162,21 @@ However, for blue emitters, a lamp may be a more viable option as it would allow
 
 \subsection{Absorption - Recombination Overlap}\label{sec:abs_rz_overlap}
 
-\begin{wrapfigure}{r}{.5\textwidth}
-\centering
-\includegraphics[width=0.48\textwidth]{integratedLifetime/rz_field_overlap}
-\caption{Exciton recombination zone (RZ) and pump intensity $|E|^2$ for a hypothetical thick EML device are shown.}
-\label{fig:rz_abs_overlap}
-\end{wrapfigure}
 
 
 For the measurement of \pl to accurately reflect the useful degradation of the emissive layer, it is important for the optical pump absorption to agree with the recombination zone within the device.  
 To illustrate this, Figure \ref{fig:rz_abs_overlap} shows a device where there is disagreement between the absorption and the recombination zone.  
 Assuming an exciton driven process, defect formation and degradation will focus around the recombination zone.
-However, optical measurements will probe in the absorption region, which is less degraded than the electrically driven luminance is reflecting.
+However, the optical probe is weighted away from the electrically generated defects.
+%However, optical measurements will probe in the absorption region, which is less degraded than the electrically driven luminance is reflecting.
 This leads to a systematic underestimate of the actual \pl degradation within the device.
+
+\begin{wrapfigure}{r}{.5\textwidth}
+\centering
+\includegraphics[width=0.48\textwidth]{integratedLifetime/rz_field_overlap}
+\caption{Exciton recombination zone (RZ) and pump intensity $|E|^2$ for a hypothetical thick EML device are shown. Figure produced by John Bangsund.}
+\label{fig:rz_abs_overlap}
+\end{wrapfigure}
 
 To quantify this error for a particular device, a degradation and defect generation model must be employed in order to quantify the degradation profile within the device.  
 Additionally, the absorption profile and recombination zone must be known (or estimated).
@@ -196,23 +197,15 @@ An excellent example of executing this analysis demonstrated by \textcite{Bangsu
 
 Exposure to UV light has been shown to enhance photodegradation of the organic/LiF/Al interface within devices.\supercite{Wang2011a,Wang2010a}
 This has been shown to be due to the dissociation and diffusion of positive ions from this interface, likely due to LiF.
-This becomes problematic in this measurement due to the \pl measurement, as illustrated in Figure \ref{fig:dark_spot}.
-Here, the optical pump as formed a dark spot on the active area of the device and accelerated degradation.
+This becomes problematic in this measurement during the \pl measurement, as illustrated in Figure \ref{fig:dark_spot}.
+Here, the optical pump has formed a dark spot on the active area of the device and accelerated degradation.
 
 To minimize this behavior, the laser intensity incident on the device must be kept low.
-We have found through trial and error that incident powers below 10 mW/cm$^2$ for a 405 nm laser do not exhibit this dark spot formation.
-Devices can be inspected after lifetime testing to ensure that no degradation occurred.  
+We have found that incident powers below 10 mW/cm$^2$ for a 405 nm laser do not exhibit dark spot formation.
+Devices can be inspected after lifetime testing to ensure that no visible degradation occurred.  
 We have also observed that for longer wavelengths, the damage power threshold increases and higher power can be used.
 
 \subsection{Quenching Changes During Degradation}\label{sec:eta_tau}
-
-\begin{wrapfigure}[13]{r}{.5\textwidth}
-\centering
-\includegraphics[width=0.48\textwidth]{integratedLifetime/quenching_correction}
-\caption{Multiplicative correction factor for exciton formation efficiency due to changes in quenching during lifetime.  Shown as a function of polaron and exciton density as well as luminance, assuming a 10 nm emissive layer.}
-\label{fig:quenching_correction}
-\end{wrapfigure}
-
 
 Equation \ref{eqn:eqe_quenching} introduces a quenching term, $\eta_\tau$, into \eqe.  
 This term captures bimolecular quenching losses which occur at high current and exciton densities.
@@ -231,26 +224,40 @@ The exciton population, $n_{ex}$, is known from luminance as discussed in Chapte
 The polaron population likely increases to account for the decrease in our exciton density, but is difficult to quantify.
 Therefore, for this argument, we will assume it remains constant, though it will likely counteract some of the error that this method will estimate.
 With the temporal dependence of these quantities known, the time dependence of Equation \ref{eqn:eta_tau} can be written as
-
-
 \begin{equation}
 \frac{\eta_\tau(t)}{\eta_\tau^0}=\frac{1/\tau}{1/\tau+\frac{1}{2}\ktt n_{ex} +\ktp n_{pol}}  \frac{1/(R_{PL}(t)\tau)+\frac{1}{2}\ktt (R_{EL}n_{ex}) +\ktp n_{pol}}{1/(R_{PL}(t)\tau)}
 \label{eqn:eta_tau_deg}
 \end{equation}
-
+\begin{wrapfigure}[13]{r}{.5\textwidth}
+\centering
+\includegraphics[width=0.48\textwidth]{integratedLifetime/quenching_correction}
+\caption{Multiplicative correction factor for exciton formation efficiency due to changes in quenching during lifetime.  Shown as a function of polaron and exciton density as well as luminance, assuming a 10 nm emissive layer.}
+\vspace{-900pt}
+\label{fig:quenching_correction}
+\end{wrapfigure}
 where $R_X$ is the degradation ratio of that term.  
 Since degradation decoupling results are presented assuming $\eta_\tau(t)=C$, the presented out-coupling results can be corrected using $\eta_\tau^0/\eta_\tau(t)$ as a multiplicative correction factor, presented in Figure \ref{fig:quenching_correction}.
 In this figure, minimal correction is needed for low exciton and polaron populations.  
 This only becomes important in regimes where bimolecular quenching are strong.
 Again, it is important to note that if changes in the polaron population are accounted for, this correction factor would be further reduced.
 
-\subsection{Verification with Exciton Lifetime}\label{sec:lifetime_pl_transients}
-\begin{wrapfigure}{r}{.5\textwidth}
+\subsection{Exciton Lifetime Verification}\label{sec:lifetime_pl_transients}
+\begin{figure}[ht]
 \centering
-\includegraphics[width=0.48\textwidth]{integratedLifetime/transient_lifetimes}
-\caption{Exciton lifetime ratio extracted from transient PL measurements on degraded and undegraded devices as a function of PL degradation for several emissive layer thickness.}
-\label{fig:transient_lifetimes}
-\end{wrapfigure}
+    \begin{subfigure}{.45\textwidth}
+\centering
+    \includegraphics[width=.6\textwidth]{lifetimeApplications/architecture}
+    \caption{}
+    %\label{fig:}%\par\vfill
+    \end{subfigure}
+    \begin{subfigure}{.45\textwidth}
+\centering
+    \includegraphics[width=0.9\textwidth]{integratedLifetime/transient_lifetimes}
+    \caption{}
+    \label{fig:transient_lifetimes}
+    \end{subfigure}
+\caption{(a) Architecture of devices measured in (b) Exciton lifetime ratio extracted from transient PL measurements on degraded and undegraded devices as a function of PL degradation for several emissive layer thickness.}
+\end{figure}
 
 
 Alternative to the method for establishing the accuracy of the \pl degradation presented in Equation \ref{eqn:pl_decay}, the exciton lifetime can be used.
@@ -264,47 +271,47 @@ From photophysics, we have
 where $k_r$ and $k_{nr}$ are the radiative and non-radiative decay rates, respectively.
 From these equations, it is apparent that if $k_r$ remains constant during the degradation, 
 
-     \[\frac{\tau(t)}{\tau^0}=\frac{\pl(t)}{\pl^0}\]
+\begin{equation}
+\frac{\tau(t)}{\tau^0}=\frac{\pl(t)}{\pl^0}
+\end{equation}
 
 
 Therefore, if the exciton lifetime, $\tau$ is measured as a function of decay, it should have a 1-to-1 correlation with the observed PL loss if an accurate measure of \pl is being conducted.  
-To do this, $\tau$ is measured from the transient photoluminescence decay at low pump intensity so that minimal triplet-triplet annihilation is observed. 
+In order to check this relationship, $\tau$ is measured from the transient photoluminescence decay at low pump intensity so that minimal triplet-triplet annihilation is observed. 
 This is done on a 337 nm pulsed nitrogen laser, recorded with a fast photodiode connected to an oscilloscope.
-This have been done for a variety of device architectures, an example of the results being shown in Figure \ref{fig:transient_lifetimes} for the devices discussed in Chapter \ref{sec:cbp_host}.
-Here we see that we are accurately measuring \pl for this device since a strong correlation is observed.  
+The result is shown in Figure \ref{fig:transient_lifetimes} for the devices discussed in Chapter \ref{sec:cbp_host}.
+The 1:1 relationship suggests that we are accurately measuring \pl for this device.  
 The large amount of scatter observed in the 10 nm EML results are believed to be due to the thin EML and small amount of material, producing low signal.
 
-It is important to note for this confirmation of \pl, that this only demonstrates that no absorption or pump intensity deviations are causing error in our measurement.
+It is important to note that this confirmation of \pl only demonstrates that no absorption or pump intensity deviations are causing error in the measurement.
 Since the transient photoluminescence and photoluminescence degradation are both pumped optically, both are subject to the recombination zone and absorption mismatch problem discussed in Section \ref{sec:abs_rz_overlap}.
 
-
+\newpage
 
 \section{Experimental Implementation}
 
-\subsection{Motivation}
+\subsection{Evolution of Experimental Approach}
 
 \begin{wrapfigure}{r}{.5\textwidth}
 \centering
 \includegraphics[width=.5\textwidth]{integratedLifetime/gang}
-\caption{Initial Attempts at measuring \pl during degradation using individual devices from the PTI.}
+\caption{Initial Attempts at measuring \pl during degradation using individual devices and fluorescence measurements.}
 \label{fig:gang}
 \end{wrapfigure}
 
-The conceptual idea of decoupling \ef and \pl during degradation was first investigated in our group without specialized equipment.
-Devices were fabricated and aged to varying points in the degradation in the same method as traditional lifetime measurements.
-After degradation, the device fluorescence was measured using a Photon Technologies International (PTI) fluorometer and compared to a control device.
-In this way, a PL curve can be produced, shown in Figure \ref{fig:gang}.
-In this graph, the control is taken as 1 at $t=0$ and each subsequent point consists of at least one device with three averaged fluorescence measurements for error bars.
-Though a proof of concept, this method is riddled with experimental problems.
+The conceptual idea of decoupling \ef and \pl during degradation was first investigated  without specialized equipment.
+Devices were fabricated and aged to varying degrees in the same method as traditional lifetime measurements.
+After degradation, the device fluorescence was measured using a Photon Technologies International (PTI) fluorometer and compared to an undegraded device.
+In this way, the dependence of \pl on time can be constructed, as shown in Figure \ref{fig:gang}.
+%In this graph, the control is taken as 1 at $t=0$ and each subsequent point consists of at least one device with three averaged fluorescence measurements for error bars.
+Though a proof of concept, this method suffers from experimental challenges.
 First off, experimental throughput is extremely low, since producing any \pl curve requires separate aging of a device for every desired point.  
 Even for the 5 point curves shown, this is extremely equipment heavy.
 Additionally, every point must be individually measured on the PTI, requiring substantial active lab time from the experimenter, as well as machine time.
-
 The second and more restricting problem with this technique is the large error bars.  
 As shown in Figure \ref{fig:gang}, with error bars of $\pm 10\%$, it is impossible to differentiate between devices.
-These large error bars for any individual point are caused by differences in loading into the PTI.  
-In this measurement, the raw magnitude of the spectra is being extracted for comparison, and is highly dependent on the exact position of the sample within the excitation beam, as well as alignment with the collection optics and any angular deviation, changing reflection.
-
+These large error bars for any individual point are caused by differences in sample loading into the fluorimeter.  
+%In this measurement, the raw magnitude of the spectra is being extracted for comparison, and is highly dependent on the exact position of the sample within the excitation beam, as well as alignment with the collection optics and any angular deviation, changing reflection.
 Furthermore, this method has no way of eliminating sample-to-sample variation from the \pl curve without reproduction of all experimental points, requiring dramatic increase in machine time.
 Because of this, only speculation as to the accuracy of the curvature and validity of any data point can be made.
 Comparison between devices, especially in the temporal behavior becomes impractical due to the experimental time and uncertainty.
@@ -316,7 +323,7 @@ While sample-to-sample variation may still be an issue, it is no longer a proble
 
 \subsection{Development}
 
-In order to accomplish this automated measurement, the \pl measurement needed to be conducted in an automated way.
+In order to accomplish this automated measurement, the \pl measurement needed to be conducted under computer control.
 A light source capable of producing a constant illumination source over the course of hundreds of hours was needed.
 A lamp source, such as the PTI was initially considered, but found to have lifetimes similar to the OLED lifetimes.
 The lamp would not be able to be turned on and off throughout the test since lamps require substantial warm up time to achieve steady-state.
@@ -326,14 +333,14 @@ To account for any fluctuations in laser power over time, the power can be measu
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.9\textwidth]{integratedLifetime/gen1}
-\caption{First generation lifetime box setup.  a.  Box layout  b. Electronics c. Dark enclosure (cardboard box) d. Software interface}
+\caption{First generation lifetime box setup.  (a)  Box layout  (b) Electronics (c) Dark enclosure (cardboard box) (d) Software interface}
 \label{fig:gen1}
 \end{figure}
 
 The first generation implementation of this setup is shown in Figure \ref{fig:gen1}.
-This was a single channel device degradation, with the laser and splitter shown in the Figure \ref{fig:gen1}a on the left and the device and photodiode collection shown on the right.
+This was a single channel apparatus with the laser and splitter shown in the Figure \ref{fig:gen1}a on the left and the device and photodiode collection shown on the right.
 Laser power detection relied on the split signal into the photodiode.
-The electronics are shown in Figure \ref{fig:gen1}b and control the laser, current source and voltage measurements, and photodiode measurements.
+Home-built electronics, shown in Figure \ref{fig:gen1}b, control the laser, current source and voltage measurements, and photodiode measurements.
 The laser was controlled by switching the interlock using an Arduino (red PCB).
 A constant current source was implemented, with the current being set using the potentiometer on the front of the box.  
 This had to be set and measured manually and was only recorded in the software, not set.
@@ -343,16 +350,15 @@ This was implemented in Python, using the Tk graphics library to create the GUI.
 At this initial stage, the software only had to interface with the Arduino, and did so using the Serial library.
 The Arduino was programmed to accept commands to turn on and off the laser and current, or report measurement values for voltage and the signals from either photodiode.
 
-
 Soon after development, the limited resolution of the photodiode measurements, as well as the limitations of the manual current source were realized.
-In our traditional measurements of lifetime, a Keithley 26xx source meter was used for sourcing current and measuring signals.  
+In conventional  measurements of lifetime, a Keithley 26XX source meter was used for sourcing current and measuring signals.  
 This Keithley was rapidly integrated into the system to allow better measurements and more accurate current control.
-The laser was replaced by a laser from Coherent which offered brighter and more stable power, as well as programmatic control.  
+The laser was upgraded to realize brighter and more stable power, as well as programmatic control.  
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.9\textwidth]{integratedLifetime/box_workflow}
-\caption{Box workflow summary.  Top panel shows the operation of Boxes 1 and 2, bottom shows Box 3.}
+\caption{Box workflow summary.  (Top) The operation of Boxes 1 and 2, (Bottom) Box 3.}
 \label{fig:box_workflow}
 \end{figure}
 
@@ -384,6 +390,7 @@ Hardware for this setup requires control of current sources, voltage measurement
 Currently, there are four operational testing setups, termed ``boxes'', with varying hardware configurations.
 Several boxes are multiplexed to allow multiple measurements from the multiple compartments.
 Source units for providing current and voltage measurements have used either the Keithley 26xx or Keysight u2722a source meters.  
+
 \begin{wrapfigure}{r}{.5\textwidth}
 \centering
 \includegraphics[width=0.48\textwidth]{integratedLifetime/hardware}
@@ -415,7 +422,7 @@ The laser is optically split into six paths using beam splitters and neutral den
 \label{fig:software_controller}
 \end{figure}
 
-Software to control this measurements is implemented by myself in Python and outlined in Appendix \ref{sec:lifetime_code}.
+Software to control this measurements is implemented in Python and outlined in Appendix \ref{sec:lifetime_code}.
 The code is able to control the hardware to run constant current, intermittent laser integrated PL measurements, optical degradation, as well as optical degradation with current break degradations.
 The frequency of laser breaks and laser power can be controlled on a whole box level.  
 Laser emission can be turned on for alignment.
@@ -442,6 +449,14 @@ Extensive care has been taken to outline the assumptions and assess error within
 Many of these assumptions need to be assessed for any device system to be tested to ensure accuracy.  
 Applying this method to lifetime decoupling in device systems is the subject of Chapter \ref{sec:decoupling_applications}.
 
+The additional information offered by the decoupling technique described in Chapter \ref{sec:integrated_lifetime} is directed at improving the screening of active materials and device architectures for the realization of long-lived OLEDs.  
+Device degradation that is dominated by a loss in either \ef  or \pl implies a dominant rate process and an opportunity for improvement of materials or architecture.  
+In systems using a relatively stable emitter with demonstrated long optical and electrical lifetimes, such as \irppy,\supercite{Scholz2015} losses in the exciton formation efficiency are expected to represent the majority fraction of degradation.  
+However, for novel molecules, limiting processes are largely unknown and would benefit from the separation of emitter and exciton formation efficiency loss.  
+PL degradation could become increasingly important for blue-emitting species where the high exciton energies could contribute to material degradation.  \supercite{Scholz2015,Xu2016,Coburn2016a,Lee2015,Yi2016,Kim2008}
+This screening process would be dramatically improved if \ef and \pl can be mechanistically modeled.  
+With additional datasets, modeling and understanding of degradation mechanisms can be improved and help to identify limiting processes.
+The model presented in \textcite{Giebink2008a} could easily be adapted to separate losses that would be captured by \pl and \ef, and would provide further checks to this over-parameterized model.
 
 
 \ifcsdef{mainfile}{}{\printbibliography}
